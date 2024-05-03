@@ -1,0 +1,19 @@
+module AES_Enc_Nios_Core (CLOCK_50, KEY, to_HEX);
+	input CLOCK_50;
+	input [0:0] KEY;
+	output wire [31:0] to_HEX;
+//	wire dut_clk;
+	
+	aes_sys_core_designer U0 (.clk_clk(CLOCK_50), .reset_reset_n(KEY[0]), .to_hex_readdata(to_HEX) );
+
+//	localparam log2_slowdown_factor=23;		// Slowing to see the cipher text
+//	reg[log2_slowdown_factor-1:0] k_bit_counter =0;
+//	assign dut_clk= k_bit_counter [log2_slowdown_factor-1];
+//
+//	always @(posedge CLOCK_50) begin 
+//		k_bit_counter=k_bit_counter+1;
+//	end
+//	
+//	assign clk_out = dut_clk;
+//	assign resetn = ~KEY;
+endmodule

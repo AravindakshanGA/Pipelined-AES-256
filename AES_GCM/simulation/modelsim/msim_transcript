@@ -1,0 +1,238 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do AES_GCM_Enc_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box_maker.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:18 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box_maker.v 
+# -- Compiling module s_box_maker
+# 
+# Top level modules:
+# 	s_box_maker
+# End time: 22:00:18 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subBytes.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:18 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subBytes.v 
+# -- Compiling module subBytes
+# 
+# Top level modules:
+# 	subBytes
+# End time: 22:00:18 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:18 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box.v 
+# -- Compiling module s_box
+# 
+# Top level modules:
+# 	s_box
+# End time: 22:00:18 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/shiftRows.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:18 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/shiftRows.v 
+# -- Compiling module shiftRows
+# 
+# Top level modules:
+# 	shiftRows
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mixColumns.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mixColumns.v 
+# -- Compiling module mixColumns
+# 
+# Top level modules:
+# 	mixColumns
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/addRoundKey.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/addRoundKey.v 
+# -- Compiling module addRoundKey
+# 
+# Top level modules:
+# 	addRoundKey
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subWord.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subWord.v 
+# -- Compiling module subWord
+# 
+# Top level modules:
+# 	subWord
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/keyExpansion.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/keyExpansion.v 
+# -- Compiling module keyExpansion
+# 
+# Top level modules:
+# 	keyExpansion
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_round.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_round.v 
+# -- Compiling module AES_round
+# 
+# Top level modules:
+# 	AES_round
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_last_round.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_last_round.v 
+# -- Compiling module AES_last_round
+# 
+# Top level modules:
+# 	AES_last_round
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_Cipher.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_Cipher.v 
+# -- Compiling module AES_Cipher
+# ** Warning: D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_Cipher.v(62): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	AES_Cipher
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mult_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mult_ram.v 
+# -- Compiling module mult_ram
+# 
+# Top level modules:
+# 	mult_ram
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/multiply_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/multiply_block.v 
+# -- Compiling module multiply_block
+# 
+# Top level modules:
+# 	multiply_block
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/GF_Mul.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/GF_Mul.v 
+# -- Compiling module GF_Mul
+# 
+# Top level modules:
+# 	GF_Mul
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v 
+# -- Compiling module AES_GCM_Enc
+# 
+# Top level modules:
+# 	AES_GCM_Enc
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/queue.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/queue.v 
+# -- Compiling module queue
+# 
+# Top level modules:
+# 	queue
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib aes_sys_core_designer
+# ** Warning: (vlib-34) Library already exists at "aes_sys_core_designer".
+# vmap aes_sys_core_designer aes_sys_core_designer
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap aes_sys_core_designer aes_sys_core_designer 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM {D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on May 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM" D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v 
+# -- Compiling module AES_GCM_Enc_tb
+# 
+# Top level modules:
+# 	AES_GCM_Enc_tb
+# End time: 22:00:19 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L aes_sys_core_designer -voptargs="+acc"  AES_GCM_Enc_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L aes_sys_core_designer -voptargs=""+acc"" AES_GCM_Enc_tb 
+# Start time: 22:00:19 on May 03,2024
+# Loading work.AES_GCM_Enc_tb
+# Loading work.AES_GCM_Enc
+# Loading work.queue
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.AES_Cipher
+# Loading work.keyExpansion
+# Loading work.subWord
+# Loading work.s_box_maker
+# Loading work.addRoundKey
+# Loading work.AES_last_round
+# Loading work.subBytes
+# Loading work.shiftRows
+# Loading work.GF_Mul
+# Loading work.multiply_block
+# Loading work.s_box
+# Loading work.AES_round
+# Loading work.mixColumns
+# Loading work.mult_ram
+# ** Warning: (vsim-3017) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Too few port connections. Expected 14, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /AES_GCM_Enc_tb/dut0 File: D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'CR_ST'.
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'H_V'.
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'GF_CR_ST'.
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'memory_ready'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2 ms
+do D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/simulation/modelsim/AES_GCM_Enc.do
+restart -f
+# ** Warning: (vsim-3017) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Too few port connections. Expected 14, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /AES_GCM_Enc_tb/dut0 File: D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'CR_ST'.
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'H_V'.
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'GF_CR_ST'.
+# ** Warning: (vsim-3722) D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v(33): [TFMPC] - Missing connection for port 'memory_ready'.
+run
+# End time: 23:58:49 on May 03,2024, Elapsed time: 1:58:30
+# Errors: 0, Warnings: 10

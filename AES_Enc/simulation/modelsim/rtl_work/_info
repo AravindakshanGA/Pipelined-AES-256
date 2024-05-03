@@ -1,0 +1,329 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/simulation/modelsim
+vaddRoundKey
+Z1 !s110 1714699206
+!i10b 1
+!s100 USiQi`:G5QJ^ACLjP?Q092
+IU;DhLRJ:TSBBGkiIbm4Y[3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713538490
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/addRoundKey.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/addRoundKey.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1714699206.000000
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/addRoundKey.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/addRoundKey.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc
+Z7 tCvgOpt 0
+nadd@round@key
+vAES_Cipher
+R1
+!i10b 1
+!s100 FOiJeTH`fg1WgT9kS6n`^0
+I]1R93jAi]R<Nd7<k0`THD3
+R2
+R0
+w1713821211
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Cipher.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Cipher.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Cipher.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Cipher.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_@cipher
+vAES_last_round
+R1
+!i10b 1
+!s100 BlTfXzR>TKkIk32H4E1Bo1
+IUWGZV8nWenY2oLJ;EI0UQ1
+R2
+R0
+w1713538673
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_last_round.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_last_round.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_last_round.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_last_round.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_last_round
+vAES_Pipe_Enc
+R1
+!i10b 1
+!s100 ^LSGJeJ12>D@5??em>Ac^3
+Idc`Gi:eXKWNBUD18EE:[A2
+R2
+R0
+w1714628430
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_@pipe_@enc
+vAES_Pipe_Enc_tb
+R1
+!i10b 1
+!s100 cG;e92OIHWL1IO;ncW^o`0
+Iczco`b[I6G6k5X6<1Whlo0
+R2
+R0
+w1713822566
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc_tb.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_Pipe_Enc_tb.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_@pipe_@enc_tb
+vAES_round
+R1
+!i10b 1
+!s100 ooIPz6M`[9Ib08_TBI8_@2
+I0f6z_6L3_Vf1WULjzBg>`1
+R2
+R0
+w1713538632
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_round.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_round.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_round.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/AES_round.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_round
+vkeyExpansion
+R1
+!i10b 1
+!s100 lfY16bBfUNGjWL?SAdja@2
+Ibo1;<d0]aWAVXnC^]R^C^0
+R2
+R0
+w1713538591
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/keyExpansion.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/keyExpansion.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/keyExpansion.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/keyExpansion.v|
+!i113 1
+R5
+R6
+R7
+nkey@expansion
+vmixColumns
+R1
+!i10b 1
+!s100 M7f>z5^P8[mz^goZL3K4:0
+ImYZY9]gA>lGeQf4B5Z7R:3
+R2
+R0
+w1713538432
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/mixColumns.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/mixColumns.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/mixColumns.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/mixColumns.v|
+!i113 1
+R5
+R6
+R7
+nmix@columns
+vqueue
+R1
+!i10b 1
+!s100 QfEUZ1YAJniL5<;gmzBRE3
+I1MO4k45[Ab<jVh336f6fn0
+R2
+R0
+w1713816949
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/queue.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/queue.v
+L0 39
+R3
+r1
+!s85 0
+31
+!s108 1714699205.000000
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/queue.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/queue.v|
+!i113 1
+R5
+R6
+R7
+vs_box
+R1
+!i10b 1
+!s100 MY4=koc>_iDoKd<bF^Vle3
+I?08^^Ag3^8h0BI1?@_IFi2
+R2
+R0
+w1713535771
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box.v|
+!i113 1
+R5
+R6
+R7
+vs_box_maker
+R1
+!i10b 1
+!s100 S:QPXP3cYlmK:n48:TW642
+IQd[ca`dL;gJna2fTbI^QT0
+R2
+R0
+w1713535663
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box_maker.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box_maker.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box_maker.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/s_box_maker.v|
+!i113 1
+R5
+R6
+R7
+vshiftRows
+R1
+!i10b 1
+!s100 VKg_n?nf<G]McY`m:i5MQ0
+IfVHj8P]WXW;HQ>l1QDejT0
+R2
+R0
+w1713538393
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/shiftRows.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/shiftRows.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/shiftRows.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/shiftRows.v|
+!i113 1
+R5
+R6
+R7
+nshift@rows
+vsubBytes
+R1
+!i10b 1
+!s100 JiM=h:2_d0F8Z9b1iMAXV0
+I2dH9d_GKPgzdK`aGZ]Y=X0
+R2
+R0
+w1713546981
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subBytes.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subBytes.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subBytes.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subBytes.v|
+!i113 1
+R5
+R6
+R7
+nsub@bytes
+vsubWord
+R1
+!i10b 1
+!s100 A6UdndFCZ4Aj>EY01J74Z3
+I2j<^nk24@>5l1j@80mGT43
+R2
+R0
+w1713538543
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subWord.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subWord.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subWord.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/FINAL/AES_Enc/subWord.v|
+!i113 1
+R5
+R6
+R7
+nsub@word

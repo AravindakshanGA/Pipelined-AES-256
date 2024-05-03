@@ -1,0 +1,8 @@
+	component aes_enc_core is
+		port (
+			clk_clk           : in  std_logic                     := 'X'; -- clk
+			q_export_readdata : out std_logic_vector(63 downto 0);        -- readdata
+			reset_reset_n     : in  std_logic                     := 'X'  -- reset_n
+		);
+	end component aes_enc_core;
+

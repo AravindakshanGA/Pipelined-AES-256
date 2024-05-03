@@ -1,0 +1,53 @@
+`timescale 1ns / 1ps
+
+module GF_Mul_tb;
+
+	//Testbench for GF_Mul
+
+  // Parameters
+  parameter CLK_PERIOD = 10; // Clock period in ns
+
+  // Signals
+  reg clock;
+  reg reset;
+  reg [0:127] in_data;
+  reg in_valid;
+  
+  reg [0:127] h_data;
+  reg h_valid;
+  
+  wire memory_ready;
+  
+//  wire ready;
+//  wire [7:0] data_out;
+
+	wire [0:127] out_mult;
+	wire done_calc;
+  
+  GF_Mul dut0 (clock, reset, h_data, h_valid, memory_ready, in_data, in_valid, out_mult, done_calc);
+    
+  // Clock generation
+  always #10 clock = ~clock;
+	// Reset generation
+	 initial begin
+//		h_data = 128'hacbef20579b4b8ebce889bac8732dad7;
+		h_data = 128'h42831ec2217774244b7221b784d0d49c;
+		clock = 0;
+		reset = 0;
+		#55;
+		reset = 1;
+		#45;
+		h_valid = 1;
+		#20;
+		h_valid = 0;
+		@(posedge memory_ready); 
+//		in_data = 128'hfeedfacedeadbeeffeedfacedeadbeef;
+		in_data = 128'hb83b533708bf535d0aa6e52980d53b78;
+		in_valid = 1'b1; #20; in_valid = 1'b0;
+	 end
+	 
+	 initial begin
+		#1000000000;
+		$finish;
+	end
+endmodule

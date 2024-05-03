@@ -1,0 +1,29 @@
+
+State Machine - |AES_Dec_Nios_Core|aes_dec_core:U0|reg32_avalon_Interface:reg32_avalon_interface_0|CURR_STATE
+Name CURR_STATE.ST_START CURR_STATE.ST_STATUS_RESET CURR_STATE.ST_READ_DATA CURR_STATE.ST_WRITE_DATA CURR_STATE.ST_COMMAND_START CURR_STATE.000 CURR_STATE.ST_IDLE 
+CURR_STATE.ST_IDLE 0 0 0 0 0 0 0 
+CURR_STATE.000 0 0 0 0 0 1 1 
+CURR_STATE.ST_COMMAND_START 0 0 0 0 1 0 1 
+CURR_STATE.ST_WRITE_DATA 0 0 0 1 0 0 1 
+CURR_STATE.ST_READ_DATA 0 0 1 0 0 0 1 
+CURR_STATE.ST_STATUS_RESET 0 1 0 0 0 0 1 
+CURR_STATE.ST_START 1 0 0 0 0 0 1 
+
+State Machine - |AES_Dec_Nios_Core|aes_dec_core:U0|reg32_avalon_Interface:reg32_avalon_interface_0|AES_Pipe_Dec:dut0|AES_Decipher:dut_enc|CURR_STATE
+Name CURR_STATE.ST_DONE CURR_STATE.ST_PIPE_DATA CURR_STATE.ST_LAST_CONV CURR_STATE.ST_ZERO_CONV CURR_STATE.ST_READY CURR_STATE.ST_S_BOX_INIT CURR_STATE.ST_INIT 
+CURR_STATE.ST_INIT 0 0 0 0 0 0 0 
+CURR_STATE.ST_S_BOX_INIT 0 0 0 0 0 1 1 
+CURR_STATE.ST_READY 0 0 0 0 1 0 1 
+CURR_STATE.ST_ZERO_CONV 0 0 0 1 0 0 1 
+CURR_STATE.ST_LAST_CONV 0 0 1 0 0 0 1 
+CURR_STATE.ST_PIPE_DATA 0 1 0 0 0 0 1 
+CURR_STATE.ST_DONE 1 0 0 0 0 0 1 
+
+State Machine - |AES_Dec_Nios_Core|aes_dec_core:U0|aes_dec_core_nios2_gen2_0:nios2_gen2_0|aes_dec_core_nios2_gen2_0_cpu:cpu|aes_dec_core_nios2_gen2_0_cpu_nios2_oci:the_aes_dec_core_nios2_gen2_0_cpu_nios2_oci|aes_dec_core_nios2_gen2_0_cpu_debug_slave_wrapper:the_aes_dec_core_nios2_gen2_0_cpu_debug_slave_wrapper|aes_dec_core_nios2_gen2_0_cpu_debug_slave_tck:the_aes_dec_core_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

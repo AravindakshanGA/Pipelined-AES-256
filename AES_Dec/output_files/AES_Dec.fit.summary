@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri May 03 01:51:03 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : AES_Dec
+Top-level Entity Name : AES_Dec_Nios_Core
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 17,250 / 114,480 ( 15 % )
+    Total combinational functions : 13,593 / 114,480 ( 12 % )
+    Dedicated logic registers : 9,951 / 114,480 ( 9 % )
+Total registers : 9951
+Total pins : 90 / 529 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 400,384 / 3,981,312 ( 10 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

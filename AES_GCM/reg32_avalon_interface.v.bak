@@ -1,0 +1,171 @@
+module reg32_avalon_interface (clock, resetn, writedata, readdata, write, read,
+		byteenable, chipselect, Q_export);
+		
+	input clock, resetn, read, write, chipselect; input [3:0] byteenable;
+	input [31:0] writedata; output reg [31:0] readdata; output [31:0] Q_export;
+	
+	reg [3:0] write_count = 0 ; reg [3:0] read_count = 15 ;
+	reg [3:0] count = 0 ;
+	
+	reg [0:127] in_data;		// Will read data from NIOS, construct 128-bit and then send to our module.
+	reg in_valid;
+	
+	reg [0:127] output_reg;	// Will get the output data and store it in this register. Pass it to Nios word by word.
+	wire [0:127] out_data;
+	wire out_valid;
+	
+	reg [0:255] cipher_key;
+	reg [0:255] prev_cipher_key;
+	
+	reg [2:0] in_data_write_count = 0;
+	
+	reg [1:0] AAD_size = 0;
+	reg [3:0] plain_text_size = 0;
+	
+//	reg [1:0] cipher_text_value;		// Register to indicate which value corresponds to what data. 0,1-Cipher Key 2-Others
+	
+	reg [2:0] input_states;			// State numbers to assign which value corresponds to what input
+	// 0, 1 - Cipher Text, 2 - IV Data, 3 - Size Word, 4 - AAD data, 5 - Plain Text
+	
+	/*
+		Status bit is used to get data from the Nios and send 128-bit by bit. (Cipher Text alone in 256 bits). 
+		Also Status bit is used to indicate the final completion of AES multiplication. Then the READ data states happen in chunks of 32-bit
+	*/
+	/*
+		Data Sequence
+			1. 8 words  -- Key (2 * 128)		-- This 256-bit key will be stored in separate register for key change check.
+			2. 4 words  -- IV  (96)				-- (Will receive constructed data)
+			3. 4 words  -- Size word			-- (Will receive constructed data)
+			4. 4x words -- AAD Data				-- Send chunks of 128 bit
+			5. 4y words -- Plain Text Data	-- Send chunks of 128-bit
+			
+	*/
+	
+	/*
+		FSM Needed to send chunks of data at different calculations
+	*/
+	
+	localparam READ_REQ=0, WRITE_REQ=1 ;
+	reg prev_request = WRITE_REQ ; // 1=write, 0==read
+	
+	localparam [2:0] INVALID_READ_COUNT=7 ;
+	localparam [3:0] MAX_WRITE_COUNT = 9 ;
+	localparam [2:0] MAX_READ_COUNT = 5 ;
+	localparam [3:0] MAX_COUNT = 3 ;
+	
+	localparam [2:0] IN_DATA_MAX_WRITE_COUNT = 4;
+	
+	wire ready_to_out;
+	reg write_done;
+	
+	assign status_reg = write_done | ready_to_out;
+	
+//	reg [31:0] temp_calc_mem [0:17] ;		// 3 * Template MAC
+	
+	always @( negedge clock ) begin		// Changing this to negedge as the AES_GCM level blocks depend on this data. So data should be made exactly available at the posedge
+		if ( resetn==1'b0 ) begin 
+			in_data_write_count <= 0 ; 
+			read_count <= INVALID_READ_COUNT ; // invalid read_count hack
+			prev_request<=WRITE_REQ ;
+			write_done <= 0 ;
+			in_valid <= 1'b0;
+			AAD_size <= 0;
+		end
+		else begin
+			if ( chipselect && write ) begin 
+				prev_request <= WRITE_REQ ; 
+				write_done <= 0 ;
+				if ( in_data_write_count < IN_DATA_MAX_WRITE_COUNT ) begin 
+					in_data_write_count <= in_data_write_count + 1 ; 
+					in_data [ (4*in_data_write_count) +: 32 ] <= writedata ;
+				end 
+			end
+			else if ( chipselect && read && ( prev_request != WRITE_REQ ) ) begin
+				prev_request <= READ_REQ ; 
+			end 
+			else if ( chipselect && read && ( prev_request==WRITE_REQ ) ) begin
+				prev_request <= READ_REQ ; 
+				if ( read_count == INVALID_READ_COUNT ) begin 
+					read_count <= 1 ; 
+				end 
+				else if ( read_count < MAX_READ_COUNT  ) begin 
+					read_count <= read_count + 1 ; 
+				end
+				else if ( read_count == MAX_READ_COUNT ) begin
+					read_count <= INVALID_READ_COUNT ;  // indicating ready-ness for status check and next write.
+					write_count <= 0;
+				end
+			end 
+			else begin 
+				// a placeholder for a general multicycle computation ... [128-bit received]
+				if (in_data_write_count==IN_DATA_MAX_WRITE_COUNT && ready_for_inp == 1'b1 && input_states < 3'd6) begin
+					case (input_states)
+						3'd0: begin
+							cipher_key [0:127] <= in_data;
+							input_states <= input_states + 1'b1;
+						end
+						3'd1: begin
+							cipher_key [128:255] <= in_data;
+							input_states <= input_states + 1'b1;
+						end
+						3'd2: begin
+							input_states <= input_states + 1'b1;
+						end
+						3'd3: begin	//SIZE Word
+							AAD_size <= in_data [32:63] >> 7;				//Right Shift 7 times (Divide by 128). Get the count of data
+							plain_text_size <= in_data [96:127] >> 7;		//Right Shift 7 times (Divide by 128). Get the count of data
+							input_states <= input_states + 1'b1;
+						end
+						3'd4: begin
+							if(AAD_size > 0) begin
+								AAD_size <= AAD_size - 1'b1;
+							end
+							if(AAD_size == 0) begin
+								input_states <= input_states + 1'b1;
+							end
+						end
+						3'd5: begin
+							if(plain_text_size > 0) begin
+								plain_text_size <= plain_text_size - 1'b1;
+							end
+							if(plain_text_size == 0) begin
+								input_states <= input_states + 1'b1;
+							end
+						end
+					endcase
+					in_valid <= 1'b1;
+					input_states <= input_states + 1'b1;
+					in_data_write_count <= 3'd0;
+					write_done <= 1;			// Indicating that the given data is passed to the AES block to get the next data from the NIOS
+				end
+				else begin
+					in_valid <= 1'b0;
+				end
+				
+				/*
+					LOGIC HERE
+				*/
+				
+			end 
+		end
+	end
+	
+	AES_GCM_Enc dut0 (clock, resetn, key_valid, in_data, in_valid, ready_for_inp, out_data, out_valid, tag_valid, ready_to_out);
+	
+	always @(*) begin
+		if ( chipselect && read && (read_count != INVALID_READ_COUNT) ) begin 
+			//Read operation flow
+			readdata <= output_reg[(4*(read_count-1)) +: 32] ;
+		end 
+		else if ( chipselect && read ) begin 
+			readdata <= status_reg ; // report status
+		end 
+		else begin 
+			readdata <= 32'bz ; 
+		end
+		if(out_valid == 1'b1) begin
+			output_reg <= out_data;
+		end
+	end
+	assign Q_export = {{7{1'b0}}, status_reg};   // something useful to show on LEDs -- Only status is shown.
+endmodule

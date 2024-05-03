@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "control_signals[0]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[1]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[2]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[3]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[4]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[5]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[6]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[7]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[8]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[9]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[10]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[11]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[12]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[13]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[14]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[15]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[23]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[24]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[25]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[26]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[27]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[28]",
+					"strict" : false
+				},
+				{
+					"name" : "control_signals[29]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

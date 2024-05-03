@@ -1,0 +1,248 @@
+module GF_Mul (clk, reset, h_data, h_valid, memory_ready, in_data, in_valid, out_mult, done_calc);
+	input wire clk, reset;
+	input wire [0:127] h_data;
+	input wire h_valid;
+	output reg memory_ready;
+	input wire [0:127] in_data;
+	input wire in_valid;
+	
+	output reg [0:127] out_mult;
+	output reg done_calc;
+	
+	reg rd_enable [0:31], wr_enable [0:31];
+	reg [0:3] rd_addr [0:31]; reg [0:3] wr_addr [0:31];
+	reg [0:127] wr_data [0:31];
+	wire [0:127] mem_data [0:31];
+	
+	reg [2:0] CURR_STATE; 
+	reg [2:0] NEXT_STATE;
+	
+	reg [0:4] table_number;
+	reg [0:3] counter;
+	
+	reg start_multiply; wire done_multiply;
+	wire [0:127] out_data;
+	
+	reg  [0:127] x_value;
+	
+	integer iter;
+	
+	localparam [2:0] ST_IDLE_RESET 		= 3'b000;				localparam [2:0] ST_CONST_DATA	 		= 3'b001;			
+	localparam [2:0] ST_CON_MULTIPLY 	= 3'b010;				localparam [2:0] ST_DONE_MULTIPLY		= 3'b011;
+	localparam [2:0] ST_ACQ_FETCH_INP 	= 3'b100;				localparam [2:0] ST_ACQ_GET_MEM_DATA	= 3'b101;
+	localparam [2:0] ST_ACQ_COMPUTE		= 3'b110;				localparam [2:0] ST_MULT_DONE				= 3'b111;
+	
+	
+//	localparam [2:0] ST_CON_DATA_SET 	= 3'b001;
+//	localparam [2:0] ST_CON_MULTIPLY		= 3'b010;				localparam [2:0] ST_CON_RAM_STORE		= 3'b011;
+//	localparam [2:0] ST_ACQ_FETCH_INP	= 3'b100;				localparam [2:0] ST_ACQ_GET_MEM_DATA	= 3'b101;
+//	localparam [2:0] ST_ACQ_COMPUTE		= 3'b110;				localparam [2:0] ST_MULT_DONE				= 3'b111;
+
+	
+	// RESET STATE TRANSITION
+	always @(posedge clk) 	begin
+		if(reset == 1'b0)				// Active Low Reset
+			CURR_STATE <= ST_IDLE_RESET;
+		else if(h_valid == 1'b1)		// Will get when H is changed and updated (Last for 1 clock cycle)
+			CURR_STATE <= ST_CON_MULTIPLY;
+		else
+			CURR_STATE <= NEXT_STATE;
+	end
+	
+	reg calc_done;		// Register to set when all the xors are completed. (To reduce LEs)
+	
+	// STATE TRANSITION
+	always @(CURR_STATE, done_multiply, in_valid, calc_done) begin
+		NEXT_STATE <= CURR_STATE;
+		case (CURR_STATE)
+			ST_IDLE_RESET 		: NEXT_STATE <= ST_IDLE_RESET;
+			ST_CONST_DATA		: NEXT_STATE <= ST_CON_MULTIPLY;
+			ST_CON_MULTIPLY	: begin
+				if(done_multiply == 1'b1) 
+					NEXT_STATE <= ST_DONE_MULTIPLY;
+			end
+			ST_DONE_MULTIPLY	: begin	
+				if(table_number == 5'h1F && counter == 4'hF)
+					NEXT_STATE <= ST_ACQ_FETCH_INP;
+				else
+					NEXT_STATE <= ST_CONST_DATA;
+			end
+			ST_ACQ_FETCH_INP	: if(in_valid == 1'b1) NEXT_STATE <= ST_ACQ_GET_MEM_DATA;	// 1 cycle
+			ST_ACQ_GET_MEM_DATA : NEXT_STATE <= ST_ACQ_COMPUTE;									// 1 cycle
+			ST_ACQ_COMPUTE : if(calc_done == 1'b1) NEXT_STATE <= ST_MULT_DONE;				// 4 cycles								// 4 cycles
+			ST_MULT_DONE : NEXT_STATE <= ST_ACQ_FETCH_INP;											// 1 cycle
+			default : ;
+		endcase
+	end
+	
+	// Structural Block Assignments
+	
+	
+	mult_ram dut_ram1 (clk, reset, rd_enable[0], wr_enable[0], rd_addr[0], wr_addr[0], wr_data[0], mem_data[0]);
+	mult_ram dut_ram2 (clk, reset, rd_enable[1], wr_enable[1], rd_addr[1], wr_addr[1], wr_data[1], mem_data[1]);
+	mult_ram dut_ram3 (clk, reset, rd_enable[2], wr_enable[2], rd_addr[2], wr_addr[2], wr_data[2], mem_data[2]);
+	mult_ram dut_ram4 (clk, reset, rd_enable[3], wr_enable[3], rd_addr[3], wr_addr[3], wr_data[3], mem_data[3]);
+	mult_ram dut_ram5 (clk, reset, rd_enable[4], wr_enable[4], rd_addr[4], wr_addr[4], wr_data[4], mem_data[4]);
+	mult_ram dut_ram6 (clk, reset, rd_enable[5], wr_enable[5], rd_addr[5], wr_addr[5], wr_data[5], mem_data[5]);
+	mult_ram dut_ram7 (clk, reset, rd_enable[6], wr_enable[6], rd_addr[6], wr_addr[6], wr_data[6], mem_data[6]);
+	mult_ram dut_ram8 (clk, reset, rd_enable[7], wr_enable[7], rd_addr[7], wr_addr[7], wr_data[7], mem_data[7]);
+	
+	mult_ram dut_ram9 (clk, reset, rd_enable[8], wr_enable[8], rd_addr[8], wr_addr[8], wr_data[8], mem_data[8]);
+	mult_ram dut_ram10 (clk, reset, rd_enable[9], wr_enable[9], rd_addr[9], wr_addr[9], wr_data[9], mem_data[9]);
+	mult_ram dut_ram11 (clk, reset, rd_enable[10], wr_enable[10], rd_addr[10], wr_addr[10], wr_data[10], mem_data[10]);
+	mult_ram dut_ram12 (clk, reset, rd_enable[11], wr_enable[11], rd_addr[11], wr_addr[11], wr_data[11], mem_data[11]);
+	mult_ram dut_ram13 (clk, reset, rd_enable[12], wr_enable[12], rd_addr[12], wr_addr[12], wr_data[12], mem_data[12]);
+	mult_ram dut_ram14 (clk, reset, rd_enable[13], wr_enable[13], rd_addr[13], wr_addr[13], wr_data[13], mem_data[13]);
+	mult_ram dut_ram15 (clk, reset, rd_enable[14], wr_enable[14], rd_addr[14], wr_addr[14], wr_data[14], mem_data[14]);
+	mult_ram dut_ram16 (clk, reset, rd_enable[15], wr_enable[15], rd_addr[15], wr_addr[15], wr_data[15], mem_data[15]);
+	
+	mult_ram dut_ram17 (clk, reset, rd_enable[16], wr_enable[16], rd_addr[16], wr_addr[16], wr_data[16], mem_data[16]);
+	mult_ram dut_ram18 (clk, reset, rd_enable[17], wr_enable[17], rd_addr[17], wr_addr[17], wr_data[17], mem_data[17]);
+	mult_ram dut_ram19 (clk, reset, rd_enable[18], wr_enable[18], rd_addr[18], wr_addr[18], wr_data[18], mem_data[18]);
+	mult_ram dut_ram20 (clk, reset, rd_enable[19], wr_enable[19], rd_addr[19], wr_addr[19], wr_data[19], mem_data[19]);
+	mult_ram dut_ram21 (clk, reset, rd_enable[20], wr_enable[20], rd_addr[20], wr_addr[20], wr_data[20], mem_data[20]);
+	mult_ram dut_ram22 (clk, reset, rd_enable[21], wr_enable[21], rd_addr[21], wr_addr[21], wr_data[21], mem_data[21]);
+	mult_ram dut_ram23 (clk, reset, rd_enable[22], wr_enable[22], rd_addr[22], wr_addr[22], wr_data[22], mem_data[22]);
+	mult_ram dut_ram24 (clk, reset, rd_enable[23], wr_enable[23], rd_addr[23], wr_addr[23], wr_data[23], mem_data[23]);
+	mult_ram dut_ram25 (clk, reset, rd_enable[24], wr_enable[24], rd_addr[24], wr_addr[24], wr_data[24], mem_data[24]);
+	
+	mult_ram dut_ram26 (clk, reset, rd_enable[25], wr_enable[25], rd_addr[25], wr_addr[25], wr_data[25], mem_data[25]);
+	mult_ram dut_ram27 (clk, reset, rd_enable[26], wr_enable[26], rd_addr[26], wr_addr[26], wr_data[26], mem_data[26]);
+	mult_ram dut_ram28 (clk, reset, rd_enable[27], wr_enable[27], rd_addr[27], wr_addr[27], wr_data[27], mem_data[27]);
+	mult_ram dut_ram29 (clk, reset, rd_enable[28], wr_enable[28], rd_addr[28], wr_addr[28], wr_data[28], mem_data[28]);
+	mult_ram dut_ram30 (clk, reset, rd_enable[29], wr_enable[29], rd_addr[29], wr_addr[29], wr_data[29], mem_data[29]);
+	mult_ram dut_ram31 (clk, reset, rd_enable[30], wr_enable[30], rd_addr[30], wr_addr[30], wr_data[30], mem_data[30]);
+	mult_ram dut_ram32 (clk, reset, rd_enable[31], wr_enable[31], rd_addr[31], wr_addr[31], wr_data[31], mem_data[31]);
+	
+	multiply_block dut_mult (clk, reset, start_multiply, x_value, h_data, out_data, done_multiply);
+/*	genvar j;
+	generate 
+		for(j=8 ; j<32; j=j+1) 	begin : mult_block 
+			mult_ram dut_raminst (clk, reset, rd_enable[j], wr_enable[j], rd_addr[j], wr_addr[j], wr_data[j], mem_data[j]);
+//			mult_ram dut_ram2 (clk, reset, rd_enable[j-7], wr_enable[j-7], rd_addr[j-7], wr_addr[j-7], wr_data[j-7], mem_data[j-7]);
+//			mult_ram dut_ram3 (clk, reset, rd_enable[j-6], wr_enable[j-6], rd_addr[j-6], wr_addr[j-6], wr_data[j-6], mem_data[j-6]);
+//			mult_ram dut_ram4 (clk, reset, rd_enable[j-5], wr_enable[j-5], rd_addr[j-5], wr_addr[j-5], wr_data[j-5], mem_data[j-5]);
+      end
+	endgenerate
+	*/
+	
+	//	DATA TRANSITION
+	always @(CURR_STATE) begin
+		if(reset == 1'b0) begin
+			table_number <= 5'b0;
+			counter <= 4'b0;
+			start_multiply <= 1'b0;
+			done_calc <= 1'b0;
+//			out_mult <= 128'd0;
+			memory_ready <= 1'b0;
+			x_value <= 128'd0;
+			for(iter = 0; iter < 32; iter = iter + 1) begin
+				rd_enable [iter] <= 1'b0;
+			end
+		end
+		else begin	
+			case (CURR_STATE) 	
+				ST_CONST_DATA : begin
+					if(counter == 1'b0)
+						wr_enable[table_number -1] <= 1'b0;
+					else 
+						wr_enable[table_number] <= 1'b0;
+					x_value <= {counter, 124'h0} >> (4 * table_number);
+				end
+				ST_CON_MULTIPLY : start_multiply <= 1'b1;
+				ST_DONE_MULTIPLY : 	begin
+					wr_enable[table_number] <= 1'b1;
+					start_multiply <= 1'b0;
+					wr_addr[table_number]	<= counter;
+					wr_data[table_number]	<= out_data;
+					if(counter == 4'd15 && table_number != 5'h1F) begin
+						table_number <= table_number + 1'b1;
+					end
+					counter <= counter + 1'b1;
+				end
+				ST_ACQ_FETCH_INP : begin
+					memory_ready <= 1'b1;
+					wr_enable[table_number] <= 1'b0;
+					done_calc <= 1'b0;
+				end
+				ST_ACQ_GET_MEM_DATA : begin
+					rd_addr [0] <= in_data [0:3];
+					rd_addr [1] <= in_data [4:7];
+					rd_addr [2] <= in_data [8:11];
+					rd_addr [3] <= in_data [12:15];
+					rd_addr [4] <= in_data [16:19];
+					rd_addr [5] <= in_data [20:23];
+					rd_addr [6] <= in_data [24:27];
+					rd_addr [7] <= in_data [28:31];
+					rd_addr [8] <= in_data [32:35];
+					rd_addr [9] <= in_data [36:39];
+					rd_addr [10] <= in_data [40:43];
+					rd_addr [11] <= in_data [44:47];
+					rd_addr [12] <= in_data [48:51];
+					rd_addr [13] <= in_data [52:55];
+					rd_addr [14] <= in_data [56:59];
+					rd_addr [15] <= in_data [60:63];
+					rd_addr [16] <= in_data [64:67];
+					rd_addr [17] <= in_data [68:71];
+					rd_addr [18] <= in_data [72:75];
+					rd_addr [19] <= in_data [76:79];
+					rd_addr [20] <= in_data [80:83];
+					rd_addr [21] <= in_data [84:87];
+					rd_addr [22] <= in_data [88:91];
+					rd_addr [23] <= in_data [92:95];
+					rd_addr [24] <= in_data [96:99];
+					rd_addr [25] <= in_data [100:103];
+					rd_addr [26] <= in_data [104:107];
+					rd_addr [27] <= in_data [108:111];
+					rd_addr [28] <= in_data [112:115];
+					rd_addr [29] <= in_data [116:119];
+					rd_addr [30] <= in_data [120:123];
+					rd_addr [31] <= in_data [124:127];
+					for(iter = 0; iter < 32; iter = iter + 1) begin
+						rd_enable [iter] <= 1'b1;
+					end
+				end
+				ST_ACQ_COMPUTE : begin
+					for(iter = 0; iter < 32; iter = iter + 1) begin
+						rd_enable [iter] <= 1'b0;
+					end
+//					out_mult <= mem_data[0] ^ mem_data[1] ^ mem_data[2] ^ mem_data[3] ^ mem_data[4] ^ mem_data[5] ^ mem_data[6] ^ mem_data[7]
+//								^ mem_data[8] ^ mem_data[9] ^ mem_data[10] ^ mem_data[11] ^ mem_data[12] ^ mem_data[13] ^ mem_data[14] ^ mem_data[15]
+//								^ mem_data[16] ^ mem_data[17] ^ mem_data[18] ^ mem_data[19] ^ mem_data[20] ^ mem_data[21] ^ mem_data[22] ^ mem_data[23]
+//								^ mem_data[24] ^ mem_data[25] ^ mem_data[26] ^ mem_data[27] ^ mem_data[28] ^ mem_data[29] ^ mem_data[30] ^ mem_data[31];
+				end
+				ST_MULT_DONE : begin
+					done_calc <= 1'b1;
+				end							
+				default : ;
+			endcase
+		end
+	end 
+	
+	reg [1:0] mult_counter;
+	
+	always @(posedge clk) begin
+		case (CURR_STATE)
+			ST_IDLE_RESET: begin
+				out_mult <= 128'd0;
+				mult_counter <= 2'b00;
+				calc_done <= 1'b0;
+			end
+			ST_ACQ_FETCH_INP : begin
+				out_mult <= 128'd0;
+				mult_counter <= 2'b00;
+				calc_done <= 1'b0;
+			end
+			ST_ACQ_COMPUTE: begin
+				out_mult <= out_mult ^ mem_data[(8*mult_counter)] ^ mem_data[(8*mult_counter) + 1] ^ mem_data[(8*mult_counter) + 2] ^ mem_data[(8*mult_counter) + 3]
+									^ mem_data[(8*mult_counter) + 4] ^ mem_data[(8*mult_counter) + 5] ^ mem_data[(8*mult_counter) + 6] ^ mem_data[(8*mult_counter) + 7];
+									
+						// Consuming more LEs. Need optimization by making the mem_data to go to a demux and then get one data at a time and then write it.
+				mult_counter <= mult_counter + 1'b1;
+				if(mult_counter == 2'd2)	// Turns on at end of 2nd cycle.
+					calc_done <= 1'b1;
+			end
+		endcase
+	end
+	
+endmodule

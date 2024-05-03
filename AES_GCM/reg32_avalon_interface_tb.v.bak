@@ -1,0 +1,95 @@
+`timescale 1ns / 1ps
+
+module reg32_avalon_interface_tb;
+
+  // Parameters
+  parameter CLK_PERIOD = 10; // Clock period in ns
+
+  // Signals
+  reg clock, resetn, write, read, chipselect;
+  reg [31:0] writedata;
+  wire [31:0]readdata,Q_export;
+reg [3:0] byteenable;
+  // Instantiate the module under test
+  reg32_avalon_interface dut(
+    .clock(clock),
+    .resetn(resetn),
+    .writedata(writedata),
+    .readdata(readdata),
+    .write(write),
+    .read(read),
+    .byteenable(byteenable),
+    .chipselect(chipselect),
+    .Q_export(Q_export)
+  );
+
+  // Clock generation
+  always begin
+    clock = 0;
+    #((CLK_PERIOD)/2);
+    clock = 1;
+    #((CLK_PERIOD)/2);
+  end
+
+  // Initial reset
+  initial begin
+    resetn = 0;
+    #25; // Hold reset for 10 ns
+    resetn = 1;
+  end
+
+  // Test sequence
+  initial begin
+    // Write operation
+    byteenable = 4'b1111; // Assuming 4-byte enable
+    chipselect = 1;
+    write=1;
+	
+		//Cipher Key
+		writedata = 32'hfeffe992;
+		#10;
+		writedata = 32'h8665731c;
+		#10;
+		writedata = 32'h6d6a8f94;
+		#10;
+		writedata = 32'h67308308;
+		#10;
+		read = 1;
+		write = 0;
+		@(posedge readdata);
+		writedata = 32'hfeffe992;
+		#10;
+		writedata = 32'h8665731c;
+		#10;
+		writedata = 32'h6d6a8f94;
+		#10;
+		writedata = 32'h67308308;
+		#10;
+
+    writedata = 32'h15151515;
+#10;
+    writedata = 32'h16161616;
+#10;
+    writedata = 32'h14141414;
+#10;
+    writedata = 32'h15151515;
+#10;
+    writedata = 32'h16161616;
+#10;
+writedata = 32'haaa0a0a0;
+#10;
+	 write = 0;
+#205;
+read=1;
+
+
+    #100; // Wait for some time for read operation to complete
+
+    // Display the read data
+    $display("Read Data: %h", readdata);
+
+    // End simulation
+    $finish;
+  end
+
+endmodule

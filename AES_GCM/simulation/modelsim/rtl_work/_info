@@ -1,0 +1,396 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/simulation/modelsim
+vaddRoundKey
+Z1 !s110 1714753819
+!i10b 1
+!s100 USiQi`:G5QJ^ACLjP?Q092
+IU]J[0bTnWRC=g]=WP7?`53
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713538490
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/addRoundKey.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/addRoundKey.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1714753819.000000
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/addRoundKey.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/addRoundKey.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM
+Z7 tCvgOpt 0
+nadd@round@key
+vAES_Cipher
+R1
+!i10b 1
+!s100 lcaPlbm;b<iBjfRHlfQD<2
+I5jgXP0>2jMabc7lofEXRN0
+R2
+R0
+w1713568859
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_Cipher.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_Cipher.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_Cipher.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_Cipher.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_@cipher
+vAES_GCM_Enc
+R1
+!i10b 1
+!s100 @aC=`9@51eG]Il;23aWEB1
+IaH_?U[aD9jQWG9?N7l9nO3
+R2
+R0
+w1714753754
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_@g@c@m_@enc
+vAES_GCM_Enc_tb
+R1
+!i10b 1
+!s100 7YO_0>]HKe9NLbmz9ZE^X1
+IA>MM_;zgVa@>Xk_`Q?5hL3
+R2
+R0
+w1714753269
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_GCM_Enc_tb.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_@g@c@m_@enc_tb
+vAES_last_round
+R1
+!i10b 1
+!s100 BlTfXzR>TKkIk32H4E1Bo1
+ISM;aMoZ`Z=0WJ`NMAnGBE3
+R2
+R0
+w1713538673
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_last_round.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_last_round.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_last_round.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_last_round.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_last_round
+vAES_round
+R1
+!i10b 1
+!s100 ooIPz6M`[9Ib08_TBI8_@2
+Ihj`:n0O1@V`Jcl0VMW3R_1
+R2
+R0
+w1713538632
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_round.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_round.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_round.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/AES_round.v|
+!i113 1
+R5
+R6
+R7
+n@a@e@s_round
+vGF_Mul
+R1
+!i10b 1
+!s100 `Vn0OGKJ6>bBfOzZIYUjR2
+IzbE^^?70L417M>agN<0Gd1
+R2
+R0
+w1713791228
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/GF_Mul.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/GF_Mul.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/GF_Mul.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/GF_Mul.v|
+!i113 1
+R5
+R6
+R7
+n@g@f_@mul
+vkeyExpansion
+R1
+!i10b 1
+!s100 lfY16bBfUNGjWL?SAdja@2
+I@20LF?fTXUgAB]g]FnYCY3
+R2
+R0
+w1713538591
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/keyExpansion.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/keyExpansion.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/keyExpansion.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/keyExpansion.v|
+!i113 1
+R5
+R6
+R7
+nkey@expansion
+vmixColumns
+R1
+!i10b 1
+!s100 M7f>z5^P8[mz^goZL3K4:0
+I4^HjZAgXB3T7@Oa7l3VEf2
+R2
+R0
+w1713538432
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mixColumns.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mixColumns.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mixColumns.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mixColumns.v|
+!i113 1
+R5
+R6
+R7
+nmix@columns
+vmult_ram
+R1
+!i10b 1
+!s100 1nMAD3i9@0@TCQocnJ2`53
+IUm1f4CN_G>i3F^<5@X0<K3
+R2
+R0
+w1713547611
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mult_ram.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mult_ram.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mult_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/mult_ram.v|
+!i113 1
+R5
+R6
+R7
+vmultiply_block
+R1
+!i10b 1
+!s100 OURDn5c7lgm7_c3h=o[T53
+Ikl05kLAU^McOCTAT?il0P3
+R2
+R0
+w1713547654
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/multiply_block.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/multiply_block.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/multiply_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/multiply_block.v|
+!i113 1
+R5
+R6
+R7
+vqueue
+R1
+!i10b 1
+!s100 QfEUZ1YAJniL5<;gmzBRE3
+I`bEjBEgA3IKTP5F^I9RnO3
+R2
+R0
+w1713553123
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/queue.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/queue.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/queue.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/queue.v|
+!i113 1
+R5
+R6
+R7
+vs_box
+Z8 !s110 1714753818
+!i10b 1
+!s100 MY4=koc>_iDoKd<bF^Vle3
+ID_PU5C1m824lWT5JD<lcB0
+R2
+R0
+w1713535771
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1714753818.000000
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box.v|
+!i113 1
+R5
+R6
+R7
+vs_box_maker
+R8
+!i10b 1
+!s100 S:QPXP3cYlmK:n48:TW642
+IdNQ1XYa3?M;Fd6zjNzmf]0
+R2
+R0
+w1713535663
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box_maker.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box_maker.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box_maker.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/s_box_maker.v|
+!i113 1
+R5
+R6
+R7
+vshiftRows
+R1
+!i10b 1
+!s100 VKg_n?nf<G]McY`m:i5MQ0
+I^M=UIbWf8LR>g9mYoN;m>1
+R2
+R0
+w1713538393
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/shiftRows.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/shiftRows.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/shiftRows.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/shiftRows.v|
+!i113 1
+R5
+R6
+R7
+nshift@rows
+vsubBytes
+R8
+!i10b 1
+!s100 JiM=h:2_d0F8Z9b1iMAXV0
+I[RlbROG<5VaW37`=WZ=A<1
+R2
+R0
+w1713546981
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subBytes.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subBytes.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subBytes.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subBytes.v|
+!i113 1
+R5
+R6
+R7
+nsub@bytes
+vsubWord
+R1
+!i10b 1
+!s100 A6UdndFCZ4Aj>EY01J74Z3
+I?B;BMA@fkEEVTd_PKbfVA3
+R2
+R0
+w1713538543
+8D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subWord.v
+FD:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subWord.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subWord.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM|D:/IIT-B/Academics/Sem-2/VLSI-Design-Lab/Course_Project/AES_GCM/subWord.v|
+!i113 1
+R5
+R6
+R7
+nsub@word

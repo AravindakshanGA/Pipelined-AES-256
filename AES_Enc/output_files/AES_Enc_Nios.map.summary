@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri May 03 19:10:47 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : AES_Enc_Nios
+Top-level Entity Name : AES_Enc_Nios_Core
+Family : Cyclone IV E
+Total logic elements : 15,540
+    Total combinational functions : 10,387
+    Dedicated logic registers : 9,957
+Total registers : 9957
+Total pins : 90
+Total virtual pins : 0
+Total memory bits : 400,384
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
