@@ -1,0 +1,31 @@
+timestamp 1543373571
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+port "Z" 2 416 707 416 707 li
+port "A" 1 81 707 81 707 li
+port "vdd" 3 454 1414 454 1414 li
+port "gnd" 4 454 0 454 0 li
+node "Z" 7165 525.289 416 707 li 0 0 0 0 0 0 0 0 93600 2868 93600 2868 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76806 4586 0 0 0 0 0 0 0 0 0 0 0 0
+node "A" 11193 876.264 81 707 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 213276 14120 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 8041 2696.58 454 1414 li 0 0 0 0 776160 3544 0 0 4100 264 110400 3752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 71298 4262 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 454 0 li 0 0 0 0 0 0 0 0 110400 3752 4100 264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70856 4236 0 0 0 0 0 0 0 0 0 0 0 0
+cap "vdd" "A" 305.327
+cap "vdd" "Z" 361.312
+cap "A" "Z" 101.142
+device msubckt sky130_fd_pr__nfet_01v8 654 51 655 52 l=30 w=400 "gnd" "A" 60 0 "Z" 400 0 "gnd" 400 0
+device msubckt sky130_fd_pr__nfet_01v8 546 51 547 52 l=30 w=400 "gnd" "A" 60 0 "gnd" 400 0 "Z" 400 0
+device msubckt sky130_fd_pr__nfet_01v8 438 51 439 52 l=30 w=400 "gnd" "A" 60 0 "Z" 400 0 "gnd" 400 0
+device msubckt sky130_fd_pr__nfet_01v8 330 51 331 52 l=30 w=400 "gnd" "A" 60 0 "gnd" 400 0 "Z" 400 0
+device msubckt sky130_fd_pr__nfet_01v8 222 51 223 52 l=30 w=400 "gnd" "A" 60 0 "Z" 400 0 "gnd" 400 0
+device msubckt sky130_fd_pr__nfet_01v8 114 51 115 52 l=30 w=400 "gnd" "A" 60 0 "gnd" 400 0 "Z" 400 0
+device msubckt sky130_fd_pr__pfet_01v8 654 963 655 964 l=30 w=400 "vdd" "A" 60 0 "Z" 400 0 "vdd" 400 0
+device msubckt sky130_fd_pr__pfet_01v8 546 963 547 964 l=30 w=400 "vdd" "A" 60 0 "vdd" 400 0 "Z" 400 0
+device msubckt sky130_fd_pr__pfet_01v8 438 963 439 964 l=30 w=400 "vdd" "A" 60 0 "Z" 400 0 "vdd" 400 0
+device msubckt sky130_fd_pr__pfet_01v8 330 963 331 964 l=30 w=400 "vdd" "A" 60 0 "vdd" 400 0 "Z" 400 0
+device msubckt sky130_fd_pr__pfet_01v8 222 963 223 964 l=30 w=400 "vdd" "A" 60 0 "Z" 400 0 "vdd" 400 0
+device msubckt sky130_fd_pr__pfet_01v8 114 963 115 964 l=30 w=400 "vdd" "A" 60 0 "vdd" 400 0 "Z" 400 0

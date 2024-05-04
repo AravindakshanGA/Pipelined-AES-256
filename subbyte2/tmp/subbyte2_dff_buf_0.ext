@@ -1,0 +1,174 @@
+timestamp 1543373571
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_pinv_2 subbyte2_pinv_2_0 1 0 1970 0 1 0
+use subbyte2_pinv_1 subbyte2_pinv_1_0 1 0 1494 0 1 0
+use sky130_fd_bd_sram__openram_dff sky130_fd_bd_sram__openram_dff_0 1 0 0 0 1 0
+port "D" 1 137 538 203 590 m2
+port "clk" 4 369 692 423 756 m2
+port "gnd" 6 1277 0 1277 0 li
+port "Q" 2 2364 489 2392 517 m2
+port "Qb" 3 1858 871 1886 899 m2
+port "vdd" 5 1277 1414 1277 1414 li
+node "D" 0 45.374 137 538 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "clk" 0 44.8148 369 692 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3456 236 0 0 0 0 0 0 0 0
+node "gnd" 908 1126.88 1277 0 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91944 5180 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q" 128 221.001 2364 489 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11526 746 3328 232 3328 232 0 0 0 0 0 0 0 0
+node "li_1558_648#" 26 297.74 1558 648 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 27976 1180 0 0 0 0 0 0 0 0
+node "Qb" 218 280.208 1858 871 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19651 1224 3328 232 3328 232 0 0 0 0 0 0 0 0
+node "vdd" 908 1126.88 1277 1414 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91944 5180 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "gnd" "Qb" 18.2872
+cap "Q" "vdd" 7.78343
+cap "vdd" "gnd" 37.0711
+cap "li_1558_648#" "Q" 3.73391
+cap "gnd" "D" 0.7736
+cap "li_1558_648#" "gnd" 8.62054
+cap "gnd" "clk" 0.620523
+cap "vdd" "Qb" 15.8867
+cap "li_1558_648#" "Qb" 13.2917
+cap "vdd" "D" 0.617325
+cap "li_1558_648#" "vdd" 7.86356
+cap "clk" "Qb" 0.214958
+cap "vdd" "clk" 0.637114
+cap "li_1558_648#" "clk" 1.20488
+cap "Q" "gnd" 7.57872
+cap "Q" "Qb" 3.4426
+cap "clk" "sky130_fd_bd_sram__openram_dff_0/a_389_712#" -0.000164183
+cap "vdd" "subbyte2_pinv_1_0/A" 53.9747
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/QN" 12.4165
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 2.39939
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 0.502821
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 0.0837181
+cap "subbyte2_pinv_1_0/A" "clk" 5.98281
+cap "Qb" "D" 0.0691976
+cap "clk" "sky130_fd_bd_sram__openram_dff_0/QN" -0.403857
+cap "sky130_fd_bd_sram__openram_dff_0/a_28_102#" "Q" 5.4356e-06
+cap "vdd" "Q" 0.548251
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 5.90645
+cap "clk" "Q" 0.109521
+cap "sky130_fd_bd_sram__openram_dff_0/QN" "sky130_fd_bd_sram__openram_dff_0/a_739_102#" -0.0507973
+cap "gnd" "subbyte2_pinv_1_0/A" 7.55899
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/QN" 1.26286
+cap "vdd" "D" -0.334622
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 0.853447
+cap "clk" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" -0.249579
+cap "gnd" "Q" 0.481402
+cap "clk" "sky130_fd_bd_sram__openram_dff_0/a_547_712#" -0.000834969
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 0.562315
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/QN" 9.3278
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 0.0653264
+cap "vdd" "Qb" 1.64365
+cap "gnd" "D" -0.772548
+cap "Qb" "clk" 2.80321
+cap "subbyte2_pinv_1_0/A" "Q" 11.0459
+cap "sky130_fd_bd_sram__openram_dff_0/QN" "Q" 2.75955
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 0.586677
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 2.16173
+cap "sky130_fd_bd_sram__openram_dff_0/a_239_76#" "sky130_fd_bd_sram__openram_dff_0/QN" -0.148408
+cap "gnd" "Qb" 1.32996
+cap "vdd" "clk" 6.08582
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 0.405532
+cap "subbyte2_pinv_1_0/A" "D" 0.094601
+cap "clk" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" -0.0268667
+cap "sky130_fd_bd_sram__openram_dff_0/a_239_76#" "Q" 0.919057
+cap "clk" "sky130_fd_bd_sram__openram_dff_0/a_739_712#" -0.000797756
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 0.016875
+cap "gnd" "vdd" -7.82325
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 2.09956
+cap "subbyte2_pinv_1_0/A" "Qb" 32.4189
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/QN" 9.2276
+cap "gnd" "clk" -0.557168
+cap "Q" "sky130_fd_bd_sram__openram_dff_0/a_739_102#" 0.0520933
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_547_102#" 0.184478
+cap "gnd" "subbyte2_pinv_1_0/A" 4.0307
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_197_712#" 0.381639
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/QN" 1.59668
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 1.63834
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_197_102#" 0.120208
+cap "gnd" "Qb" 11.3086
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_197_102#" 0.0544357
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_739_712#" 0.0103228
+cap "vdd" "Q" 22.4206
+cap "sky130_fd_bd_sram__openram_dff_0/QN" "Q" 3.70236
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 3.61768
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 0.376639
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 1.3331
+cap "subbyte2_pinv_1_0/A" "clk" 8.48825
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_739_712#" 2.19252
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_389_712#" 0.00628511
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_547_712#" 0.315151
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_739_102#" 0.493611
+cap "sky130_fd_bd_sram__openram_dff_0/a_239_76#" "Q" 1.8297
+cap "Qb" "clk" 9.77721
+cap "gnd" "clk" 0.819905
+cap "vdd" "D" 0.0965249
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 1.9306
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_739_102#" 0.311533
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_389_712#" 1.03745
+cap "vdd" "subbyte2_pinv_1_0/A" 131.931
+cap "sky130_fd_bd_sram__openram_dff_0/a_547_712#" "Q" 0.0094951
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_389_102#" 0.262127
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 2.77114
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_197_712#" 0.107041
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/QN" 8.52907
+cap "Q" "sky130_fd_bd_sram__openram_dff_0/a_547_102#" 0.0073256
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 0.201606
+cap "vdd" "Qb" 130.979
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_389_102#" 0.0994957
+cap "gnd" "vdd" -21.324
+cap "subbyte2_pinv_1_0/A" "Q" 12.4482
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/QN" 14.4121
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/QN" 1.13087
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_28_102#" 0.600119
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 4.07983
+cap "Qb" "Q" 43.715
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_547_712#" 0.00822977
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_739_712#" 0.472506
+cap "gnd" "Q" -5.22796
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 12.2595
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 1.00475
+cap "sky130_fd_bd_sram__openram_dff_0/a_28_102#" "Q" 0.00100087
+cap "vdd" "clk" 1.20756
+cap "subbyte2_pinv_1_0/A" "D" 0.218522
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_547_712#" 1.58224
+cap "sky130_fd_bd_sram__openram_dff_0/a_739_712#" "Q" 0.231048
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_389_712#" 0.200447
+cap "subbyte2_pinv_1_0/A" "sky130_fd_bd_sram__openram_dff_0/a_197_712#" 0.00372365
+cap "Qb" "D" 0.591488
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_547_102#" 0.372163
+cap "gnd" "D" 0.0600006
+cap "clk" "Q" 1.24026
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 0.388391
+cap "subbyte2_pinv_1_0/A" "Qb" 33.187
+cap "vdd" "subbyte2_pinv_1_0/A" 0.183762
+cap "vdd" "Q" 0.0387901
+cap "gnd" "vdd" -10.5917
+cap "vdd" "D" -0.244767
+cap "vdd" "Qb" 0.239598
+cap "vdd" "clk" -0.284488
+cap "gnd" "vdd" -7.65751
+cap "vdd" "Qb" -3.31642
+cap "Qb" "Q" 0.100655
+cap "gnd" "subbyte2_pinv_1_0/A" 0.00341405
+cap "vdd" "Q" -3.9791
+cap "subbyte2_pinv_1_0/A" "Qb" 1.32946
+cap "gnd" "Qb" 0.00512108
+cap "vdd" "subbyte2_pinv_1_0/A" -0.513405
+merge "sky130_fd_bd_sram__openram_dff_0/D" "D" -45.516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3432 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/CLK" "clk" -63.7427 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3456 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/gnd" "sky130_fd_bd_sram__openram_dff_0/GND" -1135.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -78292 -4676 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/GND" "subbyte2_pinv_1_0/gnd"
+merge "subbyte2_pinv_1_0/gnd" "subbyte2_pinv_2_0/gnd"
+merge "subbyte2_pinv_2_0/gnd" "gnd"
+merge "subbyte2_pinv_2_0/Z" "Q" -245.498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -578 -102 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/VDD" "subbyte2_pinv_1_0/vdd" -1349.55 0 0 0 0 -57024 -1728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -78292 -4676 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_1_0/vdd" "subbyte2_pinv_2_0/vdd"
+merge "subbyte2_pinv_2_0/vdd" "vdd"
+merge "sky130_fd_bd_sram__openram_dff_0/Q" "subbyte2_pinv_1_0/A" -565.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 -1716 -170 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_1_0/A" "li_1558_648#"
+merge "subbyte2_pinv_1_0/Z" "subbyte2_pinv_2_0/A" -601.862 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_2_0/A" "Qb"

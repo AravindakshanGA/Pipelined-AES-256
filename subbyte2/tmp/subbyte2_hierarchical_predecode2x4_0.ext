@@ -1,0 +1,592 @@
+timestamp 1543373571
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_pand2 subbyte2_pand2_0 1 0 1608 0 -1 5656
+use subbyte2_pand2 subbyte2_pand2_1 1 0 1608 0 1 2828
+use subbyte2_pand2 subbyte2_pand2_2 1 0 1608 0 -1 2828
+use subbyte2_pand2 subbyte2_pand2_3 1 0 1608 0 1 0
+use subbyte2_pinv_0 subbyte2_pinv_0_0 1 0 496 0 -1 2828
+use subbyte2_pinv_0 subbyte2_pinv_0_1 1 0 496 0 1 0
+port "gnd_uq0" 9 357 -49 455 49 m3
+port "out_0" 3 2182 669 2182 669 li
+port "vdd_uq0" 11 1469 1365 1567 1463 m3
+port "out_1" 4 2182 2159 2182 2159 li
+port "gnd" 8 357 2779 455 2877 m3
+port "out_2" 5 2182 3497 2182 3497 li
+port "vdd" 7 1469 4193 1567 4291 m3
+port "out_3" 6 2182 4987 2182 4987 li
+port "in_1" 2 239 2130 285 2188 m1
+port "in_0" 1 115 640 161 698 m1
+port "gnd_uq1" 10 357 5607 455 5705 m3
+node "gnd_uq0" 899 1195.27 357 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81124 4840 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "out_0" 13 23.3081 2182 669 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd_uq0" 899 1098.53 1469 1365 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81124 4840 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "out_1" 13 23.3081 2182 2159 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_692_2126#" 681 1214.27 692 2126 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53992 3380 161848 11472 33088 2296 0 0 0 0 0 0 0 0
+node "gnd" 899 1140.13 357 2779 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81124 4840 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_692_636#" 699 1795.44 692 636 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55624 3476 161848 11472 31744 2200 0 0 0 0 0 0 0 0
+node "out_2" 13 23.3942 2182 3497 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 899 1098.53 1469 4193 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81124 4840 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "out_3" 13 23.3942 2182 4987 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0
+node "in_1" 1045 2872.73 239 2130 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 85102 5210 314856 22432 0 0 0 0 0 0 0 0 0 0
+node "in_0" 1109 2115.13 115 640 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90950 5554 314856 22432 0 0 0 0 0 0 0 0 0 0
+node "gnd_uq1" 899 1125.84 357 5607 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81124 4840 3328 232 4144 260 9604 392 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "vdd" "out_2" 1.75981
+cap "vdd" "li_692_2126#" 14.8718
+cap "out_3" "li_692_636#" 0.0805857
+cap "gnd_uq1" "in_0" 177.388
+cap "li_692_2126#" "out_1" 0.954605
+cap "in_1" "gnd" 74.6246
+cap "in_1" "in_0" 3528.32
+cap "out_3" "li_692_2126#" 0.10141
+cap "in_1" "vdd_uq0" 67.8891
+cap "gnd" "in_0" 82.4309
+cap "vdd" "out_3" 1.75981
+cap "vdd_uq0" "gnd" 22.4656
+cap "vdd_uq0" "in_0" 46.5075
+cap "in_1" "gnd_uq0" 9.04745
+cap "gnd_uq1" "li_692_636#" 12.0288
+cap "gnd_uq0" "in_0" 31.1289
+cap "gnd_uq0" "vdd_uq0" 17.8975
+cap "in_1" "li_692_636#" 414.6
+cap "gnd_uq1" "li_692_2126#" 7.81566
+cap "li_692_636#" "gnd" 135.763
+cap "in_1" "out_2" 0.355801
+cap "li_692_636#" "in_0" 54.4536
+cap "out_0" "in_1" 0.354363
+cap "vdd" "gnd_uq1" 11.7984
+cap "in_1" "li_692_2126#" 68.0885
+cap "li_692_636#" "vdd_uq0" 31.0617
+cap "out_2" "gnd" 1.96154
+cap "out_2" "in_0" 0.120733
+cap "vdd" "in_1" 117.302
+cap "out_0" "in_0" 0.119477
+cap "li_692_2126#" "gnd" 37.137
+cap "li_692_2126#" "in_0" 1771.8
+cap "li_692_636#" "gnd_uq0" 122.662
+cap "out_0" "vdd_uq0" 1.75981
+cap "in_1" "out_1" 0.354363
+cap "vdd_uq0" "li_692_2126#" 69.9704
+cap "gnd_uq1" "out_3" 1.96154
+cap "vdd" "gnd" 27.6879
+cap "vdd" "in_0" 32.4164
+cap "out_0" "gnd_uq0" 1.96154
+cap "gnd" "out_1" 1.96154
+cap "out_1" "in_0" 0.119477
+cap "in_1" "out_3" 0.355801
+cap "gnd_uq0" "li_692_2126#" 9.81582
+cap "vdd_uq0" "out_1" 1.75981
+cap "out_3" "in_0" 0.120733
+cap "li_692_636#" "out_2" 0.0805857
+cap "out_0" "li_692_636#" 0.933997
+cap "li_692_636#" "li_692_2126#" 1802.81
+cap "vdd" "li_692_636#" 29.0948
+cap "out_2" "li_692_2126#" 0.10141
+cap "out_0" "li_692_2126#" 0.100354
+cap "li_692_636#" "out_1" 0.0797468
+cap "in_1" "gnd_uq1" 31.2214
+cap "subbyte2_pand2_3/A" "out_0" 2.7709
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_3/A" 5.7867
+cap "subbyte2_pand2_2/B" "in_0" 4.64153
+cap "in_0" "in_1" 8.41651
+cap "vdd_uq0" "in_1" 40.1903
+cap "gnd" "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" 0.507441
+cap "vdd_uq0" "subbyte2_pand2_2/B" 12.3254
+cap "in_1" "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" 1.02639
+cap "gnd" "in_1" 0.324742
+cap "gnd" "subbyte2_pand2_2/B" 0.639402
+cap "in_1" "subbyte2_pand2_2/B" 8.39518
+cap "in_0" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 1.70752
+cap "vdd_uq0" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.703441
+cap "gnd" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.534154
+cap "in_1" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 23.964
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" 0.0910438
+cap "subbyte2_pand2_2/B" "out_0" 0.704038
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_2/B" 0.739043
+cap "vdd_uq0" "in_0" 49.1188
+cap "gnd" "in_0" -0.920322
+cap "subbyte2_pand2_3/A" "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" 0.578446
+cap "subbyte2_pand2_3/A" "in_1" 13.4284
+cap "in_1" "in_0" 2.22889
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 2.06132
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_3/A" 18.3777
+cap "gnd" "vdd_uq0" -1.92139
+cap "vdd_uq0" "in_1" 91.4433
+cap "gnd" "in_1" 1.30565
+cap "subbyte2_pand2_3/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 21.5429
+cap "in_0" "out_0" 0.279726
+cap "vdd_uq0" "out_0" 0.176184
+cap "subbyte2_pand2_2/A" "in_0" 2.44829
+cap "vdd_uq0" "subbyte2_pand2_2/A" 12.5984
+cap "in_1" "out_0" 10.1344
+cap "gnd" "out_0" 0.165035
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" 0.0841355
+cap "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" "in_1" 0.0623602
+cap "gnd" "subbyte2_pand2_2/A" 0.127866
+cap "subbyte2_pand2_2/B" "in_1" 0.156342
+cap "in_0" "subbyte2_pand2_3/A" 21.7893
+cap "vdd_uq0" "subbyte2_pand2_3/A" 226.581
+cap "gnd" "subbyte2_pand2_3/A" 1.58632
+cap "in_1" "subbyte2_pand2_3/A" 13.3437
+cap "subbyte2_pand2_2/A" "out_0" 0.836311
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 1.83163
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "in_1" 0.276294
+cap "out_0" "gnd" -1.94152
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "vdd_uq0" 34.0857
+cap "in_0" "out_0" 0.11958
+cap "in_1" "vdd_uq0" 0.0932258
+cap "subbyte2_pand2_3/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 14.5584
+cap "gnd" "vdd_uq0" -12.8047
+cap "in_1" "subbyte2_pand2_3/A" 0.277956
+cap "in_0" "vdd_uq0" 0.510046
+cap "subbyte2_pand2_3/A" "gnd" 5.52592
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 1.00245e-05
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.873146
+cap "out_0" "subbyte2_pand2_2/B" 0.441992
+cap "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_2/B" 0.932421
+cap "in_0" "subbyte2_pand2_3/A" 4.00968
+cap "gnd" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.216238
+cap "vdd_uq0" "subbyte2_pand2_2/B" 35.1702
+cap "out_1" "gnd" 0.144168
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "in_1" 4.17754
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "subbyte2_pand2_2/A" 3.82993
+cap "subbyte2_pand2_3/A" "subbyte2_pand2_2/B" 15.58
+cap "out_0" "vdd_uq0" 1.41069
+cap "gnd" "in_1" 0.127216
+cap "gnd" "subbyte2_pand2_2/A" 0.19079
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 1.49305
+cap "subbyte2_pand2_3/A" "out_0" 0.0383468
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/subbyte2_pinv_0/Z" "out_0" 1.00245e-05
+cap "in_1" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.0335682
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "gnd" -1.09243
+cap "subbyte2_pand2_3/A" "vdd_uq0" 32.6459
+cap "in_1" "gnd" 0.0248389
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.029641
+cap "in_1" "subbyte2_pand2_2/B" 0.252738
+cap "out_1" "out_0" 0.343784
+cap "in_0" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 2.71037
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_2/B" 1.54408
+cap "in_0" "gnd" 0.449796
+cap "out_0" "in_1" 0.57277
+cap "subbyte2_pand2_3/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.00590526
+cap "out_0" "subbyte2_pand2_2/A" 0.502886
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "subbyte2_pand2_2/B" 8.83993
+cap "vdd_uq0" "in_1" 0.647058
+cap "in_1" "subbyte2_pand2_2/B" 0.0113638
+cap "vdd_uq0" "subbyte2_pand2_2/A" 0.609056
+cap "gnd" "subbyte2_pand2_2/B" -0.678577
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/A" "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" -0.0525409
+cap "subbyte2_pand2_3/A" "in_1" 1.89374
+cap "in_0" "subbyte2_pand2_2/B" 0.107142
+cap "subbyte2_pand2_3/A" "subbyte2_pand2_2/A" 1.99468
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_2/B" 15.9891
+cap "in_1" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 1.99633
+cap "vdd_uq0" "subbyte2_pand2_2/B" 91.2528
+cap "subbyte2_pand2_2/A" "out_0" 0.00913754
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.0276302
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/A" 0.65436
+cap "subbyte2_pand2_1/B" "in_1" 2.30845
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.0871344
+cap "vdd_uq0" "out_0" 0.0279966
+cap "vdd_uq0" "subbyte2_pand2_1/A" 51.606
+cap "gnd" "out_1" 0.105331
+cap "subbyte2_pand2_1/B" "in_0" 0.05762
+cap "in_1" "subbyte2_pand2_2/A" 12.0233
+cap "vdd_uq0" "in_1" 85.8746
+cap "in_1" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.00984882
+cap "subbyte2_pand2_2/B" "out_1" 2.41581
+cap "subbyte2_pand2_2/A" "in_0" 0.0369435
+cap "vdd_uq0" "in_0" 6.79522
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 1.6696
+cap "subbyte2_pand2_1/A" "out_1" 0.607842
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 25.3677
+cap "gnd" "subbyte2_pand2_2/B" 7.79805
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.148098
+cap "gnd" "subbyte2_pand2_1/A" 1.68209
+cap "in_1" "out_1" 0.279726
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 2.17683
+cap "subbyte2_pand2_2/B" "out_0" 0.0077286
+cap "vdd_uq0" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.854379
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_2/A" 9.2879
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/B" 17.3987
+cap "gnd" "in_1" 1.06658
+cap "vdd_uq0" "subbyte2_pand2_1/B" 104.3
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.357146
+cap "subbyte2_pand2_1/A" "out_0" 0.0317426
+cap "gnd" "in_0" 0.382737
+cap "in_1" "subbyte2_pand2_2/B" 17.791
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.0310737
+cap "vdd_uq0" "subbyte2_pand2_2/A" 15.7355
+cap "subbyte2_pand2_2/B" "in_0" 5.46142
+cap "subbyte2_pand2_1/A" "in_1" 7.81409
+cap "vdd_uq0" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.150939
+cap "subbyte2_pand2_1/B" "out_1" 10.9998
+cap "gnd" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.327319
+cap "subbyte2_pand2_1/A" "in_0" 0.439808
+cap "gnd" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.316929
+cap "subbyte2_pand2_2/A" "out_1" 0.904878
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 1.76844
+cap "gnd" "subbyte2_pand2_1/B" 4.01551
+cap "in_1" "in_0" 13.4458
+cap "vdd_uq0" "out_1" 0.204181
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.11867
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 20.0875
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 1.66732
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_2/B" 13.8743
+cap "gnd" "subbyte2_pand2_2/A" 0.8142
+cap "vdd" "in_1" 0.00777956
+cap "subbyte2_pand2_1/B" "out_0" 0.110616
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_1/B" 0.251551
+cap "in_1" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.101439
+cap "vdd_uq0" "gnd" -7.07085
+cap "vdd_uq0" "in_0" 0.331365
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_2/B" 0.840371
+cap "in_1" "subbyte2_pand2_2/A" 5.01789
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/A" 13.647
+cap "vdd_uq0" "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" 0.0383649
+cap "subbyte2_pand2_1/B" "out_1" 0.585679
+cap "subbyte2_pand2_1/A" "in_0" 0.193055
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.932421
+cap "gnd" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.0876766
+cap "vdd" "subbyte2_pand2_2/B" 4.97863
+cap "subbyte2_pand2_2/A" "out_1" 0.533651
+cap "subbyte2_pand2_0/subbyte2_pnand2_0/vdd" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.000493233
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_2/B" 0.0541263
+cap "vdd_uq0" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 0.151591
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 4.85052
+cap "gnd" "subbyte2_pand2_1/B" 0.333277
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 3.7891
+cap "gnd" "subbyte2_pand2_2/A" 8.44217
+cap "subbyte2_pand2_3/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.029641
+cap "vdd_uq0" "subbyte2_pand2_2/B" 33.3039
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 1.50727
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.488461
+cap "vdd" "out_1" 0.0700278
+cap "gnd" "in_0" 0.020156
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/B" 3.64196
+cap "in_1" "subbyte2_pand2_2/B" 0.119049
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_2/A" 2.15019
+cap "vdd_uq0" "subbyte2_pand2_3/subbyte2_pdriver_0/A" -0.126377
+cap "vdd_uq0" "in_1" 0.89047
+cap "vdd_uq0" "subbyte2_pand2_1/A" 1.38224
+cap "vdd_uq0" "out_0" -1.17321
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/A" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" -0.0525409
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.00680344
+cap "subbyte2_pand2_2/B" "out_1" 0.155121
+cap "subbyte2_pand2_2/A" "in_0" 0.034971
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_2/A" 0.012914
+cap "subbyte2_pand2_1/A" "in_1" 0.00713785
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 1.33668
+cap "vdd" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 4.37693
+cap "vdd_uq0" "out_1" 0.23748
+cap "vdd_uq0" "out_2" 0.104181
+cap "subbyte2_pand2_1/A" "out_1" 0.34961
+cap "in_1" "out_1" 0.118721
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 20.2737
+cap "out_0" "out_1" 0.343784
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_2/A" 0.00228512
+cap "gnd" "subbyte2_pand2_2/B" 2.50136
+cap "vdd" "subbyte2_pand2_2/A" 5.77748
+cap "vdd_uq0" "gnd" -13.2892
+cap "vdd_uq0" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 33.8302
+cap "gnd" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.000972243
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 10.4731
+cap "out_2" "out_1" 0.0546669
+cap "gnd" "subbyte2_pand2_1/A" 0.267754
+cap "in_1" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 2.74396
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 2.99514
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_2/B" 2.67491
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_2/B" 18.1785
+cap "vdd_uq0" "subbyte2_pand2_1/B" 1.0046
+cap "gnd" "in_1" 0.319119
+cap "vdd_uq0" "subbyte2_pand2_2/A" 30.8529
+cap "subbyte2_pand2_1/B" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.0108793
+cap "gnd" "out_1" -0.638077
+cap "subbyte2_pand2_2/A" "subbyte2_pand2_3/subbyte2_pdriver_0/A" 0.0155621
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_1/B" 0.0490866
+cap "in_1" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.377434
+cap "in_1" "vdd_uq0" 0.129107
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 2.14748
+cap "in_1" "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" 2.14847
+cap "in_1" "subbyte2_pand2_0/A" 1.48235
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.0231822
+cap "subbyte2_pinv_0_1/A" "gnd" 0.115701
+cap "out_1" "subbyte2_pand2_0/A" 0.0330959
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" 0.149937
+cap "in_1" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 25.3056
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_0/A" 0.856971
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_2/B" 0.247736
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_2/B" 0.255307
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_2/B" 0.166027
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" "gnd" 0.180122
+cap "gnd" "vdd_uq0" -6.84895
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/A" "subbyte2_pand2_0/A" 0.0481041
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 1.65053
+cap "gnd" "subbyte2_pand2_0/A" 1.67451
+cap "gnd" "subbyte2_pinv_0_1/Z" 0.144168
+cap "subbyte2_pand2_1/A" "in_1" 10.9563
+cap "in_1" "out_1" 0.40086
+cap "subbyte2_pand2_0/A" "out_2" 0.907181
+cap "vdd" "subbyte2_pand2_0/A" 7.26234
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_2/B" 1.91851
+cap "in_1" "subbyte2_pand2_2/B" 1.60841
+cap "in_1" "gnd" 9.7654
+cap "subbyte2_pand2_1/A" "out_1" 0.0197024
+cap "in_1" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.563377
+cap "in_1" "vdd" 85.9414
+cap "in_1" "out_2" 11.0354
+cap "out_1" "subbyte2_pand2_2/B" 0.22872
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/B" 1.13415
+cap "subbyte2_pand2_1/A" "gnd" 1.86281
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.0329855
+cap "out_1" "gnd" 0.0597044
+cap "subbyte2_pand2_1/A" "vdd" 5.42521
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_0/A" 0.0315619
+cap "subbyte2_pand2_1/A" "out_2" 0.61441
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/A" "subbyte2_pand2_2/B" 0.284839
+cap "gnd" "subbyte2_pand2_2/B" 2.4111
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" 0.17966
+cap "out_2" "subbyte2_pand2_2/B" 0.768983
+cap "vdd" "subbyte2_pand2_2/B" 6.28787
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/A" "gnd" 0.217224
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.012914
+cap "gnd" "subbyte2_pand2_1/subbyte2_pdriver_0/A" -0.601777
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 10.9367
+cap "subbyte2_pand2_2/B" "in_1" 12.2717
+cap "vdd" "subbyte2_pand2_1/A" 7.65488
+cap "vdd" "out_1" 0.0693396
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.00965685
+cap "gnd" "subbyte2_pand2_0/A" -2.12366
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/B" 2.19049
+cap "subbyte2_pand2_2/B" "out_1" 0.0184821
+cap "vdd_uq0" "subbyte2_pand2_2/B" 0.129107
+cap "gnd" "subbyte2_pand2_3/subbyte2_pdriver_0/subbyte2_pinv_0/Z" 0.144168
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.873146
+cap "out_2" "in_1" 0.611552
+cap "gnd" "vdd" -12.4357
+cap "vdd" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.16187
+cap "subbyte2_pand2_1/A" "out_2" 0.365013
+cap "out_2" "out_1" 0.127199
+cap "vdd_uq0" "out_2" 0.139367
+cap "subbyte2_pand2_2/B" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.00829151
+cap "gnd" "subbyte2_pand2_2/B" 0.494867
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 4.10566
+cap "subbyte2_pand2_1/A" "in_1" 15.3942
+cap "out_1" "in_1" 0.00600827
+cap "vdd_uq0" "in_1" 5.12712
+cap "out_2" "out_3" 0.343784
+cap "subbyte2_pand2_1/A" "out_1" 0.00306229
+cap "gnd" "out_2" -1.96154
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" 0.488461
+cap "vdd_uq0" "subbyte2_pand2_1/A" 5.92597
+cap "vdd" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 18.7863
+cap "gnd" "subbyte2_pand2_3/subbyte2_pnand2_0/A" 0.0691586
+cap "vdd" "subbyte2_pand2_0/A" 0.750734
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/A" "in_1" 0.0675031
+cap "gnd" "in_1" 1.23473
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_2/B" 4.31496
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" "in_1" 0.932421
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" 0.029641
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_2/B" 0.159767
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.00908855
+cap "gnd" "subbyte2_pand2_1/A" 5.62235
+cap "out_1" "out_3" 0.000863762
+cap "gnd" "out_1" -1.30344
+cap "vdd_uq0" "subbyte2_pand2_2/subbyte2_pdriver_0/A" 0.129107
+cap "gnd" "vdd_uq0" -9.23033
+cap "in_1" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 1.49305
+cap "gnd" "subbyte2_pand2_3/subbyte2_pnand2_0/Z" 0.100537
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.00590526
+cap "subbyte2_pand2_0/A" "out_2" 0.517471
+cap "vdd" "subbyte2_pand2_2/B" 0.675802
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "in_1" 10.1882
+cap "gnd" "out_3" 0.144168
+cap "subbyte2_pand2_3/subbyte2_pdriver_0/subbyte2_pinv_0/Z" "out_2" 0.000863762
+cap "gnd" "subbyte2_pand2_2/subbyte2_pdriver_0/A" -0.667375
+cap "subbyte2_pand2_0/A" "in_1" 3.81762
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 3.72452
+cap "vdd" "out_2" 0.212922
+cap "vdd_uq0" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 4.5259
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_1/A" 14.2414
+cap "gnd" "subbyte2_pand2_3/subbyte2_pdriver_0/subbyte2_pinv_0/A" 0.115701
+cap "subbyte2_pand2_0/A" "out_1" 0.00451714
+cap "gnd" "subbyte2_pand2_3/subbyte2_pnand2_0/B" 0.0691586
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" "in_1" 0.840371
+cap "out_2" "subbyte2_pand2_2/B" 0.437893
+cap "vdd_uq0" "subbyte2_pand2_0/A" 0.129107
+cap "gnd" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.216238
+cap "vdd" "in_1" 33.6776
+cap "subbyte2_pand2_0/B" "out_2" 0.36872
+cap "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_0/A" 0.114108
+cap "gnd" "subbyte2_pand2_0/A" 0.206883
+cap "subbyte2_pand2_0/B" "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" 1.36457
+cap "subbyte2_pand2_0/B" "gnd" 2.44486
+cap "vdd" "subbyte2_pand2_0/A" 9.52787
+cap "subbyte2_pand2_1/A" "out_3" 0.588926
+cap "subbyte2_pand2_0/B" "vdd" 108.166
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_0/A" 0.730672
+cap "subbyte2_pand2_0/B" "subbyte2_pand2_1/A" 1.12163
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 0.0607068
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "li_692_2126#" 1.8925
+cap "out_2" "li_692_2126#" 0.025762
+cap "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" "li_692_2126#" 0.10545
+cap "gnd" "li_692_2126#" 0.180066
+cap "vdd" "li_692_2126#" 8.24733
+cap "out_3" "subbyte2_pand2_0/A" 0.860773
+cap "subbyte2_pand2_0/B" "out_3" 10.2144
+cap "subbyte2_pand2_1/A" "li_692_2126#" 0.0356045
+cap "subbyte2_pinv_0_0/Z" "vdd" 0.0798719
+cap "subbyte2_pand2_0/B" "subbyte2_pand2_0/A" 10.452
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_0/A" 0.0772262
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "subbyte2_pand2_1/A" 1.64077
+cap "subbyte2_pand2_0/B" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 0.91921
+cap "subbyte2_pinv_0_0/A" "vdd" 0.0887039
+cap "gnd" "vdd" 0.152417
+cap "subbyte2_pand2_1/A" "out_2" 0.0206842
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" 0.0952305
+cap "subbyte2_pand2_1/A" "gnd" 0.160293
+cap "subbyte2_pand2_1/A" "vdd" 7.11486
+cap "out_3" "li_692_2126#" 0.730813
+cap "subbyte2_pand2_0/A" "li_692_2126#" 0.746597
+cap "subbyte2_pand2_0/B" "li_692_2126#" 0.734543
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "li_692_2126#" 0.0694807
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "subbyte2_pand2_0/A" 2.11475
+cap "out_2" "subbyte2_pand2_0/A" 0.0304585
+cap "subbyte2_pand2_0/B" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 24.4585
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "li_692_2126#" 0.00829151
+cap "gnd" "subbyte2_pand2_1/A" 0.208728
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/B" "vdd" 0.0264091
+cap "out_3" "li_692_2126#" 0.429427
+cap "vdd" "subbyte2_pand2_0/B" 30.549
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_0/B" 1.50986
+cap "vdd" "subbyte2_pand2_0/A" 7.60018
+cap "out_2" "vdd" -1.17321
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_0/A" 0.0155621
+cap "out_3" "subbyte2_pand2_0/B" 0.946662
+cap "out_3" "subbyte2_pand2_0/A" 0.537174
+cap "subbyte2_pand2_1/A" "vdd" 0.229567
+cap "out_2" "out_3" 0.343784
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_1/A" 0.00680344
+cap "out_3" "subbyte2_pand2_1/A" 0.345043
+cap "gnd" "subbyte2_pand2_0/subbyte2_pdriver_0/A" -0.555796
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/Z" "vdd" 0.0225056
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.029641
+cap "li_692_2126#" "subbyte2_pand2_0/B" 0.235566
+cap "li_692_2126#" "subbyte2_pand2_0/A" 1.97383
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/subbyte2_pinv_0/A" "vdd" 0.115701
+cap "subbyte2_pand2_1/A" "li_692_2126#" 0.0497194
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_0/B" 18.5194
+cap "vdd" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 18.3899
+cap "gnd" "vdd" -13.6582
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 10.4731
+cap "subbyte2_pand2_2/subbyte2_pdriver_0/subbyte2_pinv_0/Z" "vdd" 0.104181
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_0/B" 1.67138
+cap "gnd" "subbyte2_pand2_1/subbyte2_pdriver_0/A" 0.000972243
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_0/A" 11.6614
+cap "gnd" "out_3" -0.653846
+cap "out_3" "subbyte2_pand2_2/subbyte2_pdriver_0/subbyte2_pinv_0/Z" 1.00245e-05
+cap "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_0/B" 0.932421
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/A" "vdd" -0.267293
+cap "out_3" "vdd" -0.960285
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 1.00245e-05
+cap "li_692_2126#" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 3.66632
+cap "gnd" "li_692_2126#" 0.226732
+cap "subbyte2_pand2_0/B" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 11.1411
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 4.77107
+cap "gnd" "subbyte2_pand2_0/B" 0.279739
+cap "subbyte2_pand2_2/subbyte2_pnand2_0/a_144_51#" "vdd" 0.0383649
+cap "subbyte2_pand2_1/A" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 3.18116
+cap "gnd" "subbyte2_pand2_0/A" 7.97391
+cap "li_692_2126#" "vdd" 1.22023
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" 0.0655516
+cap "subbyte2_pand2_0/A" "li_692_2126#" 0.043157
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "li_692_2126#" 0.0867447
+cap "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" "li_692_636#" 0.0547069
+cap "gnd_uq1" "subbyte2_pand2_0/B" 3.8528
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_0/B" 0.609887
+cap "out_3" "li_692_2126#" 0.059785
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "subbyte2_pand2_0/B" 1.13532
+cap "subbyte2_pand2_0/B" "li_692_636#" 0.0358671
+cap "subbyte2_pand2_0/A" "gnd_uq1" 0.401112
+cap "gnd_uq1" "li_692_636#" 0.230866
+cap "out_3" "subbyte2_pand2_0/B" 0.856777
+cap "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" "li_692_2126#" 0.0605776
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.0974219
+cap "subbyte2_pand2_0/A" "li_692_636#" 0.0393581
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "li_692_636#" 0.0747835
+cap "subbyte2_pand2_0/subbyte2_pnand2_0/a_144_51#" "subbyte2_pand2_0/B" 0.783902
+cap "out_3" "subbyte2_pand2_0/A" 0.0707361
+cap "subbyte2_pand2_0/B" "li_692_2126#" 0.0401407
+cap "out_3" "li_692_636#" 0.047949
+cap "gnd_uq1" "li_692_2126#" 0.270943
+cap "gnd_uq1" "subbyte2_pand2_0/B" -0.25404
+cap "subbyte2_pand2_0/A" "out_3" 0.0100163
+cap "subbyte2_pand2_0/B" "li_692_636#" 0.00283886
+cap "subbyte2_pand2_0/B" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.0197769
+cap "vdd" "gnd_uq1" -9.23033
+cap "subbyte2_pand2_1/subbyte2_pdriver_0/subbyte2_pinv_0/A" "gnd_uq1" 0.115701
+cap "vdd" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.129107
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_0/B" 0.180702
+cap "vdd" "subbyte2_pand2_0/A" 0.129107
+cap "out_3" "li_692_2126#" 0.00846593
+cap "gnd_uq1" "li_692_636#" 0.410395
+cap "gnd_uq1" "subbyte2_pand2_0/subbyte2_pdriver_0/A" -0.556769
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "li_692_636#" 0.013427
+cap "subbyte2_pand2_0/B" "li_692_2126#" 0.00317641
+cap "out_3" "subbyte2_pand2_0/B" 0.0114183
+cap "gnd_uq1" "subbyte2_pand2_1/subbyte2_pnand2_0/Z" 0.100537
+cap "subbyte2_pand2_0/A" "li_692_636#" 0.0453513
+cap "subbyte2_pand2_0/A" "gnd_uq1" -2.71103
+cap "subbyte2_pand2_0/A" "subbyte2_pand2_0/subbyte2_pdriver_0/A" 0.0179106
+cap "vdd" "subbyte2_pand2_0/B" 0.129107
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/B" "gnd_uq1" 0.0691586
+cap "gnd_uq1" "li_692_2126#" 0.456588
+cap "subbyte2_pand2_0/subbyte2_pdriver_0/A" "li_692_2126#" 0.0157856
+cap "out_3" "li_692_636#" 0.00679029
+cap "gnd_uq1" "out_3" -1.30769
+cap "gnd_uq1" "subbyte2_pand2_1/subbyte2_pdriver_0/subbyte2_pinv_0/Z" 0.144168
+cap "subbyte2_pand2_1/subbyte2_pnand2_0/A" "gnd_uq1" 0.0691586
+cap "subbyte2_pand2_0/A" "li_692_2126#" 0.0497194
+merge "subbyte2_pinv_0_1/vdd" "subbyte2_pinv_0_0/vdd" -1544.65 0 0 0 0 -143412 -2972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75752 -4728 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_0_0/vdd" "subbyte2_pand2_3/vdd"
+merge "subbyte2_pand2_3/vdd" "subbyte2_pand2_2/subbyte2_pdriver_0/vdd"
+merge "subbyte2_pand2_2/subbyte2_pdriver_0/vdd" "subbyte2_pand2_2/subbyte2_pdriver_0/subbyte2_pinv_0/vdd"
+merge "subbyte2_pand2_2/subbyte2_pdriver_0/subbyte2_pinv_0/vdd" "subbyte2_pand2_2/subbyte2_pnand2_0/vdd"
+merge "subbyte2_pand2_2/subbyte2_pnand2_0/vdd" "subbyte2_pand2_2/vdd"
+merge "subbyte2_pand2_2/vdd" "vdd_uq0"
+merge "subbyte2_pinv_0_0/Z" "subbyte2_pand2_3/B" -489.693 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2890 -438 -42140 -3038 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pand2_3/B" "subbyte2_pand2_2/B"
+merge "subbyte2_pand2_2/B" "li_692_2126#"
+merge "subbyte2_pand2_1/A" "subbyte2_pinv_0_1/Z" -592.578 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2890 -438 -2940 -238 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_0_1/Z" "subbyte2_pand2_3/A"
+merge "subbyte2_pand2_3/A" "li_692_636#"
+merge "subbyte2_pand2_3/Z" "out_0" -25.7768 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pand2_0/gnd" "gnd_uq1" -1868.47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -126480 -7848 0 0 0 0 0 0 0 0 0 0 0 0
+merge "gnd_uq1" "subbyte2_pinv_0_1/gnd"
+merge "subbyte2_pinv_0_1/gnd" "subbyte2_pinv_0_0/gnd"
+merge "subbyte2_pinv_0_0/gnd" "subbyte2_pand2_3/gnd"
+merge "subbyte2_pand2_3/gnd" "gnd_uq0"
+merge "gnd_uq0" "subbyte2_pand2_2/gnd"
+merge "subbyte2_pand2_2/gnd" "subbyte2_pand2_1/subbyte2_pdriver_0/gnd"
+merge "subbyte2_pand2_1/subbyte2_pdriver_0/gnd" "subbyte2_pand2_1/subbyte2_pdriver_0/subbyte2_pinv_0/gnd"
+merge "subbyte2_pand2_1/subbyte2_pdriver_0/subbyte2_pinv_0/gnd" "subbyte2_pand2_1/subbyte2_pnand2_0/gnd"
+merge "subbyte2_pand2_1/subbyte2_pnand2_0/gnd" "subbyte2_pand2_1/gnd"
+merge "subbyte2_pand2_1/gnd" "gnd"
+merge "subbyte2_pand2_1/vdd" "subbyte2_pand2_0/subbyte2_pdriver_0/vdd" -975.84 0 0 0 0 -93252 -1864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50728 -3120 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pand2_0/subbyte2_pdriver_0/vdd" "subbyte2_pand2_0/subbyte2_pdriver_0/subbyte2_pinv_0/vdd"
+merge "subbyte2_pand2_0/subbyte2_pdriver_0/subbyte2_pinv_0/vdd" "subbyte2_pand2_0/subbyte2_pnand2_0/vdd"
+merge "subbyte2_pand2_0/subbyte2_pnand2_0/vdd" "subbyte2_pand2_0/vdd"
+merge "subbyte2_pand2_0/vdd" "vdd"
+merge "subbyte2_pand2_0/B" "subbyte2_pand2_1/B" -1131.73 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3468 -408 -34356 -2482 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pand2_1/B" "subbyte2_pinv_0_0/A"
+merge "subbyte2_pinv_0_0/A" "in_1"
+merge "subbyte2_pand2_2/Z" "out_1" -26.0006 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pand2_1/Z" "out_2" -24.7335 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pand2_0/Z" "out_3" -24.5098 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pand2_0/A" "subbyte2_pinv_0_1/A" -330.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3468 -408 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_0_1/A" "subbyte2_pand2_2/A"
+merge "subbyte2_pand2_2/A" "in_0"

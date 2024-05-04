@@ -1,0 +1,117 @@
+timestamp 1543373571
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_pinv_7 subbyte2_pinv_7_0 1 0 1320 0 1 0
+use subbyte2_pinv_6 subbyte2_pinv_6_0 1 0 736 0 1 0
+use subbyte2_pinv subbyte2_pinv_0 1 0 368 0 1 0
+use subbyte2_pinv subbyte2_pinv_1 1 0 0 0 1 0
+port "gnd" 4 1114 0 1114 0 li
+port "Z" 2 1736 707 1736 707 li
+port "A" 1 81 669 81 669 li
+port "vdd" 3 1114 1414 1114 1414 li
+node "gnd" 839 809.826 1114 0 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75752 4524 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_196_652#" 95 50.7067 196 652 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8602 574 0 0 0 0 0 0 0 0 0 0 0 0
+node "Z" 13 9.19638 1736 707 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1042_690#" 135 59.9062 1042 690 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12206 786 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_547_669#" 110 49.7539 547 669 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9894 650 0 0 0 0 0 0 0 0 0 0 0 0
+node "A" 25 23.4325 81 669 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 839 604.861 1114 1414 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75752 4524 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n36_679#" 2759 5464.8 -36 679 nw 0 0 0 0 1821600 6184 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "gnd" "Z" 1.85521
+cap "li_547_669#" "li_196_652#" 3.44048
+cap "vdd" "w_n36_679#" 375.308
+cap "vdd" "li_547_669#" 14.7325
+cap "vdd" "li_1042_690#" 19.5888
+cap "vdd" "li_196_652#" 13.0951
+cap "A" "w_n36_679#" 5.69835
+cap "A" "li_547_669#" 0.855346
+cap "w_n36_679#" "Z" 9.41013
+cap "w_n36_679#" "gnd" 170.343
+cap "li_547_669#" "gnd" 10.4974
+cap "Z" "li_1042_690#" 2.50578
+cap "gnd" "li_1042_690#" 19.5888
+cap "A" "li_196_652#" 6.88095
+cap "gnd" "li_196_652#" 14.5962
+cap "A" "vdd" 1.79876
+cap "vdd" "Z" 1.85521
+cap "vdd" "gnd" 23.1456
+cap "w_n36_679#" "li_547_669#" 38.7154
+cap "w_n36_679#" "li_1042_690#" 44.6998
+cap "li_547_669#" "li_1042_690#" 3.42688
+cap "A" "gnd" 2.01005
+cap "w_n36_679#" "li_196_652#" 24.8591
+cap "gnd" "A" -3.93355
+cap "vdd" "Z" 3.51591
+cap "A" "subbyte2_pinv_7_0/A" 3.70158
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_6_0/A" 100.225
+cap "A" "subbyte2_pinv_0/A" 41.8778
+cap "vdd" "subbyte2_pinv_6_0/A" 30.9553
+cap "gnd" "subbyte2_pinv_7_0/A" 7.96129
+cap "subbyte2_pinv_6_0/A" "Z" 5.78189
+cap "vdd" "A" 4.02117
+cap "gnd" "subbyte2_pinv_0/A" -2.16382
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_7_0/A" 12.6454
+cap "A" "Z" 0.162908
+cap "gnd" "vdd" -147.621
+cap "vdd" "subbyte2_pinv_7_0/A" 14.5528
+cap "A" "subbyte2_pinv_6_0/A" 3.4672
+cap "gnd" "Z" 3.21721
+cap "subbyte2_pinv_7_0/A" "Z" 25.607
+cap "vdd" "subbyte2_pinv_0/A" 40.4227
+cap "gnd" "subbyte2_pinv_6_0/A" 16.0156
+cap "subbyte2_pinv_0/A" "Z" 3.81861
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_7_0/A" 59.2948
+cap "gnd" "Z" -1.91916
+cap "vdd" "subbyte2_pinv_6_0/A" 3.70942
+cap "gnd" "subbyte2_pinv_7_0/A" 5.16154
+cap "subbyte2_pinv_7_0/A" "Z" 10.4801
+cap "gnd" "subbyte2_pinv_0/A" 0.587521
+cap "vdd" "A" 0.169222
+cap "subbyte2_pinv_0/A" "Z" 1.71298
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_7_0/A" 0.79658
+cap "gnd" "vdd" -76.2775
+cap "vdd" "Z" 1.47458
+cap "vdd" "subbyte2_pinv_7_0/A" 36.2415
+cap "gnd" "subbyte2_pinv_6_0/A" 3.2314
+cap "vdd" "subbyte2_pinv_0/A" 0.796833
+cap "subbyte2_pinv_6_0/A" "Z" 6.64156
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_7_0/A" 10.0671
+cap "gnd" "A" 0.178807
+cap "A" "Z" 0.19471
+cap "A" "subbyte2_pinv_7_0/A" 0.088401
+cap "A" "subbyte2_pinv_0/A" 0.284024
+cap "vdd" "subbyte2_pinv_6_0/A" -8.74056
+cap "vdd" "A" -3.62301
+cap "gnd" "vdd" -9.82607
+cap "vdd" "subbyte2_pinv_7_0/A" -4.59634
+cap "vdd" "subbyte2_pinv_0/A" -9.31004
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_7_0/A" 0.142012
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_6_0/A" 0.284024
+cap "vdd" "subbyte2_pinv_6_0/A" 0.0683909
+cap "vdd" "A" 0.00300111
+cap "gnd" "vdd" -7.45207
+cap "vdd" "Z" -1.2368
+cap "vdd" "subbyte2_pinv_7_0/A" 0.284594
+cap "vdd" "subbyte2_pinv_0/A" 0.0103915
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_7_0/A" 0.142012
+merge "subbyte2_pinv_1/Z" "subbyte2_pinv_0/A" -564.672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_0/A" "li_196_652#"
+merge "subbyte2_pinv_1/vdd" "subbyte2_pinv_0/vdd" -6862.73 0 0 0 0 -1992672 -11368 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75752 -4728 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_0/vdd" "subbyte2_pinv_6_0/vdd"
+merge "subbyte2_pinv_6_0/vdd" "subbyte2_pinv_7_0/vdd"
+merge "subbyte2_pinv_7_0/vdd" "vdd"
+merge "vdd" "w_n36_679#"
+merge "subbyte2_pinv_6_0/Z" "subbyte2_pinv_7_0/A" -390.194 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_7_0/A" "li_1042_690#"
+merge "subbyte2_pinv_1/gnd" "subbyte2_pinv_0/gnd" -1081.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75752 -4728 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_0/gnd" "subbyte2_pinv_6_0/gnd"
+merge "subbyte2_pinv_6_0/gnd" "subbyte2_pinv_7_0/gnd"
+merge "subbyte2_pinv_7_0/gnd" "gnd"
+merge "subbyte2_pinv_0/Z" "subbyte2_pinv_6_0/A" -583.706 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1802 -280 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_6_0/A" "li_547_669#"
+merge "subbyte2_pinv_7_0/Z" "Z" -93.6877 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_1/A" "A" -231.404 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,22 @@
+%Warning-EOFNEWLINE: /openlane/designs/s_box_maker/src/s_box_maker.v:294:10: Missing newline at end of file (POSIX 3.206).
+                                                                           : ... Suggest add newline.
+  294 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.018
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-ASCRANGE: /openlane/designs/s_box_maker/src/s_box_maker.v:6:9: Ascending bit range vector: left < right of bit range: [0:7]
+                                                                      : ... note: In instance 's_box_maker'
+    6 |  output [0:7] wr_addr;
+      |         ^
+%Warning-ASCRANGE: /openlane/designs/s_box_maker/src/s_box_maker.v:7:9: Ascending bit range vector: left < right of bit range: [0:7]
+                                                                      : ... note: In instance 's_box_maker'
+    7 |  output [0:7] wr_data;
+      |         ^
+%Warning-ASCRANGE: /openlane/designs/s_box_maker/src/s_box_maker.v:9:6: Ascending bit range vector: left < right of bit range: [0:7]
+                                                                      : ... note: In instance 's_box_maker'
+    9 |  reg [0:7] count;
+      |      ^
+%Warning-ASCRANGE: /openlane/designs/s_box_maker/src/s_box_maker.v:10:6: Ascending bit range vector: left < right of bit range: [0:7]
+                                                                       : ... note: In instance 's_box_maker'
+   10 |  reg [0:7] mem_data_in;
+      |      ^

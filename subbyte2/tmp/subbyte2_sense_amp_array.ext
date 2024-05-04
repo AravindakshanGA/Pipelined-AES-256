@@ -1,0 +1,833 @@
+timestamp 1543373570
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_0 1 0 19391 0 1 0
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_1 1 0 16895 0 1 0
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_2 1 0 14399 0 1 0
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_3 1 0 11903 0 1 0
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_4 1 0 9407 0 1 0
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_5 1 0 6911 0 1 0
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_6 1 0 4415 0 1 0
+use sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp_7 1 0 1919 0 1 0
+port "data_7" 22 19495 0 19541 150 m1
+port "data_6" 19 16999 0 17045 150 m1
+port "data_5" 16 14503 0 14549 150 m1
+port "data_4" 13 12007 0 12053 150 m1
+port "data_3" 10 9511 0 9557 150 m1
+port "data_2" 7 7015 0 7061 150 m1
+port "data_1" 4 4519 0 4565 150 m1
+port "data_0" 1 2023 0 2069 150 m1
+port "gnd_uq0" 29 33 375 19924 441 m3
+port "vdd_uq0" 28 33 697 19924 763 m3
+port "br_7" 24 19663 1442 19691 2556 m1
+port "bl_7" 23 19587 1430 19621 2556 m1
+port "br_6" 21 17167 1442 17195 2556 m1
+port "bl_6" 20 17091 1430 17125 2556 m1
+port "br_5" 18 14671 1442 14699 2556 m1
+port "bl_5" 17 14595 1430 14629 2556 m1
+port "br_4" 15 12175 1442 12203 2556 m1
+port "bl_4" 14 12099 1430 12133 2556 m1
+port "br_3" 12 9679 1442 9707 2556 m1
+port "bl_3" 11 9603 1430 9637 2556 m1
+port "br_2" 9 7183 1442 7211 2556 m1
+port "bl_2" 8 7107 1430 7141 2556 m1
+port "br_1" 6 4687 1442 4715 2556 m1
+port "bl_1" 5 4611 1430 4645 2556 m1
+port "vdd" 26 33 1535 19924 1601 m3
+port "gnd" 27 33 2309 19924 2375 m3
+port "br_0" 3 2191 1442 2219 2556 m1
+port "bl_0" 2 2115 1430 2149 2556 m1
+port "en" 25 0 2464 19891 2524 m3
+node "data_7" 0 83.9642 19495 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "data_6" 0 83.9642 16999 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "data_5" 0 83.9642 14503 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "data_4" 0 83.9642 12007 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "data_3" 0 83.9642 9511 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "data_2" 0 83.9642 7015 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "data_1" 0 83.9642 4519 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "data_0" 0 83.9642 2023 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6900 392 0 0 0 0 0 0 0 0 0 0
+node "gnd_uq0" 22 6141.72 33 375 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26624 1856 33152 2080 1312806 39914 0 0 0 0 0 0
+node "vdd_uq0" 22 4792.07 33 697 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26624 1856 33152 2080 1312806 39914 0 0 0 0 0 0
+node "br_7" 5 247.27 19663 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_7" 4 268.504 19587 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "br_6" 5 247.27 17167 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_6" 4 268.504 17091 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "br_5" 5 247.27 14671 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_5" 4 268.504 14595 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "br_4" 5 247.27 12175 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_4" 4 268.504 12099 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "br_3" 5 247.27 9679 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_3" 4 268.504 9603 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "br_2" 5 247.27 7183 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_2" 4 268.504 7107 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "br_1" 5 247.27 4687 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_1" 4 268.504 4611 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "vdd" 22 6389.37 33 1535 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26624 1856 33152 2080 1312806 39914 0 0 0 0 0 0
+node "gnd" 22 4030.55 33 2309 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26624 1856 33152 2080 1312806 39914 0 0 0 0 0 0
+node "br_0" 5 247.27 2191 1442 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31192 2284 0 0 0 0 0 0 0 0 0 0
+node "bl_0" 4 268.504 2115 1430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38284 2320 0 0 0 0 0 0 0 0 0 0
+node "en" 23 5515.99 0 2464 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26624 1856 33152 2080 1196628 39998 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "gnd" "bl_6" 16.6307
+cap "en" "bl_6" 30.7936
+cap "bl_1" "gnd_uq0" 0.562516
+cap "vdd" "bl_5" 17.4343
+cap "gnd" "bl_3" 16.6307
+cap "en" "bl_3" 30.7936
+cap "vdd" "data_6" 0.245354
+cap "bl_5" "gnd_uq0" 0.562516
+cap "br_0" "vdd_uq0" 2.19868
+cap "data_6" "gnd_uq0" 2.15975
+cap "bl_2" "vdd_uq0" 2.73162
+cap "br_2" "vdd_uq0" 2.19868
+cap "vdd" "br_7" 34.1658
+cap "br_7" "gnd_uq0" 0.448252
+cap "br_0" "en" 11.3519
+cap "bl_4" "vdd_uq0" 2.73162
+cap "br_0" "gnd" 22.9823
+cap "gnd" "bl_2" 16.6307
+cap "bl_2" "en" 30.7936
+cap "en" "br_2" 11.3519
+cap "bl_0" "vdd_uq0" 2.73162
+cap "gnd" "br_2" 22.9823
+cap "data_5" "vdd_uq0" 0.712763
+cap "vdd" "br_6" 35.7686
+cap "br_6" "gnd_uq0" 0.448252
+cap "br_1" "vdd_uq0" 2.19868
+cap "br_3" "vdd_uq0" 2.19868
+cap "gnd" "bl_4" 16.6307
+cap "en" "bl_4" 30.7936
+cap "vdd" "vdd_uq0" 1814.61
+cap "bl_0" "gnd" 16.6307
+cap "bl_0" "en" 30.7936
+cap "gnd_uq0" "vdd_uq0" 4545.27
+cap "vdd" "data_3" 0.245354
+cap "data_0" "vdd_uq0" 0.712763
+cap "br_4" "vdd_uq0" 2.19868
+cap "gnd" "br_1" 22.9823
+cap "br_1" "en" 11.3519
+cap "gnd_uq0" "data_3" 2.15975
+cap "bl_1" "vdd_uq0" 2.73162
+cap "gnd" "br_3" 22.9823
+cap "br_3" "en" 11.3519
+cap "vdd" "gnd" 1901.7
+cap "vdd" "en" 21.797
+cap "data_7" "vdd" 0.245354
+cap "vdd" "br_5" 35.7686
+cap "bl_5" "vdd_uq0" 2.73162
+cap "vdd" "data_4" 0.245354
+cap "data_6" "vdd_uq0" 0.712763
+cap "vdd" "data_1" 0.245354
+cap "en" "br_4" 11.3519
+cap "data_7" "gnd_uq0" 2.15975
+cap "vdd" "bl_7" 17.1791
+cap "br_5" "gnd_uq0" 0.448252
+cap "gnd" "br_4" 22.9823
+cap "data_4" "gnd_uq0" 2.15975
+cap "data_1" "gnd_uq0" 2.15975
+cap "bl_7" "gnd_uq0" 0.562516
+cap "bl_2" "br_2" 532.783
+cap "bl_1" "gnd" 16.6307
+cap "bl_1" "en" 30.7936
+cap "vdd" "bl_6" 17.4343
+cap "br_3" "bl_3" 532.783
+cap "br_7" "vdd_uq0" 2.19868
+cap "gnd" "bl_5" 16.6307
+cap "bl_5" "en" 30.7936
+cap "br_5" "bl_5" 532.783
+cap "vdd" "bl_3" 17.4343
+cap "gnd_uq0" "bl_6" 0.562516
+cap "gnd_uq0" "bl_3" 0.562516
+cap "data_2" "vdd" 0.245354
+cap "bl_0" "br_0" 532.783
+cap "data_2" "gnd_uq0" 2.15975
+cap "br_6" "vdd_uq0" 2.19868
+cap "br_7" "en" 4.90939
+cap "gnd" "br_7" 20.949
+cap "br_7" "bl_7" 532.783
+cap "vdd" "br_0" 35.7686
+cap "vdd" "bl_2" 17.4343
+cap "vdd" "br_2" 35.7686
+cap "br_0" "gnd_uq0" 0.448252
+cap "gnd" "br_6" 22.9823
+cap "br_6" "en" 11.3519
+cap "bl_2" "gnd_uq0" 0.562516
+cap "gnd_uq0" "br_2" 0.448252
+cap "data_3" "vdd_uq0" 0.712763
+cap "vdd" "bl_4" 17.4343
+cap "gnd" "vdd_uq0" 0.926585
+cap "bl_0" "vdd" 17.4343
+cap "data_7" "vdd_uq0" 0.712763
+cap "br_5" "vdd_uq0" 2.19868
+cap "data_4" "vdd_uq0" 0.712763
+cap "data_5" "vdd" 0.245354
+cap "br_6" "bl_6" 532.783
+cap "bl_4" "gnd_uq0" 0.562516
+cap "data_1" "vdd_uq0" 0.712763
+cap "br_4" "bl_4" 532.783
+cap "bl_0" "gnd_uq0" 0.562516
+cap "bl_7" "vdd_uq0" 2.73162
+cap "data_5" "gnd_uq0" 2.15975
+cap "vdd" "br_1" 35.7686
+cap "vdd" "br_3" 35.7686
+cap "br_1" "gnd_uq0" 0.448252
+cap "bl_6" "vdd_uq0" 2.73162
+cap "gnd" "en" 8840.87
+cap "br_3" "gnd_uq0" 0.448252
+cap "br_5" "gnd" 22.9823
+cap "br_5" "en" 11.3519
+cap "vdd_uq0" "bl_3" 2.73162
+cap "vdd" "gnd_uq0" 17.8415
+cap "vdd" "br_4" 35.7686
+cap "bl_1" "br_1" 532.783
+cap "data_0" "vdd" 0.245354
+cap "gnd" "bl_7" 16.3755
+cap "en" "bl_7" 30.5501
+cap "data_2" "vdd_uq0" 0.712763
+cap "data_0" "gnd_uq0" 2.15975
+cap "br_4" "gnd_uq0" 0.448252
+cap "vdd" "bl_1" 17.4343
+cap "sky130_fd_bd_sram__openram_sense_amp_7/VDD" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 0.977662
+cap "sky130_fd_bd_sram__openram_sense_amp_7/VDD" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 3.3985
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 0.676609
+cap "br_0" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" -0.0523093
+cap "br_0" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 14.9801
+cap "sky130_fd_bd_sram__openram_sense_amp_7/VDD" "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" 0.53857
+cap "sky130_fd_bd_sram__openram_sense_amp_7/VDD" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 55.1654
+cap "bl_0" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 22.5049
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" 26.6092
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" 0.00822713
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/GND" -2.26171
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 3.38948
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/vdd" 0.048514
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_6/vdd" 0.00270058
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 0.00686964
+cap "br_0" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 11.1143
+cap "data_0" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 0.0122344
+cap "sky130_fd_bd_sram__openram_sense_amp_7/GND" "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" 9.04029
+cap "bl_0" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 18.8468
+cap "data_0" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 11.3381
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "data_0" 1.69836e-07
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 11.1994
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_6/vdd" 0.29498
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 212.029
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 0.666643
+cap "data_0" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 12.2366
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 11.8477
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 2.5018
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 59.0103
+cap "sky130_fd_bd_sram__openram_sense_amp_6/GND" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 16.9758
+cap "data_1" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 1.69836e-07
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 9.04029
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 44.1445
+cap "bl_1" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 22.5049
+cap "data_1" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 0.0122344
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "br_1" -0.0523093
+cap "sky130_fd_bd_sram__openram_sense_amp_6/GND" "bl_1" 18.8468
+cap "sky130_fd_bd_sram__openram_sense_amp_6/GND" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" -2.26171
+cap "sky130_fd_bd_sram__openram_sense_amp_5/vdd" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 0.00270058
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 0.00822713
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 0.666643
+cap "data_1" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 11.3381
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "br_1" 14.9801
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_5/vdd" 0.29498
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 0.53857
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 0.676609
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 11.1994
+cap "data_1" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 12.2366
+cap "sky130_fd_bd_sram__openram_sense_amp_6/GND" "br_1" 11.1143
+cap "sky130_fd_bd_sram__openram_sense_amp_5/EN" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 11.8477
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 0.00686964
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 2.5018
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 26.6092
+cap "sky130_fd_bd_sram__openram_sense_amp_6/GND" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 3.38948
+cap "sky130_fd_bd_sram__openram_sense_amp_5/vdd" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 0.048514
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" 173.718
+cap "sky130_fd_bd_sram__openram_sense_amp_5/GND" "sky130_fd_bd_sram__openram_sense_amp_5/VDD" 27.5559
+cap "sky130_fd_bd_sram__openram_sense_amp_5/EN" "sky130_fd_bd_sram__openram_sense_amp_5/GND" 0.323984
+cap "sky130_fd_bd_sram__openram_sense_amp_5/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/VDD" 96.0567
+cap "sky130_fd_bd_sram__openram_sense_amp_5/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 1.91312
+cap "en" "vdd_uq0" 9.93455
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/a_96_1989#" 11.1994
+cap "gnd" "en" 3.0655
+cap "br_2" "vdd" -0.0523093
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_5/a_96_1989#" 2.5018
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" "vdd" 0.83355
+cap "vdd" "data_2" 0.0122344
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_184_1989#" "vdd_uq0" 0.676609
+cap "br_2" "vdd_uq0" 14.9801
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_5/a_184_1989#" 0.00686964
+cap "vdd" "vdd_uq0" 128.07
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" "vdd_uq0" 26.6092
+cap "vdd_uq0" "data_2" 11.3381
+cap "gnd" "br_2" 11.1143
+cap "gnd" "vdd" 31.0758
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" 9.04029
+cap "gnd" "data_2" 12.2366
+cap "bl_2" "vdd_uq0" 22.5049
+cap "en" "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" 0.00822713
+cap "en" "vdd" 0.669343
+cap "gnd" "vdd_uq0" -2.26171
+cap "en" "data_2" 1.69836e-07
+cap "gnd" "bl_2" 18.8468
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_96_1989#" "gnd" 2.5018
+cap "sky130_fd_bd_sram__openram_sense_amp_3/vdd" "en" 0.00270058
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "vdd_uq0" 15.706
+cap "data_3" "gnd" 12.2366
+cap "bl_3" "gnd" 18.8468
+cap "en" "gnd" 3.38948
+cap "gnd" "vdd" 34.6782
+cap "data_3" "bl_3" -1.42109e-14
+cap "data_3" "en" 1.69836e-07
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_96_1989#" "vdd_uq0" 11.1994
+cap "data_3" "vdd" 0.0122344
+cap "gnd" "br_3" 11.1143
+cap "gnd" "vdd_uq0" -0.960967
+cap "data_3" "vdd_uq0" 11.3381
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_184_1989#" "gnd" 0.00686964
+cap "bl_3" "vdd" 1.42109e-14
+cap "en" "vdd" 0.666643
+cap "bl_3" "vdd_uq0" 22.5049
+cap "vdd" "br_3" -0.0523093
+cap "vdd_uq0" "vdd" 133.252
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "gnd" 5.90397
+cap "en" "vdd_uq0" 11.8376
+cap "vdd_uq0" "br_3" 14.9801
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_184_1989#" "vdd_uq0" 0.676609
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "bl_3" -3.55271e-15
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "en" 0.00705042
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "vdd" 0.479403
+cap "vdd_uq0" "vdd" 90.823
+cap "en" "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" 0.00117671
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "gnd" 3.13632
+cap "vdd_uq0" "gnd" -1.30096
+cap "vdd" "gnd" 23.9534
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" 10.8819
+cap "vdd" "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" 0.354147
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/vdd" 0.29498
+cap "data_4" "vdd_uq0" 11.3381
+cap "data_4" "bl_4" -1.42109e-14
+cap "vdd" "vdd_uq0" 187.003
+cap "en" "gnd" 3.38948
+cap "vdd" "bl_4" 1.42109e-14
+cap "vdd" "data_4" 0.0122344
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" 26.6092
+cap "br_4" "gnd" 11.1143
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" "bl_4" -3.55271e-15
+cap "en" "sky130_fd_bd_sram__openram_sense_amp_2/vdd" 0.00270058
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_3/a_184_1989#" 0.676609
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_3/a_96_1989#" 2.5018
+cap "vdd" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" 0.53857
+cap "en" "vdd_uq0" 11.8477
+cap "gnd" "vdd_uq0" -2.26171
+cap "en" "data_4" 1.69836e-07
+cap "gnd" "bl_4" 18.8468
+cap "br_4" "vdd_uq0" 14.9801
+cap "en" "vdd" 0.666643
+cap "gnd" "data_4" 12.2366
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/vdd" 0.048514
+cap "gnd" "vdd" 47.9663
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_96_1989#" "vdd_uq0" 11.1994
+cap "br_4" "vdd" -0.0523093
+cap "en" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" 0.00822713
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" 9.04029
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_3/a_184_1989#" 0.00686964
+cap "vdd_uq0" "bl_4" 22.5049
+cap "sky130_fd_bd_sram__openram_sense_amp_2/VDD" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 16.9758
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 59.0103
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 0.53857
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 9.04029
+cap "data_5" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 0.0122344
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 52.3213
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "data_5" 12.2366
+cap "bl_5" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 18.8468
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 2.5018
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 26.6092
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/vdd" 0.048514
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/a_184_1989#" 0.00686964
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 202.142
+cap "data_5" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 11.3381
+cap "bl_5" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 22.5049
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" -2.26171
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 11.1994
+cap "sky130_fd_bd_sram__openram_sense_amp_2/VDD" "br_5" -0.0523093
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 0.676609
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "br_5" 11.1143
+cap "sky130_fd_bd_sram__openram_sense_amp_1/vdd" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 0.00270058
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 0.00822713
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" "br_5" 14.9801
+cap "sky130_fd_bd_sram__openram_sense_amp_2/VDD" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 0.666643
+cap "data_5" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 1.69836e-07
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 3.38948
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_1/vdd" 0.29498
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 11.8477
+cap "sky130_fd_bd_sram__openram_sense_amp_1/VDD" "sky130_fd_bd_sram__openram_sense_amp_1/GND" 19.8199
+cap "sky130_fd_bd_sram__openram_sense_amp_1/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/VDD" 68.8969
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "data_6" 0.0122344
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" -2.26171
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" 0.00822713
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" 38.8118
+cap "data_6" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 1.69836e-07
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "bl_6" 22.5049
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_96_1989#" 11.1994
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" 9.04029
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" 0.00686964
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" 3.38948
+cap "br_6" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" 11.1143
+cap "data_6" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" 12.2366
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 155.23
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" 26.6092
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_184_1989#" 0.676609
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 11.8477
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" 0.83355
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "bl_6" 18.8468
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "br_6" 14.9801
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_96_1989#" 2.5018
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.669343
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "data_6" 11.3381
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "br_6" -0.0523093
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 8.88178e-16
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" 0.00281988
+cap "data_7" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 1.69836e-07
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 8.99461
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 5.79235
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.137337
+cap "data_7" "bl_7" -1.42109e-14
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 5.03966
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 0.0911501
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "bl_7" 13.839
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "bl_7" 1.42109e-14
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 2.16319
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 1.48269
+cap "data_7" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 9.82851
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "data_7" 0.0122344
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 2.81049
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "bl_7" 12.262
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 104.568
+cap "data_7" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 10.733
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" 0.274991
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 29.4913
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 0.714752
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.000118182
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "br_7" -0.0523093
+cap "br_7" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 14.642
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "br_7" 10.7762
+cap "data_7" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 1.34633
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 0.35395
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 6.05532
+cap "data_7" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 1.34634
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 1.85982
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 62.307
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.401618
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 11.1668
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" -3.01882
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" 0.00404976
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 2.20474
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 0.338604
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 0.00666253
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 8.37861
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/GND" 6.30184
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 0.384206
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 21.5695
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 6.21654
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 0.191209
+cap "sky130_fd_bd_sram__openram_sense_amp_7/GND" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 1.79593
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 0.0545893
+cap "sky130_fd_bd_sram__openram_sense_amp_7/GND" "data_0" 0.132609
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" 0.629434
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "data_0" 3.76315e-06
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 3.3616
+cap "sky130_fd_bd_sram__openram_sense_amp_7/VDD" "bl_0" 11.1477
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 19.736
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_7/EN" 2.59036
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" "br_0" 0.0405498
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 26.2382
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 2.96326
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 35.8456
+cap "sky130_fd_bd_sram__openram_sense_amp_7/GND" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 116.87
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd" "sky130_fd_bd_sram__openram_sense_amp_7/EN" 0.00152642
+cap "br_0" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" -17.084
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "bl_0" -0.227137
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/a_184_1989#" 0.00550769
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "bl_0" -13.9878
+cap "sky130_fd_bd_sram__openram_sense_amp_7/GND" "bl_0" 3.83121
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 9.71839
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_7/EN" 0.540859
+cap "sky130_fd_bd_sram__openram_sense_amp_7/VDD" "data_0" 3.95853
+cap "br_0" "bl_0" -532.783
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/a_96_1989#" 0.0798831
+cap "sky130_fd_bd_sram__openram_sense_amp_7/GND" "sky130_fd_bd_sram__openram_sense_amp_7/a_96_1989#" 12.2747
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/a_96_1989#" 12.0588
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_7/VDD" 34.7316
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/EN" 0.566858
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 0.153486
+cap "sky130_fd_bd_sram__openram_sense_amp_7/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_6/vdd" 0.274045
+cap "sky130_fd_bd_sram__openram_sense_amp_7/EN" "sky130_fd_bd_sram__openram_sense_amp_7/GND" 12.3143
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "br_0" -0.185233
+cap "br_0" "sky130_fd_bd_sram__openram_sense_amp_7/EN" 0.380277
+cap "br_0" "sky130_fd_bd_sram__openram_sense_amp_7/GND" -11.0062
+cap "sky130_fd_bd_sram__openram_sense_amp_6/EN" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 3.32008
+cap "sky130_fd_bd_sram__openram_sense_amp_6/GND" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 31.1838
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 0.540859
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 3.3616
+cap "br_1" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" -17.084
+cap "br_1" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 0.380277
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 33.6901
+cap "bl_1" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 3.83121
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 0.153486
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" 0.629434
+cap "data_1" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 3.76315e-06
+cap "data_1" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 3.95853
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/a_96_1989#" 0.0798831
+cap "sky130_fd_bd_sram__openram_sense_amp_5/EN" "sky130_fd_bd_sram__openram_sense_amp_5/vdd" 0.00152642
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_5/vdd" 0.0545893
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 9.71839
+cap "br_1" "sky130_fd_bd_sram__openram_sense_amp_6/GND" -11.0062
+cap "br_1" "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" 0.0405498
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 2.59036
+cap "sky130_fd_bd_sram__openram_sense_amp_5/EN" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 12.3143
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 96.6255
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 34.7316
+cap "bl_1" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" -0.227137
+cap "sky130_fd_bd_sram__openram_sense_amp_5/EN" "sky130_fd_bd_sram__openram_sense_amp_6/a_96_1989#" 12.0588
+cap "data_1" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 0.132609
+cap "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_6/a_96_1989#" 26.2382
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_5/vdd" 0.274045
+cap "bl_1" "br_1" -532.783
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/a_184_1989#" 0.00550769
+cap "bl_1" "sky130_fd_bd_sram__openram_sense_amp_5/EN" -13.9878
+cap "br_1" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" -0.185233
+cap "bl_1" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 11.1477
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 0.566858
+cap "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/VDD" 2.96326
+cap "sky130_fd_bd_sram__openram_sense_amp_6/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_6/GND" 19.736
+cap "sky130_fd_bd_sram__openram_sense_amp_7/vdd" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 0.0148549
+cap "sky130_fd_bd_sram__openram_sense_amp_6/GND" "sky130_fd_bd_sram__openram_sense_amp_6/a_96_1989#" 12.2747
+cap "sky130_fd_bd_sram__openram_sense_amp_5/GND" "sky130_fd_bd_sram__openram_sense_amp_5/VDD" 50.6191
+cap "sky130_fd_bd_sram__openram_sense_amp_5/GND" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 3.68549
+cap "sky130_fd_bd_sram__openram_sense_amp_5/VDD" "sky130_fd_bd_sram__openram_sense_amp_5/EN" 13.1497
+cap "sky130_fd_bd_sram__openram_sense_amp_5/EN" "sky130_fd_bd_sram__openram_sense_amp_5/vdd_uq0" 0.151088
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_184_1989#" "vdd" 3.3616
+cap "bl_2" "vdd_uq0" -0.227137
+cap "bl_2" "gnd" 3.83121
+cap "bl_2" "en" -13.9878
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_184_1989#" "vdd_uq0" 0.00550769
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_184_1989#" "gnd" 9.71839
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_184_1989#" "en" 0.540859
+cap "vdd" "br_2" -17.084
+cap "vdd" "sky130_fd_bd_sram__openram_sense_amp_5/a_96_1989#" 26.2382
+cap "vdd" "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" 35.0056
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" "br_2" 0.0405498
+cap "vdd" "vdd_uq0" 2.96326
+cap "vdd" "gnd" 72.6187
+cap "vdd" "en" 23.4524
+cap "vdd_uq0" "br_2" -0.185233
+cap "gnd" "br_2" -11.0062
+cap "en" "br_2" 0.380277
+cap "vdd" "data_2" 3.95853
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/a_96_1989#" 0.0798831
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_5/a_96_1989#" 12.2747
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" 19.736
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_96_1989#" "en" 12.0588
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" 0.629434
+cap "sky130_fd_bd_sram__openram_sense_amp_5/a_154_1598#" "en" 2.59036
+cap "gnd" "vdd_uq0" 0.153486
+cap "gnd" "en" 8.66883
+cap "vdd_uq0" "en" 0.415771
+cap "vdd" "bl_2" 11.1477
+cap "gnd" "data_2" 0.132609
+cap "bl_2" "br_2" -532.783
+cap "en" "data_2" 3.76315e-06
+cap "br_3" "vdd_uq0" -0.185233
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_96_1989#" "vdd_uq0" 0.0798831
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_96_1989#" "gnd" 12.2747
+cap "br_3" "gnd" -4.57921
+cap "data_3" "vdd" 3.95853
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_96_1989#" "en" 12.0588
+cap "br_3" "en" 0.380277
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "vdd" 27.3822
+cap "sky130_fd_bd_sram__openram_sense_amp_3/vdd" "en" 0.00152642
+cap "vdd" "bl_3" 11.1477
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "bl_3" -1.77636e-15
+cap "data_3" "gnd" 0.132609
+cap "vdd_uq0" "vdd" 3.03169
+cap "vdd" "gnd" 70.4937
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "vdd_uq0" 0.304161
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "gnd" 13.9381
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_184_1989#" "vdd" 3.3616
+cap "data_3" "en" 3.76315e-06
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "en" 2.14723
+cap "vdd" "en" 31.8348
+cap "vdd_uq0" "bl_3" -0.227137
+cap "gnd" "bl_3" 3.83121
+cap "vdd_uq0" "gnd" 0.146258
+cap "en" "bl_3" -13.9878
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_184_1989#" "vdd_uq0" 0.00550769
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_184_1989#" "gnd" 8.37915
+cap "vdd_uq0" "en" 0.566858
+cap "gnd" "en" 11.379
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_96_1989#" "vdd" 26.2382
+cap "br_3" "vdd" -17.084
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "br_3" 0.0405498
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_184_1989#" "en" 0.540859
+cap "sky130_fd_bd_sram__openram_sense_amp_3/vdd" "vdd" 0.00584135
+cap "sky130_fd_bd_sram__openram_sense_amp_3/vdd" "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" 0.0146957
+cap "br_3" "bl_3" -532.783
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_96_1989#" "bl_3" 1.06581e-14
+cap "vdd_uq0" "vdd" -0.0698202
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "vdd" 7.75062
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_4/a_184_1989#" 1.33924
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "en" 0.5212
+cap "gnd" "vdd" 52.7426
+cap "gnd" "en" 0.935286
+cap "gnd" "br_3" -6.42697
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "vdd_uq0" 0.325272
+cap "en" "vdd" 4.70353
+cap "gnd" "vdd_uq0" 0.00722806
+cap "sky130_fd_bd_sram__openram_sense_amp_4/a_154_1598#" "gnd" 6.00057
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_96_1989#" "en" 12.0588
+cap "bl_4" "en" -13.9878
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" 0.274045
+cap "data_4" "en" 3.76315e-06
+cap "bl_4" "vdd" 11.1477
+cap "br_4" "vdd_uq0" -0.185233
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" "en" 2.59036
+cap "gnd" "en" 12.3143
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_96_1989#" "vdd" 26.2382
+cap "data_4" "vdd" 3.95853
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_3/a_184_1989#" 9.71839
+cap "gnd" "vdd" 103.646
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" "vdd" 34.7316
+cap "vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_3/a_184_1989#" 0.00550769
+cap "en" "vdd_uq0" 0.566858
+cap "br_4" "en" 0.380277
+cap "bl_4" "sky130_fd_bd_sram__openram_sense_amp_3/a_96_1989#" 1.06581e-14
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd" "en" 0.00152642
+cap "vdd_uq0" "vdd" 2.96326
+cap "br_4" "vdd" -17.084
+cap "bl_4" "gnd" 3.83121
+cap "bl_4" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" -1.77636e-15
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_3/a_96_1989#" 12.2747
+cap "gnd" "data_4" 0.132609
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd" "vdd" 0.0545893
+cap "en" "sky130_fd_bd_sram__openram_sense_amp_3/a_184_1989#" 0.540859
+cap "gnd" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" 19.736
+cap "vdd" "sky130_fd_bd_sram__openram_sense_amp_3/a_184_1989#" 3.3616
+cap "en" "vdd" 34.4524
+cap "bl_4" "vdd_uq0" -0.227137
+cap "bl_4" "br_4" -532.783
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_96_1989#" "vdd_uq0" 0.0798831
+cap "gnd" "vdd_uq0" 0.153486
+cap "gnd" "br_4" -11.0062
+cap "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" "vdd_uq0" 0.629434
+cap "br_4" "sky130_fd_bd_sram__openram_sense_amp_3/a_154_1598#" 0.0405498
+cap "sky130_fd_bd_sram__openram_sense_amp_2/EN" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 3.32008
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 31.1838
+cap "data_5" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 3.95853
+cap "sky130_fd_bd_sram__openram_sense_amp_1/vdd" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 0.00152642
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" 19.736
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 9.71839
+cap "bl_5" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 3.83121
+cap "data_5" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 3.76315e-06
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 34.7316
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 3.3616
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 12.2747
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 111.646
+cap "br_5" "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" 0.0405498
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 2.59036
+cap "bl_5" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 11.1477
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 0.540859
+cap "sky130_fd_bd_sram__openram_sense_amp_3/vdd" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 0.0148549
+cap "br_5" "sky130_fd_bd_sram__openram_sense_amp_2/GND" -11.0062
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 0.629434
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 12.3143
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 0.00550769
+cap "bl_5" "br_5" -532.783
+cap "bl_5" "sky130_fd_bd_sram__openram_sense_amp_2/EN" -13.9878
+cap "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 0.153486
+cap "sky130_fd_bd_sram__openram_sense_amp_1/vdd" "sky130_fd_bd_sram__openram_sense_amp_2/a_154_1598#" 0.274045
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 26.2382
+cap "bl_5" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" -0.227137
+cap "br_5" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" -17.084
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 12.0588
+cap "sky130_fd_bd_sram__openram_sense_amp_2/EN" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 35.2893
+cap "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 2.96326
+cap "sky130_fd_bd_sram__openram_sense_amp_2/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 0.0798831
+cap "data_5" "sky130_fd_bd_sram__openram_sense_amp_2/GND" 0.132609
+cap "br_5" "sky130_fd_bd_sram__openram_sense_amp_2/EN" 0.380277
+cap "sky130_fd_bd_sram__openram_sense_amp_1/vdd" "sky130_fd_bd_sram__openram_sense_amp_2/VDD" 0.0545893
+cap "br_5" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" -0.185233
+cap "sky130_fd_bd_sram__openram_sense_amp_2/EN" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" 0.566858
+cap "sky130_fd_bd_sram__openram_sense_amp_1/VDD" "sky130_fd_bd_sram__openram_sense_amp_1/EN" 3.87632
+cap "sky130_fd_bd_sram__openram_sense_amp_1/GND" "sky130_fd_bd_sram__openram_sense_amp_1/VDD" 36.4083
+cap "bl_6" "br_6" -532.783
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" 19.736
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.540859
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.00550769
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" 2.59036
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 12.3143
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 3.3616
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_2/vdd" 0.0148549
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_96_1989#" 12.2747
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" 0.629434
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.153486
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "data_6" 0.132609
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 35.0056
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_1/a_96_1989#" 12.0588
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 86.8295
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.566858
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_154_1598#" "br_6" 0.0405498
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "data_6" 3.76315e-06
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "bl_6" 3.83121
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/a_96_1989#" 0.0798831
+cap "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "br_6" -11.0062
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 32.6487
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "bl_6" -13.9878
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_1/a_96_1989#" 26.2382
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 2.96326
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "br_6" 0.380277
+cap "data_6" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 3.95853
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "bl_6" -0.227137
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "br_6" -0.185233
+cap "sky130_fd_bd_sram__openram_sense_amp_1/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" 9.71839
+cap "bl_6" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 11.1477
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "br_6" -17.084
+cap "data_7" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 3.95853
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" -0.0868466
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" -3.55271e-15
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 4.54384
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" 7.10543e-15
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 6.77389
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.387592
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.0482029
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 11.4733
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" 0.219519
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 21.648
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 56.1496
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" 8.41135
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 0.728559
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" 6.28433
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "data_7" 3.76315e-06
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 0.885071
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" 0.00210588
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.0141564
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 4.08234
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "data_7" 0.132609
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 0.0694647
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 1.36479
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/EN" -14.2482
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 18.7882
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 6.87059
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "bl_7" 1.60116
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 4.44089e-16
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 1.8618
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "br_7" -0.185233
+cap "bl_7" "br_7" -532.783
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.105284
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "bl_7" 2.23005
+cap "sky130_fd_bd_sram__openram_sense_amp_0/EN" "br_7" 0.380277
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 5.32497
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 1.99681
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" 3.96553
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" "br_7" 0.0405498
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 2.05323
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 15.6537
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 6.60387
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.00340181
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 10.6411
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "br_7" -9.77467
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.32134
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" 6.45581
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" -0.140291
+cap "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.170676
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" 25.3202
+cap "bl_7" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.260416
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.121523
+cap "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "br_7" -15.7285
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/VDD" 34.0929
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_96_1989#" "sky130_fd_bd_sram__openram_sense_amp_0/EN" 0.635865
+cap "sky130_fd_bd_sram__openram_sense_amp_0/a_154_1598#" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" 0.560744
+cap "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/a_184_1989#" 3.24948
+merge "sky130_fd_bd_sram__openram_sense_amp_0/EN" "sky130_fd_bd_sram__openram_sense_amp_1/EN" -549.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24128 -1760 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_1/EN" "sky130_fd_bd_sram__openram_sense_amp_1/en"
+merge "sky130_fd_bd_sram__openram_sense_amp_1/en" "sky130_fd_bd_sram__openram_sense_amp_2/EN"
+merge "sky130_fd_bd_sram__openram_sense_amp_2/EN" "sky130_fd_bd_sram__openram_sense_amp_3/EN"
+merge "sky130_fd_bd_sram__openram_sense_amp_3/EN" "sky130_fd_bd_sram__openram_sense_amp_4/EN"
+merge "sky130_fd_bd_sram__openram_sense_amp_4/EN" "sky130_fd_bd_sram__openram_sense_amp_5/EN"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/EN" "sky130_fd_bd_sram__openram_sense_amp_6/EN"
+merge "sky130_fd_bd_sram__openram_sense_amp_6/EN" "sky130_fd_bd_sram__openram_sense_amp_7/EN"
+merge "sky130_fd_bd_sram__openram_sense_amp_7/EN" "en"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/DOUT" "data_2" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_4/BR" "br_3" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_1/BL" "bl_6" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_4/BL" "bl_3" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" -2553.03 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19136 -1568 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/VDD_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_1/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_1/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/VDD_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_2/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_2/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_3/VDD_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_3/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_3/vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_3/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_4/VDD_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_4/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_4/vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_4/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/VDD_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/VDD_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_6/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_6/vdd_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/VDD_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_7/VDD_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_7/vdd_uq0" "vdd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_3/BR" "br_4" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_7/BL" "bl_0" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_2/BR" "br_5" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/GND" "sky130_fd_bd_sram__openram_sense_amp_0/GND_uq0" -2537.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38272 -3136 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_0/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/GND"
+merge "sky130_fd_bd_sram__openram_sense_amp_1/GND" "sky130_fd_bd_sram__openram_sense_amp_1/gnd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_1/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_1/GND_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_1/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/GND"
+merge "sky130_fd_bd_sram__openram_sense_amp_2/GND" "sky130_fd_bd_sram__openram_sense_amp_2/gnd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_2/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_2/GND_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_2/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_3/GND"
+merge "sky130_fd_bd_sram__openram_sense_amp_3/GND" "sky130_fd_bd_sram__openram_sense_amp_3/GND_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_3/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_4/GND_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_4/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_4/GND"
+merge "sky130_fd_bd_sram__openram_sense_amp_4/GND" "sky130_fd_bd_sram__openram_sense_amp_5/GND"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/GND" "sky130_fd_bd_sram__openram_sense_amp_5/gnd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_5/GND_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/GND"
+merge "sky130_fd_bd_sram__openram_sense_amp_6/GND" "sky130_fd_bd_sram__openram_sense_amp_6/gnd_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_6/gnd_uq0" "sky130_fd_bd_sram__openram_sense_amp_6/GND_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_6/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/GND_uq0"
+merge "sky130_fd_bd_sram__openram_sense_amp_7/GND_uq0" "sky130_fd_bd_sram__openram_sense_amp_7/GND"
+merge "sky130_fd_bd_sram__openram_sense_amp_7/GND" "gnd_uq0"
+merge "gnd_uq0" "gnd"
+merge "sky130_fd_bd_sram__openram_sense_amp_1/BR" "br_6" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/BR" "br_7" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/VDD" "sky130_fd_bd_sram__openram_sense_amp_1/VDD" -3006.83 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25792 -1824 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_1/VDD" "sky130_fd_bd_sram__openram_sense_amp_2/VDD"
+merge "sky130_fd_bd_sram__openram_sense_amp_2/VDD" "sky130_fd_bd_sram__openram_sense_amp_3/VDD"
+merge "sky130_fd_bd_sram__openram_sense_amp_3/VDD" "sky130_fd_bd_sram__openram_sense_amp_4/VDD"
+merge "sky130_fd_bd_sram__openram_sense_amp_4/VDD" "sky130_fd_bd_sram__openram_sense_amp_5/VDD"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/VDD" "sky130_fd_bd_sram__openram_sense_amp_6/VDD"
+merge "sky130_fd_bd_sram__openram_sense_amp_6/VDD" "sky130_fd_bd_sram__openram_sense_amp_7/VDD"
+merge "sky130_fd_bd_sram__openram_sense_amp_7/VDD" "vdd"
+merge "sky130_fd_bd_sram__openram_sense_amp_7/BR" "br_0" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_6/BL" "bl_1" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_1/DOUT" "sky130_fd_bd_sram__openram_sense_amp_1/dout" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_1/dout" "data_6"
+merge "sky130_fd_bd_sram__openram_sense_amp_5/BL" "bl_2" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_3/BL" "bl_4" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_4/DOUT" "data_3" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_2/BL" "bl_5" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/BL" "bl_7" -268.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38284 -2320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_7/DOUT" "data_0" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_5/BR" "br_2" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_0/DOUT" "data_7" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_3/DOUT" "data_4" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_6/DOUT" "data_1" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_2/DOUT" "data_5" -83.9642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6900 -392 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_sense_amp_6/BR" "br_1" -247.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31192 -2284 0 0 0 0 0 0 0 0 0 0

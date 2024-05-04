@@ -1,0 +1,64 @@
+timestamp 1543373571
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_pdriver_0 subbyte2_pdriver_0_0 1 0 378 0 1 0
+use subbyte2_pnand2 subbyte2_pnand2_0 1 0 0 0 1 0
+port "gnd" 5 697 0 697 0 li
+port "A" 1 129 270 129 270 li
+port "B" 2 229 518 229 518 li
+port "Z" 3 900 691 900 691 li
+port "vdd" 4 697 1414 697 1414 li
+node "gnd" 525 618.445 697 0 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47396 2856 0 0 0 0 0 0 0 0 0 0 0 0
+node "A" 25 36.5033 129 270 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "B" 25 37.1147 229 518 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "Z" 13 19.278 900 691 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_330_674#" 215 237.545 330 674 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19448 1212 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 525 618.445 697 1414 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47396 2856 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "gnd" "B" 2.62198
+cap "Z" "gnd" 1.89854
+cap "gnd" "A" 5.24395
+cap "gnd" "li_330_674#" 7.20328
+cap "B" "vdd" 1.48799
+cap "Z" "vdd" 1.81381
+cap "A" "vdd" 1.15909
+cap "vdd" "li_330_674#" 8.12501
+cap "gnd" "vdd" 21.0629
+cap "Z" "li_330_674#" 1.91814
+cap "gnd" "Z" -2.65514
+cap "subbyte2_pdriver_0_0/A" "Z" 46.4116
+cap "A" "Z" 3.81497
+cap "gnd" "B" -4.1513
+cap "B" "subbyte2_pdriver_0_0/A" 38.3531
+cap "gnd" "vdd" -22.406
+cap "vdd" "subbyte2_pdriver_0_0/A" 43.7537
+cap "gnd" "subbyte2_pnand2_0/a_144_51#" 0.121283
+cap "vdd" "A" 6.90762
+cap "B" "Z" 10.231
+cap "gnd" "subbyte2_pdriver_0_0/A" 20.2889
+cap "vdd" "Z" -9.1196
+cap "A" "subbyte2_pdriver_0_0/A" 0.52624
+cap "gnd" "A" -7.03659
+cap "Z" "subbyte2_pnand2_0/a_144_51#" 0.0424192
+cap "vdd" "B" 41.2098
+cap "gnd" "vdd" -0.271662
+cap "B" "subbyte2_pdriver_0_0/A" 0.387097
+cap "vdd" "subbyte2_pdriver_0_0/A" -3.34223
+cap "vdd" "A" -0.660627
+cap "gnd" "vdd" -11.0301
+cap "vdd" "Z" -1.20921
+cap "vdd" "B" -0.866287
+cap "gnd" "vdd" -0.271662
+merge "subbyte2_pnand2_0/vdd" "subbyte2_pnand2_0/w_n36_679#" -894.642 0 0 0 0 -57024 -1728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -47396 -2924 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pnand2_0/w_n36_679#" "subbyte2_pdriver_0_0/vdd"
+merge "subbyte2_pdriver_0_0/vdd" "vdd"
+merge "subbyte2_pnand2_0/Z" "subbyte2_pdriver_0_0/A" -563.882 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16796 -1124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pdriver_0_0/A" "li_330_674#"
+merge "subbyte2_pdriver_0_0/Z" "Z" -97.3836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pnand2_0/gnd" "subbyte2_pdriver_0_0/gnd" -698.233 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -47396 -2924 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pdriver_0_0/gnd" "gnd"
+merge "subbyte2_pnand2_0/A" "A" -44.2691 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pnand2_0/B" "B" -210.932 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0 0 0 0 0

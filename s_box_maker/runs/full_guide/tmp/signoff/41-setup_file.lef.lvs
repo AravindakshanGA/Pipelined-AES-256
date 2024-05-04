@@ -1,0 +1,1 @@
+lvs {/openlane/designs/s_box_maker/runs/full_guide/results/signoff/s_box_maker.spice s_box_maker} {/openlane/designs/s_box_maker/runs/full_guide/tmp/signoff/38-s_box_maker.pnl.v s_box_maker} /home/shanmugam/.volare/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/s_box_maker/runs/full_guide/logs/signoff/41-s_box_maker.lef.lvs.log -json

@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1543373571
+<< checkpaint >>
+rect -1260 -1342 3650 6998
+<< locali >>
+rect 2165 4970 2199 5004
+rect 2165 3480 2199 3514
+rect 2165 2142 2199 2176
+rect 2165 652 2199 686
+<< metal1 >>
+rect 239 2130 285 2188
+rect 115 640 161 698
+<< metal3 >>
+rect 319 5624 325 5688
+rect 389 5624 395 5688
+rect 1529 4210 1535 4274
+rect 1599 4210 1605 4274
+rect 319 2796 325 2860
+rect 389 2796 395 2860
+rect 1529 1382 1535 1446
+rect 1599 1382 1605 1446
+rect 319 -32 325 32
+rect 389 -32 395 32
+<< via3 >>
+rect 325 5624 389 5688
+rect 1535 4210 1599 4274
+rect 325 2796 389 2860
+rect 1535 1382 1599 1446
+rect 325 -32 389 32
+<< metal4 >>
+rect 324 5688 390 5738
+rect 324 5624 325 5688
+rect 389 5624 390 5688
+rect 324 2860 390 5624
+rect 324 2796 325 2860
+rect 389 2796 390 2860
+rect 324 32 390 2796
+rect 324 -32 325 32
+rect 389 -32 390 32
+rect 324 -82 390 -32
+rect 1534 4274 1600 5689
+rect 1534 4210 1535 4274
+rect 1599 4210 1600 4274
+rect 1534 1446 1600 4210
+rect 1534 1382 1535 1446
+rect 1599 1382 1600 1446
+rect 1534 -33 1600 1382
+use subbyte2_hierarchical_predecode2x4_0  subbyte2_hierarchical_predecode2x4_0_0
+timestamp 1543373571
+transform 1 0 0 0 1 0
+box 0 -49 2390 5705
+<< labels >>
+rlabel metal1 s 115 640 161 698 4 in_0
+port 3 nsew
+rlabel metal1 s 239 2130 285 2188 4 in_1
+port 5 nsew
+rlabel locali s 2182 669 2182 669 4 out_0
+port 6 nsew
+rlabel locali s 2182 2159 2182 2159 4 out_1
+port 7 nsew
+rlabel locali s 2182 3497 2182 3497 4 out_2
+port 8 nsew
+rlabel locali s 2182 4987 2182 4987 4 out_3
+port 9 nsew
+rlabel metal4 s 1534 -33 1600 5689 4 vdd
+port 11 nsew
+rlabel metal4 s 324 -82 390 5738 4 gnd
+port 13 nsew
+<< properties >>
+string FIXED_BBOX 0 -82 2354 5738
+<< end >>

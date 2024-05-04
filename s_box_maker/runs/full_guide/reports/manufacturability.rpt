@@ -1,0 +1,19 @@
+Design Name: s_box_maker
+Run Directory: /openlane/designs/s_box_maker/runs/full_guide
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/s_box_maker/runs/full_guide/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/s_box_maker/runs/full_guide/logs/signoff/41-s_box_maker.lef.lvs.log
+Number of nets: 502                        |Number of nets: 502                        
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/s_box_maker/runs/full_guide/logs/signoff/44-arc.log
+Pin violations: 0
+Net violations: 0

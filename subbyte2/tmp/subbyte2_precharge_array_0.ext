@@ -1,0 +1,1560 @@
+timestamp 1543373570
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_precharge_1 subbyte2_precharge_1_32 1 0 1919 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_31 -1 0 3167 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_30 1 0 3167 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_29 -1 0 4415 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_28 1 0 4415 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_27 -1 0 5663 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_26 1 0 5663 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_25 -1 0 6911 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_24 1 0 6911 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_23 -1 0 8159 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_22 1 0 8159 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_21 -1 0 9407 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_20 1 0 9407 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_19 -1 0 10655 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_18 1 0 10655 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_17 -1 0 11903 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_16 1 0 11903 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_15 -1 0 13151 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_14 1 0 13151 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_13 -1 0 14399 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_12 1 0 14399 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_11 -1 0 15647 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_10 1 0 15647 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_9 -1 0 16895 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_8 1 0 16895 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_7 -1 0 18143 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_6 1 0 18143 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_5 -1 0 19391 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_4 1 0 19391 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_3 -1 0 20639 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_2 1 0 20639 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_1 -1 0 21887 0 1 0
+use subbyte2_precharge_1 subbyte2_precharge_1_0 1 0 21887 0 1 0
+port "en_bar" 67 33 -8 22544 58 m3
+port "br_32" 66 22417 0 22445 722 m1
+port "bl_32" 65 21953 0 21981 722 m1
+port "bl_31" 63 21793 0 21821 722 m1
+port "br_31" 64 21329 0 21357 722 m1
+port "br_30" 62 21169 0 21197 722 m1
+port "bl_30" 61 20705 0 20733 722 m1
+port "bl_29" 59 20545 0 20573 722 m1
+port "br_29" 60 20081 0 20109 722 m1
+port "br_28" 58 19921 0 19949 722 m1
+port "bl_28" 57 19457 0 19485 722 m1
+port "bl_27" 55 19297 0 19325 722 m1
+port "br_27" 56 18833 0 18861 722 m1
+port "br_26" 54 18673 0 18701 722 m1
+port "bl_26" 53 18209 0 18237 722 m1
+port "bl_25" 51 18049 0 18077 722 m1
+port "br_25" 52 17585 0 17613 722 m1
+port "br_24" 50 17425 0 17453 722 m1
+port "bl_24" 49 16961 0 16989 722 m1
+port "bl_23" 47 16801 0 16829 722 m1
+port "br_23" 48 16337 0 16365 722 m1
+port "br_22" 46 16177 0 16205 722 m1
+port "bl_22" 45 15713 0 15741 722 m1
+port "bl_21" 43 15553 0 15581 722 m1
+port "br_21" 44 15089 0 15117 722 m1
+port "br_20" 42 14929 0 14957 722 m1
+port "bl_20" 41 14465 0 14493 722 m1
+port "bl_19" 39 14305 0 14333 722 m1
+port "br_19" 40 13841 0 13869 722 m1
+port "br_18" 38 13681 0 13709 722 m1
+port "bl_18" 37 13217 0 13245 722 m1
+port "bl_17" 35 13057 0 13085 722 m1
+port "br_17" 36 12593 0 12621 722 m1
+port "br_16" 34 12433 0 12461 722 m1
+port "bl_16" 33 11969 0 11997 722 m1
+port "bl_15" 31 11809 0 11837 722 m1
+port "br_15" 32 11345 0 11373 722 m1
+port "br_14" 30 11185 0 11213 722 m1
+port "bl_14" 29 10721 0 10749 722 m1
+port "bl_13" 27 10561 0 10589 722 m1
+port "br_13" 28 10097 0 10125 722 m1
+port "br_12" 26 9937 0 9965 722 m1
+port "bl_12" 25 9473 0 9501 722 m1
+port "bl_11" 23 9313 0 9341 722 m1
+port "br_11" 24 8849 0 8877 722 m1
+port "br_10" 22 8689 0 8717 722 m1
+port "bl_10" 21 8225 0 8253 722 m1
+port "bl_9" 19 8065 0 8093 722 m1
+port "br_9" 20 7601 0 7629 722 m1
+port "br_8" 18 7441 0 7469 722 m1
+port "bl_8" 17 6977 0 7005 722 m1
+port "bl_7" 15 6817 0 6845 722 m1
+port "br_7" 16 6353 0 6381 722 m1
+port "br_6" 14 6193 0 6221 722 m1
+port "bl_6" 13 5729 0 5757 722 m1
+port "bl_5" 11 5569 0 5597 722 m1
+port "br_5" 12 5105 0 5133 722 m1
+port "br_4" 10 4945 0 4973 722 m1
+port "bl_4" 9 4481 0 4509 722 m1
+port "bl_3" 7 4321 0 4349 722 m1
+port "br_3" 8 3857 0 3885 722 m1
+port "br_2" 6 3697 0 3725 722 m1
+port "bl_2" 5 3233 0 3261 722 m1
+port "bl_1" 3 3073 0 3101 722 m1
+port "br_1" 4 2609 0 2637 722 m1
+port "br_0" 2 2449 0 2477 722 m1
+port "bl_0" 1 1985 0 2013 722 m1
+port "vdd" 68 33 595 22544 661 m3
+node "en_bar" 33 8427.9 33 -8 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136752 8580 1485726 45154 0 0 0 0 0 0
+node "br_32" 3 230.134 22417 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_32" 3 100.283 21953 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_31" 3 100.263 21793 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_31" 3 102.519 21329 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_30" 3 102.517 21169 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_30" 3 100.231 20705 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_29" 3 100.231 20545 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_29" 3 102.517 20081 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_28" 3 102.517 19921 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_28" 3 100.231 19457 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_27" 3 100.231 19297 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_27" 3 102.517 18833 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_26" 3 102.517 18673 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_26" 3 100.231 18209 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_25" 3 100.231 18049 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_25" 3 102.517 17585 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_24" 3 102.517 17425 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_24" 3 100.231 16961 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_23" 3 100.231 16801 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_23" 3 102.517 16337 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_22" 3 102.517 16177 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_22" 3 100.231 15713 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_21" 3 100.231 15553 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_21" 3 102.517 15089 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_20" 3 102.517 14929 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_20" 3 100.231 14465 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_19" 3 100.231 14305 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_19" 3 102.517 13841 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_18" 3 102.517 13681 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_18" 3 100.231 13217 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_17" 3 100.231 13057 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_17" 3 102.517 12593 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_16" 3 102.517 12433 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_16" 3 100.231 11969 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_15" 3 100.231 11809 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_15" 3 102.517 11345 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_14" 3 102.517 11185 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_14" 3 100.231 10721 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_13" 3 100.231 10561 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_13" 3 102.517 10097 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_12" 3 102.517 9937 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_12" 3 100.231 9473 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_11" 3 100.231 9313 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_11" 3 102.517 8849 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_10" 3 102.517 8689 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_10" 3 100.231 8225 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_9" 3 100.231 8065 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_9" 3 102.517 7601 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_8" 3 102.517 7441 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_8" 3 100.231 6977 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_7" 3 100.231 6817 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_7" 3 102.517 6353 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_6" 3 102.517 6193 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_6" 3 100.231 5729 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_5" 3 100.231 5569 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_5" 3 102.517 5105 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_4" 3 102.517 4945 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_4" 3 100.231 4481 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_3" 3 100.231 4321 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_3" 3 102.517 3857 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_2" 3 102.517 3697 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_2" 3 100.236 3233 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_1" 3 100.246 3073 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_1" 3 102.554 2609 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "br_0" 3 102.627 2449 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "bl_0" 3 227.847 1985 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20216 1500 0 0 0 0 0 0 0 0 0 0
+node "vdd" 1906 10335.1 33 595 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74052 6600 109824 7656 136752 8580 1485726 45154 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "bl_2" "vdd" 28.28
+cap "bl_21" "bl_22" 174.549
+cap "en_bar" "br_16" 9.70692
+cap "br_20" "en_bar" 9.70692
+cap "bl_0" "en_bar" 16.1045
+cap "vdd" "bl_20" 28.3258
+cap "br_32" "en_bar" 9.11814
+cap "br_17" "en_bar" 9.70692
+cap "br_9" "en_bar" 9.70692
+cap "bl_7" "en_bar" 9.70692
+cap "br_23" "vdd" 17.5441
+cap "bl_11" "vdd" 28.3258
+cap "bl_8" "vdd" 28.3258
+cap "br_3" "en_bar" 9.70692
+cap "br_21" "br_20" 174.549
+cap "br_25" "en_bar" 9.70692
+cap "bl_10" "bl_9" 174.549
+cap "br_4" "br_5" 174.549
+cap "vdd" "bl_14" 28.3258
+cap "vdd" "br_2" 17.5441
+cap "bl_25" "vdd" 28.3258
+cap "vdd" "bl_4" 28.3258
+cap "bl_32" "br_32" 60.6584
+cap "br_1" "vdd" 17.2025
+cap "br_21" "en_bar" 9.70692
+cap "bl_18" "bl_17" 174.549
+cap "bl_7" "br_7" 60.6584
+cap "bl_19" "vdd" 28.3258
+cap "bl_28" "en_bar" 9.70692
+cap "br_31" "vdd" 17.3072
+cap "bl_8" "br_8" 60.6584
+cap "bl_3" "bl_4" 174.549
+cap "bl_12" "en_bar" 9.70692
+cap "br_24" "vdd" 17.5441
+cap "bl_32" "en_bar" 7.6825
+cap "br_30" "br_31" 174.549
+cap "br_10" "br_11" 174.549
+cap "br_7" "en_bar" 9.70692
+cap "bl_6" "en_bar" 9.70692
+cap "vdd" "br_16" 17.5441
+cap "br_27" "br_26" 174.549
+cap "bl_0" "vdd" 35.6871
+cap "vdd" "br_32" 16.3747
+cap "vdd" "br_20" 17.5441
+cap "br_17" "vdd" 17.5441
+cap "br_9" "vdd" 17.5441
+cap "bl_7" "vdd" 28.3258
+cap "bl_23" "bl_24" 174.549
+cap "bl_26" "br_26" 60.6584
+cap "bl_15" "en_bar" 9.70692
+cap "br_6" "en_bar" 9.70692
+cap "br_3" "vdd" 17.5441
+cap "bl_31" "br_31" 60.6584
+cap "br_25" "vdd" 17.5441
+cap "vdd" "en_bar" 2824.61
+cap "br_3" "bl_3" 60.6584
+cap "bl_27" "en_bar" 9.70692
+cap "bl_3" "en_bar" 9.70692
+cap "br_9" "br_8" 174.549
+cap "br_30" "en_bar" 9.6765
+cap "br_21" "vdd" 17.5441
+cap "vdd" "bl_28" 28.3258
+cap "bl_27" "bl_28" 174.549
+cap "bl_14" "br_14" 60.6584
+cap "bl_12" "vdd" 28.3258
+cap "bl_10" "en_bar" 9.70692
+cap "br_6" "br_7" 174.549
+cap "br_6" "bl_6" 60.6584
+cap "en_bar" "br_8" 9.70692
+cap "bl_32" "vdd" 27.0676
+cap "bl_22" "br_22" 60.6584
+cap "br_18" "en_bar" 9.70692
+cap "br_4" "bl_4" 60.6584
+cap "vdd" "br_7" 17.5441
+cap "vdd" "bl_6" 28.3258
+cap "bl_5" "br_5" 60.6584
+cap "bl_31" "en_bar" 9.13399
+cap "br_13" "en_bar" 9.70692
+cap "br_16" "bl_16" 60.6584
+cap "bl_11" "br_11" 60.6584
+cap "bl_29" "br_29" 60.6584
+cap "vdd" "bl_15" 28.3258
+cap "br_6" "vdd" 17.5441
+cap "bl_30" "en_bar" 9.70692
+cap "en_bar" "bl_16" 9.70692
+cap "bl_27" "vdd" 28.3258
+cap "br_1" "br_0" 174.549
+cap "bl_32" "bl_31" 174.549
+cap "bl_3" "vdd" 28.3258
+cap "br_30" "vdd" 17.5095
+cap "br_24" "bl_24" 60.6584
+cap "en_bar" "br_14" 9.70692
+cap "br_4" "en_bar" 9.70692
+cap "bl_10" "vdd" 28.3258
+cap "vdd" "br_8" 17.5441
+cap "vdd" "br_18" 17.5441
+cap "bl_0" "br_0" 60.6584
+cap "bl_2" "bl_1" 174.549
+cap "bl_31" "vdd" 27.4669
+cap "br_17" "bl_17" 60.6584
+cap "bl_13" "bl_14" 174.549
+cap "br_13" "vdd" 17.5441
+cap "br_26" "en_bar" 9.70692
+cap "bl_24" "en_bar" 9.70692
+cap "bl_21" "en_bar" 9.70692
+cap "br_12" "en_bar" 9.70692
+cap "br_11" "en_bar" 9.70692
+cap "bl_19" "br_19" 60.6584
+cap "bl_15" "bl_16" 174.549
+cap "br_0" "en_bar" 9.20359
+cap "bl_17" "en_bar" 9.70692
+cap "bl_21" "br_21" 60.6584
+cap "bl_30" "vdd" 28.3258
+cap "vdd" "bl_16" 28.3258
+cap "br_15" "en_bar" 9.70692
+cap "br_28" "br_29" 174.549
+cap "br_12" "bl_12" 60.6584
+cap "br_1" "bl_1" 60.6584
+cap "br_30" "bl_30" 60.6584
+cap "vdd" "br_14" 17.5441
+cap "br_4" "vdd" 17.5441
+cap "br_23" "bl_23" 60.6584
+cap "en_bar" "bl_22" 9.70692
+cap "br_23" "br_22" 174.549
+cap "bl_29" "en_bar" 9.70692
+cap "en_bar" "br_19" 9.70692
+cap "bl_13" "en_bar" 9.70692
+cap "vdd" "br_26" 17.5441
+cap "bl_24" "vdd" 28.3258
+cap "bl_21" "vdd" 28.3258
+cap "bl_25" "bl_26" 174.549
+cap "br_12" "vdd" 17.5441
+cap "br_11" "vdd" 17.5441
+cap "bl_18" "en_bar" 9.70692
+cap "br_0" "vdd" 16.9026
+cap "bl_15" "br_15" 60.6584
+cap "bl_5" "en_bar" 9.70692
+cap "bl_17" "vdd" 28.3258
+cap "bl_1" "en_bar" 9.62885
+cap "vdd" "br_15" 17.5441
+cap "br_10" "en_bar" 9.70692
+cap "br_5" "en_bar" 9.70692
+cap "bl_2" "br_2" 60.6584
+cap "vdd" "bl_22" 28.3258
+cap "bl_5" "bl_6" 174.549
+cap "br_27" "en_bar" 9.70692
+cap "br_13" "br_12" 174.549
+cap "bl_23" "en_bar" 9.70692
+cap "vdd" "br_19" 17.5441
+cap "bl_19" "bl_20" 174.549
+cap "bl_29" "vdd" 28.3258
+cap "bl_13" "vdd" 28.3258
+cap "bl_26" "en_bar" 9.70692
+cap "en_bar" "br_22" 9.70692
+cap "en_bar" "br_29" 9.70692
+cap "br_9" "bl_9" 60.6584
+cap "bl_18" "vdd" 28.3258
+cap "vdd" "bl_5" 28.3258
+cap "br_20" "bl_20" 60.6584
+cap "vdd" "bl_1" 28.1993
+cap "br_28" "en_bar" 9.70692
+cap "br_18" "br_19" 174.549
+cap "bl_9" "en_bar" 9.70692
+cap "bl_8" "bl_7" 174.549
+cap "bl_2" "en_bar" 9.707
+cap "br_10" "vdd" 17.5441
+cap "vdd" "br_5" 17.5441
+cap "bl_20" "en_bar" 9.70692
+cap "br_28" "bl_28" 60.6584
+cap "br_13" "bl_13" 60.6584
+cap "bl_18" "br_18" 60.6584
+cap "br_15" "br_14" 174.549
+cap "br_23" "en_bar" 9.70692
+cap "bl_11" "en_bar" 9.70692
+cap "bl_8" "en_bar" 9.70692
+cap "br_27" "vdd" 17.5441
+cap "bl_23" "vdd" 28.3258
+cap "br_27" "bl_27" 60.6584
+cap "bl_29" "bl_30" 174.549
+cap "br_3" "br_2" 174.549
+cap "bl_26" "vdd" 28.3258
+cap "bl_14" "en_bar" 9.70692
+cap "vdd" "br_22" 17.5441
+cap "br_10" "bl_10" 60.6584
+cap "br_25" "bl_25" 60.6584
+cap "vdd" "br_29" 17.5441
+cap "br_2" "en_bar" 9.70692
+cap "bl_25" "en_bar" 9.70692
+cap "bl_4" "en_bar" 9.70692
+cap "br_1" "en_bar" 9.48125
+cap "bl_11" "bl_12" 174.549
+cap "bl_19" "en_bar" 9.70692
+cap "br_31" "en_bar" 9.37
+cap "br_24" "br_25" 174.549
+cap "br_17" "br_16" 174.549
+cap "br_24" "en_bar" 9.70692
+cap "br_28" "vdd" 17.5441
+cap "vdd" "bl_9" 28.3258
+cap "subbyte2_precharge_1_32/en_bar" "br_3" -9.54077e-06
+cap "bl_0" "br_1" 1.3652
+cap "subbyte2_precharge_1_32/en_bar" "br_0" 9.34796
+cap "subbyte2_precharge_1_32/en_bar" "bl_2" 0.276711
+cap "bl_2" "br_0" 1.25043
+cap "subbyte2_precharge_1_32/vdd" "subbyte2_precharge_1_32/en_bar" 115.178
+cap "subbyte2_precharge_1_32/en_bar" "br_2" -0.0114404
+cap "subbyte2_precharge_1_32/en_bar" "bl_1" 0.37146
+cap "subbyte2_precharge_1_32/vdd" "br_0" 21.282
+cap "br_2" "br_0" 1.76798
+cap "br_3" "br_1" 0.0280215
+cap "br_0" "bl_1" 1.59274
+cap "subbyte2_precharge_1_32/vdd" "bl_2" 0.275219
+cap "subbyte2_precharge_1_32/vdd" "br_2" 0.105446
+cap "subbyte2_precharge_1_32/en_bar" "bl_0" -0.236693
+cap "subbyte2_precharge_1_32/vdd" "bl_1" 0.365738
+cap "bl_0" "br_0" -61.2016
+cap "subbyte2_precharge_1_32/en_bar" "br_1" 7.46624
+cap "br_0" "br_1" 8.11554
+cap "bl_0" "bl_2" 0.331101
+cap "bl_2" "br_1" 0.378306
+cap "subbyte2_precharge_1_32/vdd" "bl_0" 3.41219
+cap "bl_0" "br_2" 0.222864
+cap "bl_0" "bl_1" 0.495422
+cap "subbyte2_precharge_1_32/vdd" "br_1" 25.6555
+cap "br_2" "br_1" 0.337598
+cap "br_1" "bl_1" -30.6008
+cap "bl_5" "br_3" 0.0586399
+cap "bl_4" "subbyte2_precharge_1_32/en_bar" 0.0947343
+cap "bl_3" "subbyte2_precharge_1_32/vdd" 0.451836
+cap "subbyte2_precharge_1_32/en_bar" "br_3" 13.0452
+cap "subbyte2_precharge_1_26/br" "br_3" 8.00303e-08
+cap "br_4" "br_3" 0.75841
+cap "subbyte2_precharge_1_32/en_bar" "br_2" 12.5193
+cap "bl_2" "subbyte2_precharge_1_32/en_bar" 1.21666
+cap "br_5" "br_3" 0.231007
+cap "br_4" "br_2" 1.76798
+cap "bl_2" "br_4" 0.222864
+cap "bl_2" "br_0" 1.05834
+cap "br_2" "br_0" 0.416396
+cap "bl_1" "bl_4" 0.170661
+cap "bl_1" "br_3" 2.30877
+cap "bl_1" "br_2" 2.59645
+cap "bl_2" "bl_1" 20.5566
+cap "subbyte2_precharge_1_32/vdd" "bl_0" 0.451836
+cap "bl_3" "br_1" 0.100915
+cap "bl_4" "br_3" 0.694835
+cap "bl_2" "bl_4" 0.331101
+cap "bl_4" "br_2" 1.25043
+cap "bl_2" "br_3" 2.51817
+cap "br_2" "br_3" 15.2801
+cap "bl_2" "br_2" -61.2016
+cap "subbyte2_precharge_1_32/vdd" "br_1" 9.98174
+cap "bl_3" "subbyte2_precharge_1_32/en_bar" 0.186624
+cap "bl_0" "br_1" 1.15296
+cap "bl_1" "bl_3" 0.340653
+cap "subbyte2_precharge_1_32/vdd" "subbyte2_precharge_1_32/en_bar" 221.274
+cap "br_4" "subbyte2_precharge_1_32/vdd" 0.105446
+cap "subbyte2_precharge_1_32/vdd" "br_0" 0.920248
+cap "subbyte2_precharge_1_32/en_bar" "bl_0" 0.527263
+cap "bl_3" "br_3" -30.6008
+cap "bl_1" "subbyte2_precharge_1_32/vdd" 16.8312
+cap "bl_3" "br_2" 1.59274
+cap "bl_2" "bl_3" 0.495422
+cap "bl_1" "bl_0" 0.495422
+cap "bl_6" "subbyte2_precharge_1_32/en_bar" 0.000336135
+cap "subbyte2_precharge_1_32/en_bar" "br_1" 4.28418
+cap "br_4" "br_1" 0.000358366
+cap "br_0" "br_1" 7.16456
+cap "bl_4" "subbyte2_precharge_1_32/vdd" 0.303649
+cap "subbyte2_precharge_1_32/vdd" "br_3" 40.6012
+cap "subbyte2_precharge_1_32/vdd" "br_2" 45.2591
+cap "bl_2" "subbyte2_precharge_1_32/vdd" 12.051
+cap "bl_5" "subbyte2_precharge_1_32/en_bar" -0.0348271
+cap "bl_2" "bl_0" 0.340653
+cap "bl_1" "br_1" -30.6008
+cap "br_2" "bl_0" 0.100915
+cap "br_5" "subbyte2_precharge_1_32/en_bar" -0.137363
+cap "br_4" "subbyte2_precharge_1_32/en_bar" -0.178579
+cap "subbyte2_precharge_1_32/en_bar" "br_0" 0.804715
+cap "bl_6" "br_3" 0.00136371
+cap "bl_4" "br_1" 0.0143492
+cap "bl_1" "subbyte2_precharge_1_32/en_bar" 0.832341
+cap "bl_1" "br_4" 0.0463474
+cap "bl_1" "br_0" 0.925422
+cap "br_1" "br_3" 2.15635
+cap "bl_2" "br_1" 2.21814
+cap "br_2" "br_1" 1.89357
+cap "bl_4" "br_4" -61.2016
+cap "bl_2" "subbyte2_precharge_1_31/vdd" 0.0860983
+cap "br_7" "subbyte2_precharge_1_31/en_bar" 0.0896028
+cap "br_6" "subbyte2_precharge_1_31/en_bar" 0.0836622
+cap "bl_7" "br_5" 0.100915
+cap "bl_8" "subbyte2_precharge_1_31/vdd" 0.02843
+cap "br_7" "subbyte2_precharge_1_31/vdd" 0.276252
+cap "bl_4" "subbyte2_precharge_1_31/br" 0.0463474
+cap "br_6" "subbyte2_precharge_1_31/vdd" 0.527598
+cap "subbyte2_precharge_1_24/br" "bl_5" 0.00164194
+cap "br_4" "bl_1" 0.0143492
+cap "bl_4" "br_2" 1.05834
+cap "bl_8" "br_5" 0.0143492
+cap "br_6" "br_5" 1.11558
+cap "bl_3" "bl_5" 0.671754
+cap "br_7" "br_5" 0.416396
+cap "bl_4" "bl_5" 0.990844
+cap "bl_4" "bl_3" 20.5566
+cap "bl_6" "subbyte2_precharge_1_31/en_bar" 0.420023
+cap "subbyte2_precharge_1_31/vdd" "subbyte2_precharge_1_31/en_bar" 258.484
+cap "bl_6" "subbyte2_precharge_1_31/vdd" 0.626732
+cap "br_3" "br_6" 0.000358286
+cap "bl_2" "br_4" 0.100915
+cap "bl_3" "bl_1" 0.331101
+cap "subbyte2_precharge_1_31/en_bar" "br_5" 13.1457
+cap "br_6" "br_4" 1.76798
+cap "bl_6" "br_5" 0.84842
+cap "subbyte2_precharge_1_31/vdd" "br_5" 42.2366
+cap "bl_4" "bl_1" 0.170661
+cap "bl_7" "bl_5" 0.340653
+cap "br_3" "subbyte2_precharge_1_31/en_bar" 0.0469785
+cap "br_3" "bl_6" 0.0129855
+cap "bl_8" "bl_5" 0.170661
+cap "bl_2" "bl_3" 0.495422
+cap "br_3" "subbyte2_precharge_1_31/vdd" 2.15304
+cap "br_4" "subbyte2_precharge_1_31/en_bar" 13.1809
+cap "br_7" "bl_5" 1.05834
+cap "br_6" "bl_5" 1.74803
+cap "bl_6" "br_4" 1.25043
+cap "br_6" "bl_3" 0.0463474
+cap "subbyte2_precharge_1_31/vdd" "br_4" 45.1505
+cap "br_3" "br_5" 1.95337
+cap "br_2" "subbyte2_precharge_1_31/en_bar" 0.582125
+cap "bl_4" "bl_2" 0.340653
+cap "br_2" "subbyte2_precharge_1_31/vdd" 0.276252
+cap "br_4" "br_5" 15.2801
+cap "bl_4" "br_6" 0.222864
+cap "subbyte2_precharge_1_24/br" "br_5" 0.000358366
+cap "subbyte2_precharge_1_31/en_bar" "bl_5" 1.67335
+cap "bl_3" "subbyte2_precharge_1_31/en_bar" 1.82616
+cap "bl_6" "bl_5" 10.2783
+cap "bl_6" "bl_3" 0.170661
+cap "subbyte2_precharge_1_31/vdd" "bl_5" 18.4875
+cap "subbyte2_precharge_1_31/vdd" "bl_3" 18.634
+cap "br_3" "br_4" 1.47275
+cap "br_5" "bl_5" -61.2016
+cap "bl_3" "br_5" 2.30877
+cap "bl_4" "subbyte2_precharge_1_31/en_bar" 1.90222
+cap "br_4" "subbyte2_precharge_1_31/br" 0.000358366
+cap "bl_4" "bl_6" 0.331101
+cap "bl_4" "subbyte2_precharge_1_31/vdd" 11.3912
+cap "subbyte2_precharge_1_31/en_bar" "bl_1" 0.283197
+cap "br_2" "br_4" 0.416396
+cap "bl_4" "br_5" 2.51817
+cap "subbyte2_precharge_1_31/vdd" "bl_1" 0.02843
+cap "br_3" "bl_5" 0.265139
+cap "br_3" "bl_3" -30.6008
+cap "br_4" "bl_5" 2.51817
+cap "br_4" "bl_3" 2.59645
+cap "subbyte2_precharge_1_24/br" "bl_5" 0.0447055
+cap "bl_3" "subbyte2_precharge_1_31/br" 0.222864
+cap "bl_7" "subbyte2_precharge_1_31/en_bar" 0.0619311
+cap "bl_7" "subbyte2_precharge_1_31/vdd" 0.0860983
+cap "br_3" "bl_4" 1.90161
+cap "br_2" "bl_3" 0.925422
+cap "bl_8" "subbyte2_precharge_1_31/en_bar" 0.0460952
+cap "bl_2" "subbyte2_precharge_1_31/en_bar" 0.377333
+cap "bl_10" "br_7" 0.0143492
+cap "bl_8" "br_7" 2.59645
+cap "bl_4" "br_6" 0.100915
+cap "subbyte2_precharge_1_29/vdd" "br_8" 0.527598
+cap "bl_7" "br_6" 2.51817
+cap "bl_6" "br_8" 0.222864
+cap "br_9" "subbyte2_precharge_1_29/en_bar" 0.0896028
+cap "bl_4" "subbyte2_precharge_1_29/en_bar" 0.0619311
+cap "br_6" "bl_3" 0.0143492
+cap "bl_7" "subbyte2_precharge_1_29/en_bar" 1.57659
+cap "br_4" "br_6" 0.416396
+cap "bl_9" "subbyte2_precharge_1_29/en_bar" 0.0619311
+cap "subbyte2_precharge_1_29/en_bar" "bl_3" 0.0460952
+cap "br_6" "subbyte2_precharge_1_29/vdd" 44.7283
+cap "br_4" "subbyte2_precharge_1_29/en_bar" 0.0896028
+cap "bl_5" "br_6" 0.84842
+cap "subbyte2_precharge_1_29/vdd" "subbyte2_precharge_1_29/en_bar" 220.119
+cap "bl_6" "subbyte2_precharge_1_29/br" 0.0447055
+cap "bl_7" "subbyte2_precharge_1_22/br" 0.00164194
+cap "bl_6" "br_6" -61.2016
+cap "bl_5" "subbyte2_precharge_1_29/en_bar" 0.374264
+cap "bl_7" "subbyte2_precharge_1_22/br" 0.0447055
+cap "br_9" "bl_8" 0.925422
+cap "br_5" "bl_7" 0.222864
+cap "bl_6" "subbyte2_precharge_1_29/en_bar" 1.57659
+cap "bl_7" "bl_10" 0.170661
+cap "bl_7" "bl_8" 20.5566
+cap "bl_9" "bl_8" 0.495422
+cap "br_6" "br_8" 1.76798
+cap "br_5" "subbyte2_precharge_1_29/vdd" 0.527598
+cap "subbyte2_precharge_1_29/en_bar" "br_8" 0.0836622
+cap "bl_8" "subbyte2_precharge_1_29/vdd" 20.3903
+cap "bl_5" "bl_8" 0.170661
+cap "br_9" "br_7" 0.416396
+cap "bl_10" "subbyte2_precharge_1_29/vdd" 0.02843
+cap "bl_6" "bl_8" 0.671754
+cap "bl_6" "br_5" 1.74803
+cap "bl_7" "br_7" -61.2016
+cap "br_6" "subbyte2_precharge_1_29/br" 0.000358366
+cap "bl_9" "br_7" 0.100915
+cap "br_6" "subbyte2_precharge_1_29/en_bar" 12.9187
+cap "bl_8" "br_8" -30.6008
+cap "subbyte2_precharge_1_29/vdd" "br_7" 41.9604
+cap "bl_5" "br_7" 1.25043
+cap "bl_6" "br_7" 2.51817
+cap "bl_6" "subbyte2_precharge_1_29/br" 0.00164194
+cap "br_5" "br_6" 1.11558
+cap "br_9" "bl_7" 1.05834
+cap "bl_8" "br_6" 2.30877
+cap "br_5" "subbyte2_precharge_1_29/en_bar" 0.0836622
+cap "br_8" "br_7" 1.11558
+cap "bl_10" "subbyte2_precharge_1_29/en_bar" 0.0460952
+cap "bl_8" "subbyte2_precharge_1_29/en_bar" 2.66608
+cap "bl_7" "bl_9" 0.340653
+cap "br_9" "subbyte2_precharge_1_29/vdd" 0.276252
+cap "bl_7" "subbyte2_precharge_1_29/vdd" 18.4014
+cap "bl_4" "subbyte2_precharge_1_29/vdd" 0.0860983
+cap "subbyte2_precharge_1_22/br" "bl_8" 0.0973741
+cap "bl_7" "bl_5" 0.331101
+cap "br_6" "br_7" 15.2801
+cap "bl_9" "subbyte2_precharge_1_29/vdd" 0.0860983
+cap "bl_6" "bl_7" 0.990844
+cap "bl_6" "bl_4" 0.340653
+cap "subbyte2_precharge_1_29/vdd" "bl_3" 0.02843
+cap "subbyte2_precharge_1_22/br" "bl_8" 0.12549
+cap "br_5" "bl_8" 0.0463474
+cap "bl_6" "bl_3" 0.170661
+cap "br_4" "subbyte2_precharge_1_29/vdd" 0.276252
+cap "subbyte2_precharge_1_29/en_bar" "br_7" 12.9187
+cap "bl_8" "bl_10" 0.331101
+cap "bl_6" "br_4" 1.05834
+cap "bl_5" "subbyte2_precharge_1_29/vdd" 0.598302
+cap "bl_7" "br_8" 1.74803
+cap "bl_6" "bl_5" 10.2783
+cap "bl_6" "subbyte2_precharge_1_29/vdd" 11.0681
+cap "subbyte2_precharge_1_22/br" "br_7" 0.000358366
+cap "br_5" "br_7" 1.76798
+cap "bl_10" "bl_8" 0.340653
+cap "bl_10" "bl_12" 0.331101
+cap "bl_9" "bl_12" 0.170661
+cap "br_9" "br_7" 1.76798
+cap "br_7" "subbyte2_precharge_1_27/vdd" 0.527598
+cap "bl_10" "bl_11" 0.495422
+cap "bl_9" "bl_11" 0.340653
+cap "bl_10" "bl_9" 20.5566
+cap "subbyte2_precharge_1_27/vdd" "br_8" 45.0046
+cap "br_9" "br_8" 15.2801
+cap "bl_7" "subbyte2_precharge_1_27/vdd" 0.626732
+cap "bl_7" "br_9" 1.25043
+cap "br_11" "subbyte2_precharge_1_27/en_bar" 0.804715
+cap "subbyte2_precharge_1_27/vdd" "subbyte2_precharge_1_27/en_bar" 271.701
+cap "bl_5" "br_8" 0.0143492
+cap "br_9" "subbyte2_precharge_1_27/en_bar" 13.1869
+cap "subbyte2_precharge_1_27/vdd" "br_12" 0.105446
+cap "bl_6" "br_8" 0.100915
+cap "br_11" "br_10" 3.87209
+cap "br_9" "br_12" 0.000358366
+cap "bl_5" "subbyte2_precharge_1_27/en_bar" 0.0460952
+cap "br_9" "br_10" 1.6559
+cap "br_7" "br_8" 1.11558
+cap "br_10" "subbyte2_precharge_1_27/vdd" 6.03513
+cap "br_6" "subbyte2_precharge_1_27/vdd" 0.276252
+cap "bl_6" "subbyte2_precharge_1_27/en_bar" 0.0619311
+cap "br_7" "subbyte2_precharge_1_27/en_bar" 0.0836622
+cap "br_9" "bl_8" 1.59274
+cap "bl_7" "br_8" 0.84842
+cap "subbyte2_precharge_1_27/vdd" "bl_8" -8.63777
+cap "br_9" "bl_12" 0.0143492
+cap "subbyte2_precharge_1_27/vdd" "bl_12" 0.303649
+cap "subbyte2_precharge_1_27/en_bar" "br_8" 13.1507
+cap "br_10" "br_7" 0.000358366
+cap "bl_11" "subbyte2_precharge_1_27/vdd" 0.451836
+cap "bl_7" "subbyte2_precharge_1_27/en_bar" 0.420376
+cap "bl_10" "br_11" 0.925422
+cap "br_11" "bl_9" 1.05834
+cap "br_9" "bl_11" 0.100915
+cap "bl_9" "subbyte2_precharge_1_27/vdd" 18.7245
+cap "bl_10" "br_9" 2.59645
+cap "br_9" "bl_9" -61.2016
+cap "br_10" "br_8" 2.02919
+cap "bl_10" "subbyte2_precharge_1_27/vdd" 11.3007
+cap "bl_7" "br_10" 0.0142844
+cap "br_6" "br_8" 0.416396
+cap "subbyte2_precharge_1_27/en_bar" "br_12" 0.00833142
+cap "br_10" "subbyte2_precharge_1_27/en_bar" 1.00648
+cap "bl_8" "br_8" -30.6008
+cap "br_6" "subbyte2_precharge_1_27/en_bar" 0.0896028
+cap "br_10" "br_12" 0.824332
+cap "bl_10" "br_7" 0.0463474
+cap "bl_9" "br_7" 0.222864
+cap "subbyte2_precharge_1_27/en_bar" "bl_8" -0.616834
+cap "bl_10" "br_8" 2.30877
+cap "bl_9" "br_8" 2.51817
+cap "subbyte2_precharge_1_27/en_bar" "bl_12" 0.400008
+cap "br_10" "bl_8" 0.0805903
+cap "bl_10" "bl_7" 0.170661
+cap "bl_7" "bl_9" 0.331101
+cap "bl_11" "subbyte2_precharge_1_27/en_bar" 0.527263
+cap "bl_10" "subbyte2_precharge_1_27/en_bar" 1.82616
+cap "bl_9" "subbyte2_precharge_1_27/en_bar" 1.91004
+cap "br_10" "bl_12" 0.447616
+cap "br_10" "bl_11" 0.608092
+cap "bl_9" "br_12" 0.0463474
+cap "br_11" "br_9" 0.416396
+cap "br_11" "subbyte2_precharge_1_27/vdd" 0.920248
+cap "bl_10" "br_12" 0.222864
+cap "bl_9" "br_10" 2.10166
+cap "br_9" "subbyte2_precharge_1_27/vdd" 42.3825
+cap "bl_10" "br_10" -30.6008
+cap "br_8" "subbyte2_precharge_1_27/br" 0.000358366
+cap "bl_5" "subbyte2_precharge_1_27/vdd" 0.02843
+cap "bl_9" "bl_8" 0.495422
+cap "bl_6" "subbyte2_precharge_1_27/vdd" 0.0860983
+cap "bl_12" "br_10" 1.86116
+cap "bl_12" "bl_13" 0.495422
+cap "bl_11" "bl_13" 0.340653
+cap "vdd" "br_14" 0.105446
+cap "en_bar" "bl_13" 0.433391
+cap "br_14" "br_11" 0.000358366
+cap "bl_9" "br_10" 0.494785
+cap "vdd" "br_13" 0.920248
+cap "bl_12" "bl_11" 20.5566
+cap "br_11" "br_13" 0.416396
+cap "vdd" "br_12" 13.5532
+cap "vdd" "bl_10" 0.451836
+cap "bl_12" "en_bar" 1.22548
+cap "bl_11" "en_bar" 1.20881
+cap "br_12" "br_11" 1.89357
+cap "br_11" "bl_10" 1.59274
+cap "br_12" "br_9" 0.000358366
+cap "bl_11" "bl_14" 0.170661
+cap "bl_11" "bl_9" 0.331101
+cap "bl_14" "en_bar" 0.322806
+cap "en_bar" "bl_9" 0.086914
+cap "bl_12" "bl_14" 0.331101
+cap "bl_12" "bl_9" 0.170661
+cap "br_10" "subbyte2_precharge_1_25/bl" 6.48611e-05
+cap "br_15" "en_bar" -9.54077e-06
+cap "br_12" "br_14" 1.44619
+cap "en_bar" "subbyte2_precharge_1_25/bl" -1.7592e-05
+cap "br_12" "br_13" 7.16456
+cap "br_12" "bl_10" 0.100915
+cap "vdd" "br_10" 39.2559
+cap "br_11" "br_10" 11.408
+cap "vdd" "bl_13" 0.451836
+cap "br_11" "bl_13" 0.100915
+cap "br_9" "br_10" 0.575269
+cap "vdd" "en_bar" 223.279
+cap "bl_12" "vdd" 11.0254
+cap "vdd" "bl_11" 18.3588
+cap "br_11" "en_bar" 12.2987
+cap "bl_12" "br_11" 2.59645
+cap "br_11" "bl_11" -61.2016
+cap "br_10" "bl_8" 0.0203244
+cap "br_9" "en_bar" -0.184529
+cap "bl_12" "br_9" 0.0463474
+cap "bl_11" "br_9" 0.222864
+cap "vdd" "bl_14" 0.303649
+cap "vdd" "bl_9" 0.303649
+cap "br_11" "bl_14" 0.0143492
+cap "br_11" "bl_9" 1.25043
+cap "br_12" "br_10" 1.33202
+cap "bl_10" "br_10" -30.6008
+cap "en_bar" "bl_8" -0.0364568
+cap "br_12" "bl_13" 1.15296
+cap "br_14" "bl_11" 0.0463474
+cap "br_14" "en_bar" -0.0114404
+cap "bl_12" "br_14" 0.222864
+cap "bl_11" "br_13" 1.05834
+cap "en_bar" "br_13" 0.676782
+cap "br_12" "en_bar" 7.11982
+cap "bl_12" "br_13" 0.925422
+cap "bl_12" "br_12" -30.6008
+cap "br_12" "bl_11" 2.21814
+cap "bl_11" "bl_10" 0.495422
+cap "en_bar" "bl_10" 0.186624
+cap "bl_12" "bl_10" 0.340653
+cap "br_12" "bl_14" 0.873046
+cap "br_12" "bl_9" 0.0143492
+cap "br_10" "br_8" 0.155179
+cap "vdd" "br_11" 41.7385
+cap "en_bar" "br_8" -0.142358
+cap "vdd" "br_9" 0.105446
+cap "br_11" "br_9" 1.76798
+cap "bl_11" "br_10" 1.91007
+cap "en_bar" "br_10" 12.4187
+cap "vdd" "bl_16" 0.303649
+cap "vdd" "bl_11" 0.303649
+cap "bl_14" "br_14" -61.2016
+cap "bl_12" "br_12" -30.6008
+cap "vdd" "br_14" 44.5065
+cap "br_12" "en_bar" 5.96382
+cap "bl_12" "en_bar" 0.433391
+cap "br_14" "br_11" 0.000358366
+cap "br_12" "bl_11" 0.378306
+cap "bl_14" "bl_15" 0.495422
+cap "br_13" "bl_14" 2.59645
+cap "br_15" "en_bar" 0.676791
+cap "br_12" "br_14" 0.738185
+cap "bl_14" "br_16" 0.222864
+cap "bl_14" "bl_13" 20.5566
+cap "bl_15" "vdd" 0.451836
+cap "br_13" "vdd" 41.7385
+cap "en_bar" "bl_16" 0.322806
+cap "en_bar" "bl_11" 0.322806
+cap "vdd" "br_16" 0.105446
+cap "vdd" "bl_13" 18.3588
+cap "bl_12" "br_14" 0.100915
+cap "br_13" "br_11" 1.76798
+cap "en_bar" "br_14" 12.4266
+cap "bl_13" "br_11" 0.222864
+cap "br_15" "br_14" 7.64005
+cap "bl_16" "br_14" 1.25043
+cap "bl_11" "br_14" 0.0143492
+cap "br_12" "bl_13" 1.3652
+cap "br_13" "br_12" 8.11554
+cap "bl_12" "br_13" 1.59274
+cap "bl_15" "en_bar" 0.433391
+cap "en_bar" "bl_13" 1.30268
+cap "br_13" "en_bar" 12.4266
+cap "bl_12" "bl_13" 0.495422
+cap "en_bar" "br_16" -0.0114404
+cap "br_15" "bl_13" 1.05834
+cap "br_13" "br_15" 0.416396
+cap "bl_13" "bl_16" 0.170661
+cap "br_13" "bl_16" 0.0143492
+cap "br_13" "bl_11" 1.25043
+cap "br_12" "br_10" 0.0280215
+cap "bl_11" "bl_13" 0.331101
+cap "br_16" "br_14" 1.76798
+cap "bl_15" "br_14" 1.59274
+cap "bl_13" "br_14" 2.59645
+cap "br_13" "br_14" 2.23116
+cap "en_bar" "br_10" -9.54077e-06
+cap "bl_14" "vdd" 11.0254
+cap "bl_14" "br_11" 0.0463474
+cap "br_17" "en_bar" -9.54077e-06
+cap "vdd" "br_11" 0.105446
+cap "br_13" "bl_15" 0.100915
+cap "br_13" "bl_13" -61.2016
+cap "br_13" "br_16" 0.000358366
+cap "bl_14" "br_12" 1.43573
+cap "br_16" "bl_13" 0.0463474
+cap "bl_15" "bl_13" 0.340653
+cap "br_12" "vdd" 31.7727
+cap "bl_14" "en_bar" 1.30268
+cap "bl_12" "bl_14" 0.340653
+cap "en_bar" "vdd" 219.823
+cap "br_12" "br_11" 0.337598
+cap "bl_12" "vdd" 0.451836
+cap "bl_14" "br_15" 0.925422
+cap "en_bar" "br_11" -0.0114404
+cap "bl_14" "bl_16" 0.331101
+cap "bl_14" "bl_11" 0.170661
+cap "br_15" "vdd" 0.920248
+cap "br_13" "en_bar" -0.0114404
+cap "subbyte2_precharge_1_13/en_bar" "br_17" 0.0264516
+cap "br_16" "br_17" 8.11554
+cap "bl_16" "bl_18" 0.331101
+cap "bl_15" "br_18" 0.0463474
+cap "bl_16" "br_15" 2.59645
+cap "bl_15" "bl_18" 0.170661
+cap "br_18" "en_bar" -0.0114404
+cap "bl_16" "br_16" -61.2016
+cap "bl_15" "br_15" -61.2016
+cap "vdd" "br_17" 26.7993
+cap "br_19" "br_17" 0.0280215
+cap "bl_15" "br_16" 2.59645
+cap "bl_18" "en_bar" 0.322806
+cap "br_15" "bl_14" 1.59274
+cap "br_14" "br_15" 7.64005
+cap "br_15" "en_bar" 12.4266
+cap "bl_16" "vdd" 11.0254
+cap "br_16" "br_14" 0.416396
+cap "br_16" "bl_14" 0.100915
+cap "bl_15" "vdd" 18.3588
+cap "br_16" "en_bar" 12.4266
+cap "br_13" "br_15" 1.76798
+cap "br_13" "br_16" 0.000358366
+cap "br_19" "en_bar" -9.54077e-06
+cap "bl_17" "br_17" -30.6008
+cap "br_18" "br_15" 0.000358366
+cap "br_14" "vdd" 0.920248
+cap "bl_14" "vdd" 0.451836
+cap "en_bar" "vdd" 220.298
+cap "br_18" "br_16" 1.76798
+cap "bl_16" "bl_13" 0.170661
+cap "bl_18" "br_15" 0.0143492
+cap "br_13" "vdd" 0.105446
+cap "bl_16" "bl_17" 0.495422
+cap "bl_18" "br_16" 1.25043
+cap "bl_15" "bl_17" 0.340653
+cap "bl_15" "bl_13" 0.331101
+cap "en_bar" "br_12" -9.54077e-06
+cap "br_18" "vdd" 0.105446
+cap "br_16" "br_15" 2.23116
+cap "en_bar" "bl_13" 0.322806
+cap "bl_18" "vdd" 0.303649
+cap "bl_17" "en_bar" 0.433391
+cap "bl_16" "br_17" 1.3652
+cap "br_15" "vdd" 41.7385
+cap "bl_15" "br_17" 1.43573
+cap "br_16" "vdd" 44.5065
+cap "bl_15" "bl_16" 20.5566
+cap "en_bar" "br_17" 3.44232
+cap "br_15" "bl_13" 1.25043
+cap "bl_16" "br_14" 1.05834
+cap "bl_16" "bl_14" 0.340653
+cap "br_15" "bl_17" 0.100915
+cap "bl_16" "en_bar" 1.30268
+cap "br_16" "bl_13" 0.0143492
+cap "bl_15" "en_bar" 1.30268
+cap "br_16" "bl_17" 1.59274
+cap "br_13" "bl_16" 0.0463474
+cap "bl_15" "br_14" 0.925422
+cap "bl_15" "bl_14" 0.495422
+cap "br_18" "br_17" 0.337598
+cap "bl_15" "br_13" 0.222864
+cap "bl_13" "vdd" 0.303649
+cap "br_14" "en_bar" 0.676791
+cap "bl_14" "en_bar" 0.433391
+cap "bl_18" "br_17" 0.378306
+cap "br_18" "bl_16" 0.222864
+cap "br_15" "br_17" 0.738185
+cap "bl_17" "vdd" 0.451836
+cap "br_16" "br_18" 0.416396
+cap "br_18" "bl_16" 0.100915
+cap "bl_20" "br_19" 0.378306
+cap "br_17" "br_18" 1.89357
+cap "vdd" "bl_15" 0.303649
+cap "en_bar" "br_15" -0.0114404
+cap "bl_17" "br_15" 0.222864
+cap "bl_18" "en_bar" 1.30268
+cap "bl_17" "bl_18" 20.5566
+cap "bl_20" "vdd" 0.303649
+cap "bl_19" "br_18" 1.59274
+cap "br_16" "bl_17" 0.925422
+cap "br_16" "en_bar" 0.676791
+cap "en_bar" "bl_16" 0.433391
+cap "br_19" "bl_18" 1.3652
+cap "bl_17" "bl_16" 0.495422
+cap "br_17" "en_bar" 9.63465
+cap "br_18" "br_20" 1.76798
+cap "br_17" "bl_17" -30.6008
+cap "vdd" "br_15" 0.105446
+cap "vdd" "bl_18" 11.0254
+cap "br_17" "br_19" 0.710164
+cap "bl_18" "bl_15" 0.170661
+cap "bl_17" "bl_19" 0.340653
+cap "br_16" "vdd" 0.920248
+cap "bl_19" "en_bar" 0.433391
+cap "br_17" "vdd" 15.8479
+cap "vdd" "bl_16" 0.451836
+cap "bl_20" "bl_18" 0.331101
+cap "bl_17" "br_20" 0.0463474
+cap "en_bar" "br_20" -0.0114404
+cap "br_19" "bl_19" -30.6008
+cap "br_17" "bl_15" 0.873046
+cap "br_19" "br_20" 0.337598
+cap "bl_17" "br_18" 2.59645
+cap "vdd" "bl_19" 0.451836
+cap "br_18" "en_bar" 12.4266
+cap "bl_18" "br_15" 0.0463474
+cap "bl_20" "br_17" 0.0143492
+cap "vdd" "br_20" 0.105446
+cap "en_bar" "br_14" -9.54077e-06
+cap "br_19" "br_18" 8.11554
+cap "br_16" "bl_18" 1.05834
+cap "br_17" "br_15" 1.44619
+cap "bl_18" "bl_16" 0.340653
+cap "br_17" "bl_18" 2.21814
+cap "vdd" "br_18" 44.5065
+cap "bl_17" "en_bar" 1.30268
+cap "br_18" "bl_15" 0.0143492
+cap "br_17" "br_16" 7.16456
+cap "br_19" "en_bar" 7.59103
+cap "bl_20" "br_18" 1.25043
+cap "bl_19" "bl_18" 0.495422
+cap "br_19" "bl_17" 1.43573
+cap "br_17" "bl_16" 1.15296
+cap "br_21" "en_bar" -9.54077e-06
+cap "vdd" "en_bar" 220.562
+cap "bl_18" "br_20" 0.222864
+cap "bl_17" "vdd" 18.3588
+cap "br_19" "br_21" 0.0280215
+cap "br_18" "br_15" 0.000358366
+cap "bl_17" "bl_15" 0.331101
+cap "br_17" "bl_19" 0.100915
+cap "en_bar" "bl_15" 0.322806
+cap "bl_18" "br_18" -61.2016
+cap "br_19" "vdd" 30.9551
+cap "br_17" "br_20" 0.000358366
+cap "bl_20" "bl_17" 0.170661
+cap "bl_20" "en_bar" 0.322806
+cap "bl_19" "br_20" 2.59645
+cap "br_20" "br_21" 11.408
+cap "bl_20" "bl_22" 0.331101
+cap "br_18" "bl_20" 1.05834
+cap "bl_19" "br_22" 0.0463474
+cap "bl_19" "subbyte2_precharge_1_15/vdd" 18.3588
+cap "bl_19" "subbyte2_precharge_1_16/en_bar" 1.28706
+cap "bl_20" "br_17" 0.0463474
+cap "bl_19" "br_19" -30.6008
+cap "subbyte2_precharge_1_15/vdd" "br_21" 36.4449
+cap "br_21" "subbyte2_precharge_1_16/en_bar" 12.5981
+cap "br_22" "br_21" 0.742269
+cap "bl_24" "subbyte2_precharge_1_16/en_bar" 0.000336135
+cap "br_19" "br_21" 1.33202
+cap "br_20" "br_17" 0.000358366
+cap "bl_22" "br_20" 1.25043
+cap "br_18" "br_20" 0.416396
+cap "bl_22" "subbyte2_precharge_1_15/vdd" 0.303649
+cap "br_18" "subbyte2_precharge_1_15/vdd" 0.920248
+cap "br_23" "subbyte2_precharge_1_16/en_bar" -0.137363
+cap "bl_22" "subbyte2_precharge_1_16/en_bar" 0.0947343
+cap "br_18" "subbyte2_precharge_1_16/en_bar" 0.676782
+cap "subbyte2_precharge_1_16/en_bar" "br_17" -0.0114404
+cap "bl_20" "bl_21" 0.495422
+cap "br_19" "bl_22" 0.0143492
+cap "br_18" "br_19" 7.16456
+cap "subbyte2_precharge_1_15/vdd" "br_17" 0.105446
+cap "bl_23" "subbyte2_precharge_1_16/en_bar" -0.0348271
+cap "bl_20" "bl_18" 0.340653
+cap "br_19" "br_17" 1.44619
+cap "bl_20" "br_20" -61.2016
+cap "bl_20" "bl_17" 0.170661
+cap "bl_21" "br_20" 1.59274
+cap "bl_18" "br_20" 0.100915
+cap "bl_20" "br_22" 0.222864
+cap "bl_19" "br_21" 1.86116
+cap "bl_20" "subbyte2_precharge_1_15/vdd" 11.0254
+cap "bl_20" "subbyte2_precharge_1_16/en_bar" 1.28644
+cap "bl_21" "subbyte2_precharge_1_15/vdd" 0.451836
+cap "bl_21" "subbyte2_precharge_1_16/en_bar" 0.186624
+cap "br_20" "bl_17" 0.0143492
+cap "bl_20" "br_19" 2.21814
+cap "bl_18" "subbyte2_precharge_1_15/vdd" 0.451836
+cap "bl_18" "subbyte2_precharge_1_16/en_bar" 0.433391
+cap "bl_24" "br_21" 0.00028729
+cap "br_19" "bl_21" 0.100915
+cap "br_19" "bl_18" 1.15296
+cap "subbyte2_precharge_1_15/vdd" "bl_17" 0.303649
+cap "subbyte2_precharge_1_16/en_bar" "bl_17" 0.322806
+cap "br_22" "br_20" 1.76798
+cap "br_20" "subbyte2_precharge_1_15/vdd" 44.5065
+cap "br_20" "subbyte2_precharge_1_16/en_bar" 12.4109
+cap "bl_19" "bl_22" 0.170661
+cap "br_18" "bl_19" 0.925422
+cap "bl_19" "br_17" 0.222864
+cap "br_19" "br_20" 1.89357
+cap "br_19" "bl_17" 0.873046
+cap "bl_22" "br_21" 0.678173
+cap "br_22" "subbyte2_precharge_1_15/vdd" 0.105446
+cap "br_22" "subbyte2_precharge_1_16/en_bar" -0.178579
+cap "subbyte2_precharge_1_15/vdd" "subbyte2_precharge_1_16/en_bar" 228.778
+cap "br_23" "br_21" 0.225173
+cap "br_19" "subbyte2_precharge_1_15/vdd" 11.5447
+cap "br_19" "subbyte2_precharge_1_16/en_bar" 5.50063
+cap "br_19" "br_22" 0.000358366
+cap "bl_23" "br_21" 0.0543441
+cap "br_16" "subbyte2_precharge_1_16/en_bar" -9.54077e-06
+cap "bl_20" "bl_19" 20.5566
+cap "bl_19" "bl_21" 0.340653
+cap "bl_20" "br_21" 1.91007
+cap "bl_19" "bl_18" 0.495422
+cap "bl_21" "br_21" -30.6008
+cap "bl_19" "bl_17" 0.331101
+cap "bl_21" "subbyte2_precharge_1_13/en_bar" 1.82616
+cap "bl_24" "subbyte2_precharge_1_13/en_bar" 0.420023
+cap "bl_23" "bl_25" 0.340653
+cap "br_24" "bl_21" 0.0463474
+cap "br_24" "subbyte2_precharge_1_13/vdd" 0.527598
+cap "bl_23" "br_23" -61.2016
+cap "br_23" "bl_25" 0.100915
+cap "bl_26" "subbyte2_precharge_1_13/vdd" 0.02843
+cap "subbyte2_precharge_1_6/br" "bl_23" 0.0447055
+cap "br_21" "bl_19" 0.447616
+cap "br_22" "bl_19" 0.0143492
+cap "bl_23" "subbyte2_precharge_1_13/en_bar" 1.67335
+cap "bl_21" "bl_20" 0.495422
+cap "bl_20" "subbyte2_precharge_1_13/vdd" 0.451836
+cap "bl_25" "subbyte2_precharge_1_13/en_bar" 0.0619311
+cap "subbyte2_precharge_1_6/br" "br_23" 0.000358366
+cap "bl_23" "br_24" 1.74803
+cap "bl_22" "bl_19" 0.170661
+cap "br_22" "subbyte2_precharge_1_13/vdd" 45.1505
+cap "br_21" "subbyte2_precharge_1_13/vdd" 6.31925
+cap "br_20" "subbyte2_precharge_1_13/vdd" 0.920248
+cap "br_23" "subbyte2_precharge_1_13/en_bar" 13.1457
+cap "br_22" "bl_21" 2.59645
+cap "bl_21" "br_21" -30.6008
+cap "bl_21" "br_20" 0.925422
+cap "bl_24" "br_21" 0.0140619
+cap "br_22" "bl_24" 1.25043
+cap "br_25" "subbyte2_precharge_1_13/vdd" 0.276252
+cap "bl_21" "bl_22" 20.5566
+cap "bl_22" "subbyte2_precharge_1_13/vdd" 11.3912
+cap "subbyte2_precharge_1_13/vdd" "br_19" 0.105446
+cap "bl_23" "bl_26" 0.170661
+cap "br_24" "br_23" 1.11558
+cap "bl_21" "br_19" 0.222864
+cap "bl_24" "bl_22" 0.331101
+cap "br_24" "subbyte2_precharge_1_13/en_bar" 0.0836622
+cap "bl_26" "br_23" 0.0143492
+cap "bl_23" "br_21" 0.269434
+cap "br_22" "bl_23" 2.51817
+cap "bl_23" "br_25" 1.05834
+cap "bl_26" "subbyte2_precharge_1_13/en_bar" 0.0460952
+cap "br_21" "br_23" 1.9592
+cap "br_22" "br_23" 15.2801
+cap "bl_23" "bl_22" 0.990844
+cap "bl_20" "subbyte2_precharge_1_13/en_bar" 0.449637
+cap "br_25" "br_23" 0.416396
+cap "bl_22" "br_23" 2.51817
+cap "br_22" "subbyte2_precharge_1_13/en_bar" 13.1809
+cap "br_21" "subbyte2_precharge_1_13/en_bar" 0.493874
+cap "br_20" "subbyte2_precharge_1_13/en_bar" 0.692549
+cap "br_24" "br_21" 0.000358366
+cap "br_22" "br_24" 1.76798
+cap "subbyte2_precharge_1_13/vdd" "bl_19" 0.303649
+cap "subbyte2_precharge_1_13/en_bar" "br_19" 0.000312571
+cap "br_25" "subbyte2_precharge_1_13/en_bar" 0.0896028
+cap "bl_22" "subbyte2_precharge_1_13/en_bar" 1.90222
+cap "bl_21" "bl_19" 0.331101
+cap "br_24" "bl_22" 0.222864
+cap "bl_21" "subbyte2_precharge_1_13/vdd" 18.634
+cap "bl_23" "subbyte2_precharge_1_6/br" 0.00164194
+cap "bl_24" "subbyte2_precharge_1_13/vdd" 0.626732
+cap "bl_20" "br_21" 0.608092
+cap "br_22" "bl_20" 0.100915
+cap "bl_24" "bl_21" 0.170661
+cap "br_20" "br_21" 3.87209
+cap "br_22" "br_21" 1.4889
+cap "br_22" "br_20" 0.416396
+cap "bl_20" "bl_22" 0.340653
+cap "br_22" "br_19" 0.000358366
+cap "br_21" "br_19" 0.824332
+cap "br_22" "bl_22" -61.2016
+cap "bl_22" "br_21" 1.91827
+cap "br_20" "bl_22" 1.05834
+cap "bl_23" "subbyte2_precharge_1_13/vdd" 18.4875
+cap "bl_25" "subbyte2_precharge_1_13/vdd" 0.0860983
+cap "bl_23" "bl_21" 0.671754
+cap "bl_23" "bl_24" 10.2783
+cap "bl_22" "br_19" 0.0463474
+cap "subbyte2_precharge_1_13/en_bar" "bl_19" 0.338434
+cap "bl_21" "br_23" 2.30877
+cap "br_23" "subbyte2_precharge_1_13/vdd" 42.2366
+cap "bl_24" "br_23" 0.84842
+cap "subbyte2_precharge_1_13/vdd" "subbyte2_precharge_1_13/en_bar" 264.941
+cap "br_27" "br_25" 0.416396
+cap "bl_26" "bl_24" 0.671754
+cap "br_24" "subbyte2_precharge_1_11/br" 0.000358366
+cap "br_25" "br_26" 1.11558
+cap "bl_23" "br_25" 1.25043
+cap "bl_28" "subbyte2_precharge_1_11/en_bar" 0.0460952
+cap "subbyte2_precharge_1_11/en_bar" "bl_22" 0.0619311
+cap "br_24" "bl_25" 2.51817
+cap "br_27" "bl_25" 1.05834
+cap "br_24" "br_23" 1.11558
+cap "bl_24" "subbyte2_precharge_1_11/vdd" 11.0681
+cap "bl_23" "bl_25" 0.331101
+cap "br_26" "bl_25" 1.74803
+cap "bl_22" "subbyte2_precharge_1_11/vdd" 0.0860983
+cap "bl_26" "subbyte2_precharge_1_11/en_bar" 2.46688
+cap "bl_28" "subbyte2_precharge_1_11/vdd" 0.02843
+cap "bl_24" "br_25" 2.51817
+cap "subbyte2_precharge_1_11/br" "bl_24" 0.00164194
+cap "subbyte2_precharge_1_11/en_bar" "subbyte2_precharge_1_11/vdd" 220.501
+cap "br_24" "bl_21" 0.0143492
+cap "subbyte2_precharge_1_11/br" "bl_24" 0.0447055
+cap "br_24" "br_26" 1.76798
+cap "br_24" "bl_23" 0.84842
+cap "bl_26" "subbyte2_precharge_1_11/vdd" 9.107
+cap "bl_28" "br_25" 0.0143492
+cap "br_24" "br_22" 0.416396
+cap "bl_24" "bl_25" 0.990844
+cap "br_23" "bl_24" 1.74803
+cap "subbyte2_precharge_1_11/en_bar" "br_25" 12.9187
+cap "bl_28" "bl_25" 0.170661
+cap "bl_26" "br_25" 2.59645
+cap "br_24" "bl_24" -61.2016
+cap "subbyte2_precharge_1_11/en_bar" "bl_25" 1.57659
+cap "br_25" "subbyte2_precharge_1_11/vdd" 41.9604
+cap "bl_27" "subbyte2_precharge_1_11/en_bar" 0.0619311
+cap "subbyte2_precharge_1_11/en_bar" "br_23" 0.0836622
+cap "bl_26" "bl_25" 20.5566
+cap "bl_21" "bl_24" 0.170661
+cap "bl_23" "bl_24" 10.2783
+cap "bl_26" "br_23" 0.0463474
+cap "br_24" "bl_22" 0.100915
+cap "bl_24" "br_26" 0.222864
+cap "br_22" "bl_24" 1.05834
+cap "bl_25" "subbyte2_precharge_1_11/vdd" 18.4014
+cap "br_23" "subbyte2_precharge_1_11/vdd" 0.527598
+cap "br_24" "subbyte2_precharge_1_11/en_bar" 12.9187
+cap "br_25" "subbyte2_precharge_1_4/br" 0.000358366
+cap "bl_27" "subbyte2_precharge_1_11/vdd" 0.0860983
+cap "subbyte2_precharge_1_11/en_bar" "br_27" 0.0896028
+cap "bl_26" "br_24" 2.30877
+cap "bl_23" "subbyte2_precharge_1_11/en_bar" 0.374264
+cap "subbyte2_precharge_1_11/en_bar" "bl_21" 0.0460952
+cap "subbyte2_precharge_1_11/en_bar" "br_26" 0.0836622
+cap "subbyte2_precharge_1_4/br" "bl_25" 0.00164194
+cap "br_25" "bl_25" -61.2016
+cap "subbyte2_precharge_1_11/en_bar" "br_22" 0.0896028
+cap "bl_25" "subbyte2_precharge_1_4/br" 0.0447055
+cap "bl_26" "bl_23" 0.170661
+cap "br_23" "br_25" 1.76798
+cap "br_24" "subbyte2_precharge_1_11/vdd" 44.7283
+cap "bl_27" "br_25" 0.100915
+cap "br_27" "subbyte2_precharge_1_11/vdd" 0.276252
+cap "bl_22" "bl_24" 0.340653
+cap "br_26" "subbyte2_precharge_1_11/vdd" 0.527598
+cap "bl_23" "subbyte2_precharge_1_11/vdd" 0.598302
+cap "bl_21" "subbyte2_precharge_1_11/vdd" 0.02843
+cap "br_22" "subbyte2_precharge_1_11/vdd" 0.276252
+cap "bl_27" "bl_25" 0.340653
+cap "br_23" "bl_25" 0.222864
+cap "br_24" "br_25" 15.2801
+cap "subbyte2_precharge_1_11/en_bar" "bl_24" 1.57659
+cap "br_27" "br_29" 0.416396
+cap "br_28" "br_26" 1.9592
+cap "subbyte2_precharge_1_9/vdd" "br_29" 0.920248
+cap "br_28" "br_25" 0.000358366
+cap "br_28" "br_27" 1.4889
+cap "br_26" "bl_28" 2.30877
+cap "br_26" "bl_26" -61.2016
+cap "br_28" "subbyte2_precharge_1_9/vdd" 4.61645
+cap "br_25" "bl_28" 0.0463474
+cap "br_27" "bl_28" 2.59645
+cap "subbyte2_precharge_1_9/vdd" "bl_28" 11.3007
+cap "br_30" "subbyte2_precharge_1_9/en_bar" 0.000312571
+cap "bl_26" "br_27" 2.51817
+cap "bl_26" "subbyte2_precharge_1_9/vdd" 2.6455
+cap "br_30" "bl_27" 0.0463474
+cap "br_28" "bl_25" 0.0140619
+cap "subbyte2_precharge_1_9/en_bar" "br_29" 0.692549
+cap "bl_25" "bl_28" 0.170661
+cap "bl_29" "br_27" 0.100915
+cap "br_26" "bl_23" 0.0143492
+cap "bl_29" "subbyte2_precharge_1_9/vdd" 0.451836
+cap "br_28" "subbyte2_precharge_1_9/en_bar" 0.689709
+cap "subbyte2_precharge_1_9/en_bar" "bl_28" 1.82616
+cap "bl_27" "br_29" 1.05834
+cap "bl_23" "subbyte2_precharge_1_9/vdd" 0.02843
+cap "bl_26" "subbyte2_precharge_1_9/en_bar" -0.417636
+cap "br_28" "bl_27" 1.91827
+cap "bl_27" "bl_28" 20.5566
+cap "bl_27" "bl_26" 0.990844
+cap "bl_30" "br_27" 0.0143492
+cap "bl_30" "subbyte2_precharge_1_9/vdd" 0.303649
+cap "br_26" "subbyte2_precharge_1_9/br" 0.000358366
+cap "br_30" "br_28" 0.824332
+cap "br_26" "br_27" 15.2801
+cap "br_26" "br_25" 1.11558
+cap "br_26" "subbyte2_precharge_1_9/vdd" 45.0046
+cap "bl_29" "subbyte2_precharge_1_9/en_bar" 0.449637
+cap "br_30" "bl_28" 0.222864
+cap "br_27" "br_25" 1.76798
+cap "br_27" "subbyte2_precharge_1_9/vdd" 42.3825
+cap "subbyte2_precharge_1_9/vdd" "br_25" 0.527598
+cap "br_26" "br_24" 0.416396
+cap "subbyte2_precharge_1_9/en_bar" "bl_23" 0.0460952
+cap "bl_27" "bl_29" 0.340653
+cap "br_24" "subbyte2_precharge_1_9/vdd" 0.276252
+cap "br_28" "br_29" 3.87209
+cap "br_26" "bl_24" 0.100915
+cap "bl_30" "subbyte2_precharge_1_9/en_bar" 0.338434
+cap "bl_28" "br_29" 0.925422
+cap "bl_25" "br_26" 0.84842
+cap "bl_24" "subbyte2_precharge_1_9/vdd" 0.0860983
+cap "br_28" "bl_28" -30.6008
+cap "bl_25" "br_27" 1.25043
+cap "bl_25" "subbyte2_precharge_1_9/vdd" 0.626732
+cap "br_26" "subbyte2_precharge_1_9/en_bar" 13.1507
+cap "bl_30" "bl_27" 0.170661
+cap "br_28" "bl_26" 0.269434
+cap "bl_26" "bl_28" 0.671754
+cap "subbyte2_precharge_1_9/en_bar" "br_25" 0.0836622
+cap "br_27" "subbyte2_precharge_1_9/en_bar" 13.1869
+cap "subbyte2_precharge_1_9/en_bar" "subbyte2_precharge_1_9/vdd" 265.714
+cap "bl_27" "br_26" 2.51817
+cap "br_24" "subbyte2_precharge_1_9/en_bar" 0.0896028
+cap "bl_27" "br_25" 0.222864
+cap "bl_27" "br_27" -61.2016
+cap "bl_27" "subbyte2_precharge_1_9/vdd" 18.7245
+cap "br_28" "bl_29" 0.608092
+cap "bl_25" "subbyte2_precharge_1_9/en_bar" 0.420376
+cap "subbyte2_precharge_1_9/en_bar" "bl_24" 0.0619311
+cap "bl_29" "bl_28" 0.495422
+cap "br_30" "br_27" 0.000358366
+cap "br_30" "subbyte2_precharge_1_9/vdd" 0.105446
+cap "bl_27" "bl_25" 0.331101
+cap "br_28" "bl_30" 0.447616
+cap "bl_27" "subbyte2_precharge_1_9/en_bar" 1.91004
+cap "bl_30" "bl_28" 0.331101
+cap "br_29" "br_32" 0.000358366
+cap "bl_32" "subbyte2_precharge_1_6/vdd" 0.303649
+cap "subbyte2_precharge_1_7/en_bar" "subbyte2_precharge_1_6/vdd" 230.805
+cap "br_30" "bl_29" 2.21814
+cap "subbyte2_precharge_1_7/en_bar" "bl_27" 0.086914
+cap "br_29" "bl_30" 2.59645
+cap "subbyte2_precharge_1_7/en_bar" "bl_31" 0.433391
+cap "br_30" "br_32" 1.44619
+cap "bl_29" "br_32" 0.0463474
+cap "br_29" "br_27" 1.76798
+cap "bl_25" "br_28" 0.00028729
+cap "br_30" "bl_30" -30.6008
+cap "bl_29" "bl_30" 20.5566
+cap "subbyte2_precharge_1_7/en_bar" "br_31" 0.676782
+cap "subbyte2_precharge_1_7/en_bar" "br_26" -0.142358
+cap "br_29" "br_28" 11.408
+cap "br_29" "subbyte2_precharge_1_6/vdd" 41.7385
+cap "br_30" "br_27" 0.000358366
+cap "bl_29" "br_27" 0.222864
+cap "bl_27" "br_29" 1.25043
+cap "br_32" "bl_30" 0.222864
+cap "br_29" "bl_31" 0.100915
+cap "br_30" "br_28" 1.33202
+cap "bl_29" "br_28" 1.91007
+cap "br_30" "subbyte2_precharge_1_6/vdd" 12.6436
+cap "bl_29" "subbyte2_precharge_1_6/vdd" 18.3588
+cap "bl_27" "br_30" 0.0143492
+cap "bl_27" "bl_29" 0.331101
+cap "br_27" "bl_30" 0.0463474
+cap "br_31" "br_29" 0.416396
+cap "subbyte2_precharge_1_7/en_bar" "bl_28" 0.186624
+cap "br_30" "bl_31" 1.15296
+cap "bl_29" "bl_31" 0.340653
+cap "subbyte2_precharge_1_6/vdd" "br_32" 0.105446
+cap "bl_30" "br_28" 1.86116
+cap "br_30" "br_31" 7.16456
+cap "br_31" "bl_29" 1.05834
+cap "bl_26" "br_28" 0.0543441
+cap "subbyte2_precharge_1_6/vdd" "bl_30" 11.0254
+cap "bl_27" "bl_30" 0.170661
+cap "br_27" "br_28" 0.742269
+cap "br_27" "subbyte2_precharge_1_6/vdd" 0.105446
+cap "subbyte2_precharge_1_7/en_bar" "bl_32" 0.322806
+cap "bl_31" "bl_30" 0.495422
+cap "bl_28" "br_29" 1.59274
+cap "subbyte2_precharge_1_6/vdd" "br_28" 40.6438
+cap "subbyte2_precharge_1_7/en_bar" "bl_25" -1.7592e-05
+cap "bl_27" "br_28" 0.678173
+cap "br_31" "bl_30" 0.925422
+cap "bl_27" "subbyte2_precharge_1_6/vdd" 0.303649
+cap "bl_31" "subbyte2_precharge_1_6/vdd" 0.451836
+cap "subbyte2_precharge_1_7/en_bar" "br_29" 12.4109
+cap "bl_28" "br_30" 0.100915
+cap "bl_28" "bl_29" 0.495422
+cap "br_29" "bl_32" 0.0143492
+cap "br_26" "br_28" 0.225173
+cap "br_31" "subbyte2_precharge_1_6/vdd" 0.920248
+cap "br_30" "bl_32" 0.873046
+cap "bl_29" "bl_32" 0.170661
+cap "subbyte2_precharge_1_7/en_bar" "br_30" 6.26
+cap "subbyte2_precharge_1_7/en_bar" "bl_29" 1.28644
+cap "bl_28" "bl_30" 0.340653
+cap "subbyte2_precharge_1_7/en_bar" "br_32" -0.0114404
+cap "subbyte2_precharge_1_7/en_bar" "bl_26" -0.0364568
+cap "bl_32" "bl_30" 0.331101
+cap "subbyte2_precharge_1_7/en_bar" "bl_30" 1.28706
+cap "bl_28" "br_28" -30.6008
+cap "bl_28" "subbyte2_precharge_1_6/vdd" 0.451836
+cap "subbyte2_precharge_1_7/en_bar" "br_27" -0.184529
+cap "br_30" "br_29" 1.89357
+cap "bl_29" "br_29" -61.2016
+cap "subbyte2_precharge_1_7/en_bar" "br_28" 13.254
+cap "bl_32" "bl_31" 20.5566
+cap "subbyte2_precharge_1_4/vdd" "br_32" 32.1187
+cap "subbyte2_precharge_1_4/vdd" "bl_29" 0.303649
+cap "br_29" "subbyte2_precharge_1_4/vdd" 0.105446
+cap "bl_31" "br_31" -61.2016
+cap "subbyte2_precharge_1_4/vdd" "br_30" 31.9921
+cap "bl_32" "br_31" 2.59645
+cap "bl_32" "br_32" -61.2016
+cap "bl_31" "br_32" 2.59645
+cap "bl_31" "br_30" 1.3652
+cap "bl_31" "bl_29" 0.331101
+cap "br_29" "bl_31" 0.222864
+cap "bl_32" "br_30" 1.43573
+cap "bl_32" "bl_29" 0.170661
+cap "br_29" "bl_32" 0.0463474
+cap "br_31" "br_32" 2.23116
+cap "br_31" "bl_29" 1.25043
+cap "br_29" "br_31" 1.76798
+cap "br_30" "br_31" 8.11554
+cap "subbyte2_precharge_1_4/vdd" "subbyte2_precharge_1_4/en_bar" 172.645
+cap "subbyte2_precharge_1_4/vdd" "bl_30" 0.451836
+cap "br_30" "bl_29" 0.378306
+cap "br_29" "br_30" 0.337598
+cap "br_29" "br_32" 0.000358366
+cap "br_30" "br_32" 0.738185
+cap "br_32" "bl_29" 0.0143492
+cap "subbyte2_precharge_1_4/en_bar" "bl_31" 0.477965
+cap "bl_31" "bl_30" 0.495422
+cap "subbyte2_precharge_1_4/en_bar" "bl_32" 1.00807
+cap "bl_32" "bl_30" 0.340653
+cap "subbyte2_precharge_1_4/en_bar" "br_31" 12.2566
+cap "br_31" "bl_30" 1.59274
+cap "subbyte2_precharge_1_4/en_bar" "br_32" 10.1612
+cap "subbyte2_precharge_1_4/en_bar" "bl_29" 0.322806
+cap "br_29" "subbyte2_precharge_1_4/en_bar" -0.0114404
+cap "br_30" "bl_30" -30.6008
+cap "br_32" "bl_30" 0.100915
+cap "subbyte2_precharge_1_4/en_bar" "br_30" 6.81336
+cap "subbyte2_precharge_1_4/en_bar" "bl_30" 0.433391
+cap "br_28" "br_30" 0.0280215
+cap "br_28" "subbyte2_precharge_1_4/en_bar" -9.54077e-06
+cap "subbyte2_precharge_1_4/vdd" "bl_31" 13.1478
+cap "subbyte2_precharge_1_4/vdd" "bl_32" -7.39242
+cap "subbyte2_precharge_1_4/vdd" "br_31" 38.306
+cap "br_32" "subbyte2_precharge_1_2/en_bar" -0.305088
+cap "subbyte2_precharge_1_2/vdd" "br_32" -0.00397549
+cap "subbyte2_precharge_1_2/vdd" "subbyte2_precharge_1_2/en_bar" 6.44014
+merge "subbyte2_precharge_1_0/vdd" "subbyte2_precharge_1_1/vdd" -6312.83 0 0 0 0 0 -46208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -74052 -6600 -88044 -6864 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_1/vdd" "subbyte2_precharge_1_2/vdd"
+merge "subbyte2_precharge_1_2/vdd" "subbyte2_precharge_1_3/vdd"
+merge "subbyte2_precharge_1_3/vdd" "subbyte2_precharge_1_4/vdd"
+merge "subbyte2_precharge_1_4/vdd" "subbyte2_precharge_1_5/vdd"
+merge "subbyte2_precharge_1_5/vdd" "subbyte2_precharge_1_6/vdd"
+merge "subbyte2_precharge_1_6/vdd" "subbyte2_precharge_1_7/vdd"
+merge "subbyte2_precharge_1_7/vdd" "subbyte2_precharge_1_8/vdd"
+merge "subbyte2_precharge_1_8/vdd" "subbyte2_precharge_1_9/vdd"
+merge "subbyte2_precharge_1_9/vdd" "subbyte2_precharge_1_10/vdd"
+merge "subbyte2_precharge_1_10/vdd" "subbyte2_precharge_1_11/vdd"
+merge "subbyte2_precharge_1_11/vdd" "subbyte2_precharge_1_12/vdd"
+merge "subbyte2_precharge_1_12/vdd" "subbyte2_precharge_1_13/vdd"
+merge "subbyte2_precharge_1_13/vdd" "subbyte2_precharge_1_14/vdd"
+merge "subbyte2_precharge_1_14/vdd" "subbyte2_precharge_1_15/vdd"
+merge "subbyte2_precharge_1_15/vdd" "subbyte2_precharge_1_16/vdd"
+merge "subbyte2_precharge_1_16/vdd" "subbyte2_precharge_1_17/vdd"
+merge "subbyte2_precharge_1_17/vdd" "subbyte2_precharge_1_18/vdd"
+merge "subbyte2_precharge_1_18/vdd" "subbyte2_precharge_1_19/vdd"
+merge "subbyte2_precharge_1_19/vdd" "subbyte2_precharge_1_20/vdd"
+merge "subbyte2_precharge_1_20/vdd" "subbyte2_precharge_1_21/vdd"
+merge "subbyte2_precharge_1_21/vdd" "subbyte2_precharge_1_22/vdd"
+merge "subbyte2_precharge_1_22/vdd" "subbyte2_precharge_1_23/vdd"
+merge "subbyte2_precharge_1_23/vdd" "subbyte2_precharge_1_24/vdd"
+merge "subbyte2_precharge_1_24/vdd" "subbyte2_precharge_1_25/vdd"
+merge "subbyte2_precharge_1_25/vdd" "subbyte2_precharge_1_26/vdd"
+merge "subbyte2_precharge_1_26/vdd" "subbyte2_precharge_1_27/vdd"
+merge "subbyte2_precharge_1_27/vdd" "subbyte2_precharge_1_28/vdd"
+merge "subbyte2_precharge_1_28/vdd" "subbyte2_precharge_1_29/vdd"
+merge "subbyte2_precharge_1_29/vdd" "subbyte2_precharge_1_30/vdd"
+merge "subbyte2_precharge_1_30/vdd" "subbyte2_precharge_1_31/vdd"
+merge "subbyte2_precharge_1_31/vdd" "subbyte2_precharge_1_32/vdd"
+merge "subbyte2_precharge_1_32/vdd" "vdd"
+merge "subbyte2_precharge_1_6/bl" "bl_26" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_17/bl" "bl_15" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_29/br" "br_3" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_7/br" "br_25" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_18/br" "br_14" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_0/en_bar" "subbyte2_precharge_1_1/en_bar" -8717.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -51744 -7336 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_1/en_bar" "subbyte2_precharge_1_2/en_bar"
+merge "subbyte2_precharge_1_2/en_bar" "subbyte2_precharge_1_3/en_bar"
+merge "subbyte2_precharge_1_3/en_bar" "subbyte2_precharge_1_4/en_bar"
+merge "subbyte2_precharge_1_4/en_bar" "subbyte2_precharge_1_5/en_bar"
+merge "subbyte2_precharge_1_5/en_bar" "subbyte2_precharge_1_6/en_bar"
+merge "subbyte2_precharge_1_6/en_bar" "subbyte2_precharge_1_7/en_bar"
+merge "subbyte2_precharge_1_7/en_bar" "subbyte2_precharge_1_8/en_bar"
+merge "subbyte2_precharge_1_8/en_bar" "subbyte2_precharge_1_9/en_bar"
+merge "subbyte2_precharge_1_9/en_bar" "subbyte2_precharge_1_10/en_bar"
+merge "subbyte2_precharge_1_10/en_bar" "subbyte2_precharge_1_11/en_bar"
+merge "subbyte2_precharge_1_11/en_bar" "subbyte2_precharge_1_12/en_bar"
+merge "subbyte2_precharge_1_12/en_bar" "subbyte2_precharge_1_13/en_bar"
+merge "subbyte2_precharge_1_13/en_bar" "subbyte2_precharge_1_14/en_bar"
+merge "subbyte2_precharge_1_14/en_bar" "subbyte2_precharge_1_15/en_bar"
+merge "subbyte2_precharge_1_15/en_bar" "subbyte2_precharge_1_16/en_bar"
+merge "subbyte2_precharge_1_16/en_bar" "subbyte2_precharge_1_17/en_bar"
+merge "subbyte2_precharge_1_17/en_bar" "subbyte2_precharge_1_18/en_bar"
+merge "subbyte2_precharge_1_18/en_bar" "subbyte2_precharge_1_19/en_bar"
+merge "subbyte2_precharge_1_19/en_bar" "subbyte2_precharge_1_20/en_bar"
+merge "subbyte2_precharge_1_20/en_bar" "subbyte2_precharge_1_21/en_bar"
+merge "subbyte2_precharge_1_21/en_bar" "subbyte2_precharge_1_22/en_bar"
+merge "subbyte2_precharge_1_22/en_bar" "subbyte2_precharge_1_23/en_bar"
+merge "subbyte2_precharge_1_23/en_bar" "subbyte2_precharge_1_24/en_bar"
+merge "subbyte2_precharge_1_24/en_bar" "subbyte2_precharge_1_25/en_bar"
+merge "subbyte2_precharge_1_25/en_bar" "subbyte2_precharge_1_26/en_bar"
+merge "subbyte2_precharge_1_26/en_bar" "subbyte2_precharge_1_27/en_bar"
+merge "subbyte2_precharge_1_27/en_bar" "subbyte2_precharge_1_28/en_bar"
+merge "subbyte2_precharge_1_28/en_bar" "subbyte2_precharge_1_29/en_bar"
+merge "subbyte2_precharge_1_29/en_bar" "subbyte2_precharge_1_30/en_bar"
+merge "subbyte2_precharge_1_30/en_bar" "subbyte2_precharge_1_31/en_bar"
+merge "subbyte2_precharge_1_31/en_bar" "subbyte2_precharge_1_32/en_bar"
+merge "subbyte2_precharge_1_32/en_bar" "en_bar"
+merge "subbyte2_precharge_1_5/bl" "bl_27" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_0/gnd" "subbyte2_precharge_1_1/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_1/gnd" "subbyte2_precharge_1_2/gnd"
+merge "subbyte2_precharge_1_2/gnd" "subbyte2_precharge_1_3/gnd"
+merge "subbyte2_precharge_1_3/gnd" "subbyte2_precharge_1_4/gnd"
+merge "subbyte2_precharge_1_4/gnd" "subbyte2_precharge_1_5/gnd"
+merge "subbyte2_precharge_1_5/gnd" "subbyte2_precharge_1_6/gnd"
+merge "subbyte2_precharge_1_6/gnd" "subbyte2_precharge_1_7/gnd"
+merge "subbyte2_precharge_1_7/gnd" "subbyte2_precharge_1_8/gnd"
+merge "subbyte2_precharge_1_8/gnd" "subbyte2_precharge_1_9/gnd"
+merge "subbyte2_precharge_1_9/gnd" "subbyte2_precharge_1_10/gnd"
+merge "subbyte2_precharge_1_10/gnd" "subbyte2_precharge_1_11/gnd"
+merge "subbyte2_precharge_1_11/gnd" "subbyte2_precharge_1_12/gnd"
+merge "subbyte2_precharge_1_12/gnd" "subbyte2_precharge_1_13/gnd"
+merge "subbyte2_precharge_1_13/gnd" "subbyte2_precharge_1_14/gnd"
+merge "subbyte2_precharge_1_14/gnd" "subbyte2_precharge_1_15/gnd"
+merge "subbyte2_precharge_1_15/gnd" "subbyte2_precharge_1_16/gnd"
+merge "subbyte2_precharge_1_16/gnd" "subbyte2_precharge_1_17/gnd"
+merge "subbyte2_precharge_1_17/gnd" "subbyte2_precharge_1_18/gnd"
+merge "subbyte2_precharge_1_18/gnd" "subbyte2_precharge_1_19/gnd"
+merge "subbyte2_precharge_1_19/gnd" "subbyte2_precharge_1_20/gnd"
+merge "subbyte2_precharge_1_20/gnd" "subbyte2_precharge_1_21/gnd"
+merge "subbyte2_precharge_1_21/gnd" "subbyte2_precharge_1_22/gnd"
+merge "subbyte2_precharge_1_22/gnd" "subbyte2_precharge_1_23/gnd"
+merge "subbyte2_precharge_1_23/gnd" "subbyte2_precharge_1_24/gnd"
+merge "subbyte2_precharge_1_24/gnd" "subbyte2_precharge_1_25/gnd"
+merge "subbyte2_precharge_1_25/gnd" "subbyte2_precharge_1_26/gnd"
+merge "subbyte2_precharge_1_26/gnd" "subbyte2_precharge_1_27/gnd"
+merge "subbyte2_precharge_1_27/gnd" "subbyte2_precharge_1_28/gnd"
+merge "subbyte2_precharge_1_28/gnd" "subbyte2_precharge_1_29/gnd"
+merge "subbyte2_precharge_1_29/gnd" "subbyte2_precharge_1_30/gnd"
+merge "subbyte2_precharge_1_30/gnd" "subbyte2_precharge_1_31/gnd"
+merge "subbyte2_precharge_1_31/gnd" "subbyte2_precharge_1_32/gnd"
+merge "subbyte2_precharge_1_32/gnd" "gnd"
+merge "subbyte2_precharge_1_16/bl" "bl_16" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_6/br" "br_26" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_17/br" "br_15" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_28/br" "br_4" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_2/bl" "bl_30" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_4/bl" "bl_28" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_15/bl" "bl_17" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_11/bl" "bl_21" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_27/br" "br_5" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_5/br" "br_27" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_16/br" "br_16" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_14/bl" "bl_18" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_3/bl" "bl_29" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_8/bl" "bl_24" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_4/br" "br_28" -283.488 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_15/br" "br_17" -283.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_26/br" "br_6" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_22/bl" "bl_10" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_30/bl" "bl_2" -283.306 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_25/bl" "bl_7" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_13/bl" "bl_19" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_25/br" "br_7" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_3/br" "br_29" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_14/br" "br_18" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_28/bl" "bl_4" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_13/br" "br_19" -283.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_24/br" "br_8" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_23/br" "br_9" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_32/bl" "bl_0" -249.134 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_2/br" "br_30" -282.869 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_31/bl" "bl_1" -280.251 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_11/br" "br_21" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_8/br" "br_24" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_22/br" "br_10" -283.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_30/br" "br_2" -283.665 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_29/bl" "bl_3" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_27/bl" "bl_5" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_26/bl" "bl_6" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_0/bl" "bl_32" -261.859 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_12/bl" "bl_20" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_24/bl" "bl_8" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_20/bl" "bl_12" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_9/bl" "bl_23" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_23/bl" "bl_9" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_18/bl" "bl_14" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_0/br" "br_32" -256.278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_12/br" "br_20" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_20/br" "br_12" -283.537 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_9/br" "br_23" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_31/br" "br_1" -274.657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_1/bl" "bl_31" -276.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_10/bl" "bl_22" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_7/bl" "bl_25" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_21/bl" "bl_11" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_19/bl" "bl_13" -282.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_1/br" "br_31" -279.826 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_10/br" "br_22" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_32/br" "br_0" -257.704 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_21/br" "br_11" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_precharge_1_19/br" "br_13" -283.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20216 -1500 0 0 0 0 0 0 0 0 0 0

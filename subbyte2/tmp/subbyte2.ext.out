@@ -1,0 +1,824 @@
+Saturday 04 May 2024 03:09:35 AM IST: Starting GDS to MAG using Magic /home/shanmugam/OpenRAM/miniconda/bin/magic
+
+Magic 8.3 revision 363 - Compiled on Tue 11 Apr 2023 03:01:40 PM PDT.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.291-63-ge829452
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 5.0
+Library name: DEFAULT.DB
+Reading "subbyte2".
+Reading "subbyte2_bank".
+Reading "subbyte2_capped_replica_bitcell_array".
+Reading "subbyte2_replica_bitcell_array".
+Reading "subbyte2_bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Reading "subbyte2_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Reading "subbyte2_replica_column_0".
+Reading "subbyte2_dummy_array".
+Reading "subbyte2_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "subbyte2_col_cap_array".
+Reading "subbyte2_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Reading "subbyte2_row_cap_array_0".
+Reading "subbyte2_contact_7".
+Saving contents of cell subbyte2_contact_7
+Reading "subbyte2_contact_8".
+Saving contents of cell subbyte2_contact_8
+Reading "subbyte2_port_data".
+Reading "subbyte2_precharge_array".
+Reading "subbyte2_precharge_0".
+Reading "subbyte2_pmos_m1_w0_550_sli_dli".
+Reading "subbyte2_contact_11".
+Saving contents of cell subbyte2_contact_11
+Saving contents of cell subbyte2_pmos_m1_w0_550_sli_dli
+Reading "subbyte2_contact_15".
+Saving contents of cell subbyte2_contact_15
+Reading "subbyte2_contact_13".
+Saving contents of cell subbyte2_contact_13
+Reading "subbyte2_contact_18".
+Saving contents of cell subbyte2_contact_18
+Reading "subbyte2_contact_12".
+Saving contents of cell subbyte2_contact_12
+Reading "subbyte2_contact_23".
+Saving contents of cell subbyte2_contact_23
+Reading "subbyte2_contact_21".
+Saving contents of cell subbyte2_contact_21
+Reading "subbyte2_write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "subbyte2_column_mux_array".
+Reading "subbyte2_column_mux".
+Reading "subbyte2_nmos_m1_w2_880_sli_dli".
+Reading "subbyte2_contact_10".
+Saving contents of cell subbyte2_contact_10
+Saving contents of cell subbyte2_nmos_m1_w2_880_sli_dli
+Reading "subbyte2_contact_14".
+Saving contents of cell subbyte2_contact_14
+Reading "subbyte2_contact_24".
+Saving contents of cell subbyte2_contact_24
+Reading "subbyte2_contact_25".
+Saving contents of cell subbyte2_contact_25
+Reading "subbyte2_contact_26".
+Saving contents of cell subbyte2_contact_26
+Reading "subbyte2_contact_27".
+Saving contents of cell subbyte2_contact_27
+Reading "subbyte2_port_data_0".
+Reading "subbyte2_precharge_array_0".
+Reading "subbyte2_precharge_1".
+Reading "subbyte2_sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "subbyte2_column_mux_array_0".
+Reading "subbyte2_column_mux_0".
+Reading "subbyte2_port_address".
+Reading "subbyte2_hierarchical_decoder".
+Reading "subbyte2_hierarchical_predecode2x4".
+Reading "subbyte2_pinv_dec".
+Reading "subbyte2_pmos_m1_w1_120_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m1_w1_120_sli_dli_da_p
+Reading "subbyte2_nmos_m1_w0_360_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m1_w0_360_sli_dli_da_p
+Reading "subbyte2_and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "subbyte2_contact_16".
+Saving contents of cell subbyte2_contact_16
+Reading "subbyte2_contact_19".
+Saving contents of cell subbyte2_contact_19
+Reading "subbyte2_contact_20".
+Saving contents of cell subbyte2_contact_20
+Reading "subbyte2_and3_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "subbyte2_contact_22".
+Saving contents of cell subbyte2_contact_22
+Reading "subbyte2_wordline_driver_array".
+Reading "subbyte2_wordline_driver".
+Reading "subbyte2_pinv_dec_0".
+Reading "subbyte2_pmos_m1_w7_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m1_w7_000_sli_dli_da_p
+Reading "subbyte2_nmos_m1_w3_000_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m1_w3_000_sli_dli_da_p
+Reading "subbyte2_and2_dec_0".
+Reading "subbyte2_port_address_0".
+Reading "subbyte2_column_decoder".
+Reading "subbyte2_hierarchical_predecode2x4_0".
+Reading "subbyte2_pinv_0".
+Reading "subbyte2_contact_28".
+Saving contents of cell subbyte2_contact_28
+Reading "subbyte2_contact_29".
+Saving contents of cell subbyte2_contact_29
+Reading "subbyte2_pand2".
+Reading "subbyte2_pnand2".
+Reading "subbyte2_pmos_m1_w1_120_sli_dli".
+Saving contents of cell subbyte2_pmos_m1_w1_120_sli_dli
+Reading "subbyte2_nmos_m1_w0_740_sli_dactive".
+Saving contents of cell subbyte2_nmos_m1_w0_740_sli_dactive
+Reading "subbyte2_nmos_m1_w0_740_sactive_dli".
+Saving contents of cell subbyte2_nmos_m1_w0_740_sactive_dli
+Reading "subbyte2_pdriver".
+Reading "subbyte2_pinv".
+Reading "subbyte2_control_logic_w".
+Reading "subbyte2_dff_buf_array".
+Reading "subbyte2_dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "subbyte2_pinv_1".
+Reading "subbyte2_pmos_m2_w1_260_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m2_w1_260_sli_dli_da_p
+Reading "subbyte2_nmos_m2_w0_740_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m2_w0_740_sli_dli_da_p
+Reading "subbyte2_pinv_2".
+Reading "subbyte2_pmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m3_w1_680_sli_dli_da_p
+Reading "subbyte2_nmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m3_w1_680_sli_dli_da_p
+Reading "subbyte2_pdriver_1".
+Reading "subbyte2_pinv_6".
+Reading "subbyte2_pinv_7".
+Reading "subbyte2_pmos_m6_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m6_w2_000_sli_dli_da_p
+Reading "subbyte2_nmos_m6_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m6_w2_000_sli_dli_da_p
+Reading "subbyte2_pinv_8".
+Reading "subbyte2_pmos_m18_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m18_w2_000_sli_dli_da_p
+Reading "subbyte2_nmos_m18_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m18_w2_000_sli_dli_da_p
+Reading "subbyte2_pand2_0".
+Reading "subbyte2_pdriver_0".
+Reading "subbyte2_pinv_3".
+Reading "subbyte2_pmos_m7_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m7_w2_000_sli_dli_da_p
+Reading "subbyte2_nmos_m7_w1_680_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m7_w1_680_sli_dli_da_p
+Reading "subbyte2_pdriver_2".
+Reading "subbyte2_pinv_9".
+Reading "subbyte2_pmos_m4_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m4_w2_000_sli_dli_da_p
+Reading "subbyte2_nmos_m4_w1_260_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m4_w1_260_sli_dli_da_p
+Reading "subbyte2_pinv_10".
+Reading "subbyte2_pmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m12_w2_000_sli_dli_da_p
+Reading "subbyte2_nmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m12_w2_000_sli_dli_da_p
+Reading "subbyte2_pand3".
+Reading "subbyte2_pnand3".
+Reading "subbyte2_nmos_m1_w0_740_sactive_dactive".
+Saving contents of cell subbyte2_nmos_m1_w0_740_sactive_dactive
+Reading "subbyte2_pdriver_3".
+Reading "subbyte2_pinv_11".
+Reading "subbyte2_pmos_m9_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m9_w2_000_sli_dli_da_p
+Reading "subbyte2_nmos_m9_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m9_w2_000_sli_dli_da_p
+Reading "subbyte2_delay_chain".
+Reading "subbyte2_pinv_13".
+Reading "subbyte2_pnand2_0".
+Reading "subbyte2_pdriver_5".
+Reading "subbyte2_contact_31".
+Saving contents of cell subbyte2_contact_31
+Reading "subbyte2_control_logic_r".
+Reading "subbyte2_pand3_0".
+Reading "subbyte2_pdriver_4".
+Reading "subbyte2_pinv_12".
+Reading "subbyte2_pmos_m5_w2_000_sli_dli_da_p".
+Saving contents of cell subbyte2_pmos_m5_w2_000_sli_dli_da_p
+Reading "subbyte2_nmos_m5_w1_680_sli_dli_da_p".
+Saving contents of cell subbyte2_nmos_m5_w1_680_sli_dli_da_p
+Reading "subbyte2_row_addr_dff".
+Reading "subbyte2_col_addr_dff".
+Reading "subbyte2_data_dff".
+Reading "subbyte2_cr_3".
+Reading "subbyte2_cr_4".
+Reading "subbyte2_cr_5".
+Reading "subbyte2_contact_37".
+Reading "subbyte2_bank".
+Reading "subbyte2_capped_replica_bitcell_array".
+Reading "subbyte2_replica_bitcell_array".
+Reading "subbyte2_bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Reading "subbyte2_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Reading "subbyte2_replica_column_0".
+Reading "subbyte2_dummy_array".
+Reading "subbyte2_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "subbyte2_col_cap_array".
+Reading "subbyte2_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Reading "subbyte2_row_cap_array_0".
+Reading "subbyte2_contact_7".
+Reading "subbyte2_contact_8".
+Reading "subbyte2_port_data".
+Reading "subbyte2_precharge_array".
+Reading "subbyte2_precharge_0".
+Reading "subbyte2_pmos_m1_w0_550_sli_dli".
+Reading "subbyte2_contact_11".
+Reading "subbyte2_contact_15".
+Reading "subbyte2_contact_13".
+Reading "subbyte2_contact_18".
+Reading "subbyte2_contact_12".
+Reading "subbyte2_contact_23".
+Reading "subbyte2_contact_21".
+Reading "subbyte2_write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "subbyte2_column_mux_array".
+Reading "subbyte2_column_mux".
+Reading "subbyte2_nmos_m1_w2_880_sli_dli".
+Reading "subbyte2_contact_10".
+Reading "subbyte2_contact_14".
+Reading "subbyte2_contact_24".
+Reading "subbyte2_contact_25".
+Reading "subbyte2_contact_26".
+Reading "subbyte2_contact_27".
+Reading "subbyte2_port_data_0".
+Reading "subbyte2_precharge_array_0".
+Reading "subbyte2_precharge_1".
+Reading "subbyte2_sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "subbyte2_column_mux_array_0".
+Reading "subbyte2_column_mux_0".
+Reading "subbyte2_port_address".
+Reading "subbyte2_hierarchical_decoder".
+Reading "subbyte2_hierarchical_predecode2x4".
+Reading "subbyte2_pinv_dec".
+Reading "subbyte2_pmos_m1_w1_120_sli_dli_da_p".
+Reading "subbyte2_nmos_m1_w0_360_sli_dli_da_p".
+Reading "subbyte2_and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "subbyte2_contact_16".
+Reading "subbyte2_contact_19".
+Reading "subbyte2_contact_20".
+Reading "subbyte2_and3_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "subbyte2_contact_22".
+Reading "subbyte2_wordline_driver_array".
+Reading "subbyte2_wordline_driver".
+Reading "subbyte2_pinv_dec_0".
+Reading "subbyte2_pmos_m1_w7_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m1_w3_000_sli_dli_da_p".
+Reading "subbyte2_and2_dec_0".
+Reading "subbyte2_port_address_0".
+Reading "subbyte2_column_decoder".
+Reading "subbyte2_hierarchical_predecode2x4_0".
+Reading "subbyte2_pinv_0".
+Reading "subbyte2_contact_28".
+Reading "subbyte2_contact_29".
+Reading "subbyte2_pand2".
+Reading "subbyte2_pnand2".
+Reading "subbyte2_pmos_m1_w1_120_sli_dli".
+Reading "subbyte2_nmos_m1_w0_740_sli_dactive".
+Reading "subbyte2_nmos_m1_w0_740_sactive_dli".
+Reading "subbyte2_pdriver".
+Reading "subbyte2_pinv".
+Reading "subbyte2_control_logic_w".
+Reading "subbyte2_dff_buf_array".
+Reading "subbyte2_dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "subbyte2_pinv_1".
+Reading "subbyte2_pmos_m2_w1_260_sli_dli_da_p".
+Reading "subbyte2_nmos_m2_w0_740_sli_dli_da_p".
+Reading "subbyte2_pinv_2".
+Reading "subbyte2_pmos_m3_w1_680_sli_dli_da_p".
+Reading "subbyte2_nmos_m3_w1_680_sli_dli_da_p".
+Reading "subbyte2_pdriver_1".
+Reading "subbyte2_pinv_6".
+Reading "subbyte2_pinv_7".
+Reading "subbyte2_pmos_m6_w2_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m6_w2_000_sli_dli_da_p".
+Reading "subbyte2_pinv_8".
+Reading "subbyte2_pmos_m18_w2_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m18_w2_000_sli_dli_da_p".
+Reading "subbyte2_pand2_0".
+Reading "subbyte2_pdriver_0".
+Reading "subbyte2_pinv_3".
+Reading "subbyte2_pmos_m7_w2_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m7_w1_680_sli_dli_da_p".
+Reading "subbyte2_pdriver_2".
+Reading "subbyte2_pinv_9".
+Reading "subbyte2_pmos_m4_w2_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m4_w1_260_sli_dli_da_p".
+Reading "subbyte2_pinv_10".
+Reading "subbyte2_pmos_m12_w2_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m12_w2_000_sli_dli_da_p".
+Reading "subbyte2_pand3".
+Reading "subbyte2_pnand3".
+Reading "subbyte2_nmos_m1_w0_740_sactive_dactive".
+Reading "subbyte2_pdriver_3".
+Reading "subbyte2_pinv_11".
+Reading "subbyte2_pmos_m9_w2_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m9_w2_000_sli_dli_da_p".
+Reading "subbyte2_delay_chain".
+Reading "subbyte2_pinv_13".
+Reading "subbyte2_pnand2_0".
+Reading "subbyte2_pdriver_5".
+Reading "subbyte2_contact_31".
+Reading "subbyte2_control_logic_r".
+Reading "subbyte2_pand3_0".
+Reading "subbyte2_pdriver_4".
+Reading "subbyte2_pinv_12".
+Reading "subbyte2_pmos_m5_w2_000_sli_dli_da_p".
+Reading "subbyte2_nmos_m5_w1_680_sli_dli_da_p".
+Reading "subbyte2_row_addr_dff".
+Reading "subbyte2_col_addr_dff".
+Reading "subbyte2_data_dff".
+Reading "subbyte2_cr_3".
+Reading "subbyte2_cr_4".
+Reading "subbyte2_cr_5".
+Reading "subbyte2_contact_37".
+Finished reading gds subbyte2.gds
+Finished loading cell subbyte2
+Writing 'subbyte2_col_addr_dff'
+Writing 'subbyte2_precharge_array_0'
+Writing 'subbyte2_pinv_13'
+Writing 'subbyte2_pmos_m9_w2_000_sli_dli_da_p'
+Writing 'subbyte2_pinv_6'
+Writing 'subbyte2_contact_8'
+Writing 'subbyte2_pinv_7'
+Writing 'subbyte2_nmos_m1_w0_740_sli_dactive'
+Writing 'subbyte2_wordline_driver_array'
+Writing 'subbyte2_replica_column'
+Writing 'subbyte2_pinv_8'
+Writing 'subbyte2_nmos_m6_w2_000_sli_dli_da_p'
+Writing 'subbyte2_column_decoder'
+Writing 'subbyte2_pdriver_0'
+Writing 'subbyte2_delay_chain'
+Writing 'subbyte2_pinv_9'
+Writing 'subbyte2_pmos_m1_w0_550_sli_dli'
+Writing 'sky130_fd_bd_sram__openram_dp_cell'
+Writing 'subbyte2_pmos_m4_w2_000_sli_dli_da_p'
+Writing 'subbyte2_pdriver_1'
+Writing 'subbyte2_dff_buf_0'
+Writing 'subbyte2_pdriver_2'
+Writing 'subbyte2_col_cap_array_0'
+Writing 'subbyte2_data_dff'
+Writing 'subbyte2_and3_dec'
+Writing 'subbyte2_hierarchical_predecode2x4'
+Writing 'subbyte2_pdriver_3'
+Writing 'subbyte2_pnand2'
+Writing 'subbyte2_pmos_m1_w1_120_sli_dli_da_p'
+Writing 'subbyte2_pdriver_4'
+Writing 'subbyte2_pnand3'
+Writing 'subbyte2_pmos_m12_w2_000_sli_dli_da_p'
+Writing 'subbyte2_nmos_m2_w0_740_sli_dli_da_p'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_col'
+Writing 'subbyte2_replica_column_0'
+Writing 'subbyte2_pdriver_5'
+Writing 'subbyte2_nmos_m1_w0_740_sactive_dactive'
+Writing 'subbyte2_replica_bitcell_array'
+Writing 'subbyte2_capped_replica_bitcell_array'
+Writing 'subbyte2_row_cap_array'
+Writing 'subbyte2_col_cap_array'
+Writing 'subbyte2_pmos_m18_w2_000_sli_dli_da_p'
+Writing 'sky130_fd_bd_sram__openram_dff'
+Writing 'subbyte2_bitcell_array'
+Writing 'subbyte2_pmos_m5_w2_000_sli_dli_da_p'
+Writing 'subbyte2_nmos_m7_w1_680_sli_dli_da_p'
+Writing 'subbyte2_hierarchical_predecode2x4_0'
+Writing 'subbyte2_pnand2_0'
+Writing 'subbyte2_pinv'
+Writing 'subbyte2_nmos_m1_w0_740_sactive_dli'
+Writing 'subbyte2_row_addr_dff'
+Writing 'subbyte2_nmos_m1_w0_360_sli_dli_da_p'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_row'
+Writing 'subbyte2_pinv_dec'
+Writing 'subbyte2_column_mux'
+Writing 'subbyte2_row_cap_array_0'
+Writing 'subbyte2_port_data'
+Writing 'subbyte2_pand2'
+Writing 'subbyte2_nmos_m1_w2_880_sli_dli'
+Writing 'subbyte2_contact_31'
+Writing 'subbyte2_pand3'
+Writing 'subbyte2_contact_20'
+Writing 'subbyte2_and2_dec'
+Writing 'subbyte2_pmos_m6_w2_000_sli_dli_da_p'
+Writing 'subbyte2_contact_10'
+Writing 'subbyte2_contact_21'
+Writing 'subbyte2_dummy_array'
+Writing 'subbyte2_pand2_0'
+Writing 'subbyte2_contact_22'
+Writing 'subbyte2_contact_11'
+Writing 'subbyte2_column_mux_0'
+Writing 'subbyte2_column_mux_array_0'
+Writing 'subbyte2_contact_23'
+Writing 'subbyte2_contact_12'
+Writing 'subbyte2_contact_24'
+Writing 'subbyte2_write_driver_array'
+Writing 'subbyte2_contact_13'
+Writing 'subbyte2_cr_3'
+Writing 'subbyte2_nmos_m12_w2_000_sli_dli_da_p'
+Writing 'subbyte2_nmos_m4_w1_260_sli_dli_da_p'
+Writing 'subbyte2_wordline_driver'
+Writing 'subbyte2_nmos_m3_w1_680_sli_dli_da_p'
+Writing 'subbyte2_nmos_m1_w3_000_sli_dli_da_p'
+Writing 'sky130_fd_bd_sram__openram_dp_nand3_dec'
+Writing 'subbyte2_contact_25'
+Writing 'subbyte2_contact_14'
+Writing 'subbyte2'
+Writing 'subbyte2_cr_4'
+Writing 'subbyte2_pmos_m1_w7_000_sli_dli_da_p'
+Writing 'subbyte2_hierarchical_decoder'
+Writing 'subbyte2_port_address'
+Writing 'subbyte2_contact_37'
+Writing 'subbyte2_cr_5'
+Writing 'subbyte2_nmos_m9_w2_000_sli_dli_da_p'
+Writing 'subbyte2_pmos_m2_w1_260_sli_dli_da_p'
+Writing 'subbyte2_contact_26'
+Writing 'subbyte2_contact_15'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Writing 'subbyte2_bank'
+Writing 'subbyte2_nmos_m18_w2_000_sli_dli_da_p'
+Writing 'subbyte2_contact_16'
+Writing 'subbyte2_contact_27'
+Writing 'subbyte2_pmos_m7_w2_000_sli_dli_da_p'
+Writing 'subbyte2_contact_28'
+Writing 'subbyte2_and2_dec_0'
+Writing 'subbyte2_port_data_0'
+Writing 'subbyte2_dff_buf_array'
+Writing 'subbyte2_contact_29'
+Writing 'subbyte2_contact_18'
+Writing 'subbyte2_pdriver'
+Writing 'subbyte2_port_address_0'
+Writing 'subbyte2_contact_19'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Writing 'sky130_fd_bd_sram__openram_write_driver'
+Writing 'subbyte2_control_logic_r'
+Writing 'subbyte2_pinv_dec_0'
+Writing 'subbyte2_pinv_0'
+Writing 'subbyte2_precharge_0'
+Writing 'subbyte2_pinv_1'
+Writing 'sky130_fd_bd_sram__openram_dp_nand2_dec'
+Writing 'subbyte2_sense_amp_array'
+Writing 'subbyte2_pinv_2'
+Writing 'subbyte2_precharge_1'
+Writing 'sky130_fd_bd_sram__openram_sense_amp'
+Writing 'subbyte2_pinv_10'
+Writing 'subbyte2_pinv_3'
+Writing 'subbyte2_precharge_array'
+Writing 'subbyte2_nmos_m5_w1_680_sli_dli_da_p'
+Writing 'subbyte2_control_logic_w'
+Writing 'subbyte2_pmos_m1_w1_120_sli_dli'
+Writing 'subbyte2_pand3_0'
+Writing 'subbyte2_pinv_11'
+Writing 'subbyte2_pinv_12'
+Writing 'subbyte2_pmos_m3_w1_680_sli_dli_da_p'
+Writing 'subbyte2_column_mux_array'
+Writing 'subbyte2_contact_7'
+Annotating port orders from subbyte2.sp
+Annotating cell subbyte2_pinv_7
+Cell subbyte2_pinv_7 port order was modified.
+Annotating cell subbyte2_pinv_6
+Cell subbyte2_pinv_6 port order was modified.
+Annotating cell subbyte2_pinv
+Cell subbyte2_pinv port order was modified.
+Annotating cell subbyte2_pdriver_5
+Cell subbyte2_pdriver_5 port order was modified.
+Annotating cell subbyte2_pinv_13
+Cell subbyte2_pinv_13 port order was modified.
+Annotating cell subbyte2_delay_chain
+Cell subbyte2_delay_chain port order was modified.
+Annotating cell subbyte2_pinv_3
+Cell subbyte2_pinv_3 port order was modified.
+Annotating cell subbyte2_pdriver_0
+Cell subbyte2_pdriver_0 port order was modified.
+Annotating cell subbyte2_pnand2
+Cell subbyte2_pnand2 port order was modified.
+Annotating cell subbyte2_pand2_0
+Cell subbyte2_pand2_0 port order was modified.
+Annotating cell subbyte2_pnand2_0
+Cell subbyte2_pnand2_0 port order was modified.
+Annotating cell subbyte2_pinv_8
+Cell subbyte2_pinv_8 port order was modified.
+Annotating cell subbyte2_pdriver_1
+Cell subbyte2_pdriver_1 port order was modified.
+Annotating cell subbyte2_pinv_1
+Cell subbyte2_pinv_1 port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dff
+Cell sky130_fd_bd_sram__openram_dff port order was modified.
+Annotating cell subbyte2_pinv_2
+Cell subbyte2_pinv_2 port order was modified.
+Annotating cell subbyte2_dff_buf_0
+Cell subbyte2_dff_buf_0 port order was modified.
+Annotating cell subbyte2_dff_buf_array
+Cell subbyte2_dff_buf_array port order was modified.
+Annotating cell subbyte2_pinv_11
+Cell subbyte2_pinv_11 port order was modified.
+Annotating cell subbyte2_pdriver_3
+Cell subbyte2_pdriver_3 port order was modified.
+Annotating cell subbyte2_pnand3
+Cell subbyte2_pnand3 port order was modified.
+Annotating cell subbyte2_pand3
+Cell subbyte2_pand3 port order was modified.
+Annotating cell subbyte2_pinv_9
+Cell subbyte2_pinv_9 port order was modified.
+Annotating cell subbyte2_pinv_10
+Cell subbyte2_pinv_10 port order was modified.
+Annotating cell subbyte2_pdriver_2
+Cell subbyte2_pdriver_2 port order was modified.
+Annotating cell subbyte2_pinv_0
+Cell subbyte2_pinv_0 port order was modified.
+Annotating cell subbyte2_control_logic_w
+Cell subbyte2_control_logic_w port order was modified.
+Annotating cell subbyte2_col_addr_dff
+Cell subbyte2_col_addr_dff port order was modified.
+Annotating cell subbyte2_precharge_0
+Cell subbyte2_precharge_0 port order was modified.
+Annotating cell subbyte2_precharge_array
+Cell subbyte2_precharge_array port order was modified.
+Annotating cell subbyte2_column_mux
+Cell subbyte2_column_mux port order was modified.
+Annotating cell subbyte2_column_mux_array
+Cell subbyte2_column_mux_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_write_driver
+Cell sky130_fd_bd_sram__openram_write_driver port order was modified.
+Annotating cell subbyte2_write_driver_array
+Cell subbyte2_write_driver_array port order was modified.
+Annotating cell subbyte2_port_data
+Cell subbyte2_port_data port order was modified.
+Annotating cell subbyte2_precharge_1
+Cell subbyte2_precharge_1 port order was modified.
+Annotating cell subbyte2_precharge_array_0
+Cell subbyte2_precharge_array_0 port order was modified.
+Annotating cell subbyte2_column_mux_0
+Cell subbyte2_column_mux_0 port order was modified.
+Annotating cell subbyte2_column_mux_array_0
+Cell subbyte2_column_mux_array_0 port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_sense_amp
+Cell sky130_fd_bd_sram__openram_sense_amp port order was modified.
+Annotating cell subbyte2_sense_amp_array
+Cell subbyte2_sense_amp_array port order was modified.
+Annotating cell subbyte2_port_data_0
+Cell subbyte2_port_data_0 port order was modified.
+Annotating cell subbyte2_pinv_dec
+Cell subbyte2_pinv_dec port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_nand3_dec
+Cell sky130_fd_bd_sram__openram_dp_nand3_dec port order was modified.
+Annotating cell subbyte2_and3_dec
+Cell subbyte2_and3_dec port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_nand2_dec
+Cell sky130_fd_bd_sram__openram_dp_nand2_dec port order was modified.
+Annotating cell subbyte2_and2_dec
+Cell subbyte2_and2_dec port order was modified.
+Annotating cell subbyte2_hierarchical_predecode2x4
+Cell subbyte2_hierarchical_predecode2x4 port order was modified.
+Annotating cell subbyte2_hierarchical_decoder
+Cell subbyte2_hierarchical_decoder port order was modified.
+Annotating cell subbyte2_pinv_dec_0
+Cell subbyte2_pinv_dec_0 port order was modified.
+Annotating cell subbyte2_and2_dec_0
+Cell subbyte2_and2_dec_0 port order was modified.
+Annotating cell subbyte2_wordline_driver
+Cell subbyte2_wordline_driver port order was modified.
+Annotating cell subbyte2_wordline_driver_array
+Cell subbyte2_wordline_driver_array port order was modified.
+Annotating cell subbyte2_port_address_0
+Cell subbyte2_port_address_0 port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_replica
+Cell sky130_fd_bd_sram__openram_dp_cell_replica port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_dummy
+Cell sky130_fd_bd_sram__openram_dp_cell_dummy port order was modified.
+Annotating cell subbyte2_replica_column_0
+Cell subbyte2_replica_column_0 port order was modified.
+Annotating cell subbyte2_replica_column
+Cell subbyte2_replica_column port order was modified.
+Annotating cell subbyte2_dummy_array
+Cell subbyte2_dummy_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell
+Cell sky130_fd_bd_sram__openram_dp_cell port order was modified.
+Annotating cell subbyte2_bitcell_array
+Cell subbyte2_bitcell_array port order was modified.
+Annotating cell subbyte2_replica_bitcell_array
+Cell subbyte2_replica_bitcell_array port order was modified.
+Annotating cell subbyte2_capped_replica_bitcell_array
+Cell subbyte2_capped_replica_bitcell_array port order was modified.
+Annotating cell subbyte2_port_address
+Cell subbyte2_port_address port order was modified.
+Annotating cell subbyte2_pdriver
+Cell subbyte2_pdriver port order was modified.
+Annotating cell subbyte2_pand2
+Cell subbyte2_pand2 port order was modified.
+Annotating cell subbyte2_hierarchical_predecode2x4_0
+Cell subbyte2_hierarchical_predecode2x4_0 port order was modified.
+Annotating cell subbyte2_column_decoder
+Cell subbyte2_column_decoder port order was modified.
+Annotating cell subbyte2_bank
+Cell subbyte2_bank port order was modified.
+Annotating cell subbyte2_pinv_12
+Cell subbyte2_pinv_12 port order was modified.
+Annotating cell subbyte2_pdriver_4
+Cell subbyte2_pdriver_4 port order was modified.
+Annotating cell subbyte2_pand3_0
+Cell subbyte2_pand3_0 port order was modified.
+Annotating cell subbyte2_control_logic_r
+Cell subbyte2_control_logic_r port order was modified.
+Annotating cell subbyte2_data_dff
+Cell subbyte2_data_dff port order was modified.
+Annotating cell subbyte2_row_addr_dff
+Cell subbyte2_row_addr_dff port order was modified.
+Annotating cell subbyte2
+Cell subbyte2 port order was modified.
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice(si)"
+Processing subbyte2_pinv_3
+Processing subbyte2_pdriver_0
+Processing subbyte2_pnand2
+Processing subbyte2_pand2_0
+Processing subbyte2_pinv_0
+Processing subbyte2_pinv_8
+Processing subbyte2_pinv_7
+Processing subbyte2_pinv_6
+Processing subbyte2_pinv
+Processing subbyte2_pdriver_1
+Processing subbyte2_pinv_2
+Processing subbyte2_pinv_1
+Processing sky130_fd_bd_sram__openram_dff
+Processing subbyte2_dff_buf_0
+Processing subbyte2_dff_buf_array
+Processing subbyte2_pinv_11
+Processing subbyte2_pdriver_3
+Processing subbyte2_pnand3
+Processing subbyte2_pand3
+Processing subbyte2_pdriver_5
+Processing subbyte2_pnand2_0
+Processing subbyte2_pinv_10
+Processing subbyte2_pinv_9
+Processing subbyte2_pdriver_2
+Processing subbyte2_pinv_13
+Processing subbyte2_delay_chain
+Processing subbyte2_control_logic_w
+Processing subbyte2_row_addr_dff
+Processing subbyte2_col_addr_dff
+Processing subbyte2_data_dff
+Processing subbyte2_cr_3
+Processing subbyte2_cr_4
+Processing subbyte2_contact_37
+Processing subbyte2_pinv_12
+Processing subbyte2_pdriver_4
+Processing subbyte2_pand3_0
+Processing subbyte2_control_logic_r
+Processing subbyte2_cr_5
+Processing subbyte2_pdriver
+Processing subbyte2_pand2
+Processing subbyte2_hierarchical_predecode2x4_0
+Processing subbyte2_column_decoder
+Processing subbyte2_pinv_dec_0
+Processing sky130_fd_bd_sram__openram_dp_nand2_dec
+Processing subbyte2_and2_dec_0
+Processing subbyte2_wordline_driver
+Processing subbyte2_wordline_driver_array
+Processing subbyte2_pinv_dec
+Processing subbyte2_and2_dec
+Processing subbyte2_hierarchical_predecode2x4
+Processing sky130_fd_bd_sram__openram_dp_nand3_dec
+Processing subbyte2_and3_dec
+Processing subbyte2_hierarchical_decoder
+Processing subbyte2_port_address_0
+Processing subbyte2_port_address
+Processing subbyte2_column_mux_0
+Processing subbyte2_column_mux_array_0
+Processing sky130_fd_bd_sram__openram_sense_amp
+Processing subbyte2_sense_amp_array
+Processing subbyte2_precharge_1
+Processing subbyte2_precharge_array_0
+Processing subbyte2_port_data_0
+Processing subbyte2_column_mux
+Processing subbyte2_column_mux_array
+Processing sky130_fd_bd_sram__openram_write_driver
+Processing subbyte2_write_driver_array
+Processing subbyte2_precharge_0
+Processing subbyte2_precharge_array
+Processing subbyte2_port_data
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_row
+Processing subbyte2_row_cap_array_0
+Processing subbyte2_row_cap_array
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_col
+Processing subbyte2_col_cap_array
+Processing subbyte2_col_cap_array_0
+Processing sky130_fd_bd_sram__openram_dp_cell_dummy
+Processing subbyte2_dummy_array
+Processing sky130_fd_bd_sram__openram_dp_cell_replica
+Processing subbyte2_replica_column_0
+Processing subbyte2_replica_column
+Processing sky130_fd_bd_sram__openram_dp_cell
+Processing subbyte2_bitcell_array
+Processing subbyte2_replica_bitcell_array
+Processing subbyte2_capped_replica_bitcell_array
+Processing subbyte2_bank
+Processing subbyte2
+Extracting subbyte2_pinv_3 into subbyte2_pinv_3.ext:
+Extracting subbyte2_pdriver_0 into subbyte2_pdriver_0.ext:
+Extracting subbyte2_pnand2 into subbyte2_pnand2.ext:
+Extracting subbyte2_pand2_0 into subbyte2_pand2_0.ext:
+Extracting subbyte2_pinv_0 into subbyte2_pinv_0.ext:
+Extracting subbyte2_pinv_8 into subbyte2_pinv_8.ext:
+Extracting subbyte2_pinv_7 into subbyte2_pinv_7.ext:
+Extracting subbyte2_pinv_6 into subbyte2_pinv_6.ext:
+Extracting subbyte2_pinv into subbyte2_pinv.ext:
+Extracting subbyte2_pdriver_1 into subbyte2_pdriver_1.ext:
+Extracting subbyte2_pinv_2 into subbyte2_pinv_2.ext:
+Extracting subbyte2_pinv_1 into subbyte2_pinv_1.ext:
+Extracting sky130_fd_bd_sram__openram_dff into sky130_fd_bd_sram__openram_dff.ext:
+Extracting subbyte2_dff_buf_0 into subbyte2_dff_buf_0.ext:
+Extracting subbyte2_dff_buf_array into subbyte2_dff_buf_array.ext:
+Extracting subbyte2_pinv_11 into subbyte2_pinv_11.ext:
+Extracting subbyte2_pdriver_3 into subbyte2_pdriver_3.ext:
+Extracting subbyte2_pnand3 into subbyte2_pnand3.ext:
+Extracting subbyte2_pand3 into subbyte2_pand3.ext:
+Extracting subbyte2_pdriver_5 into subbyte2_pdriver_5.ext:
+Extracting subbyte2_pnand2_0 into subbyte2_pnand2_0.ext:
+Extracting subbyte2_pinv_10 into subbyte2_pinv_10.ext:
+Extracting subbyte2_pinv_9 into subbyte2_pinv_9.ext:
+Extracting subbyte2_pdriver_2 into subbyte2_pdriver_2.ext:
+Extracting subbyte2_pinv_13 into subbyte2_pinv_13.ext:
+Extracting subbyte2_delay_chain into subbyte2_delay_chain.ext:
+Extracting subbyte2_control_logic_w into subbyte2_control_logic_w.ext:
+Extracting subbyte2_row_addr_dff into subbyte2_row_addr_dff.ext:
+Extracting subbyte2_col_addr_dff into subbyte2_col_addr_dff.ext:
+Extracting subbyte2_data_dff into subbyte2_data_dff.ext:
+Extracting subbyte2_cr_3 into subbyte2_cr_3.ext:
+Extracting subbyte2_cr_4 into subbyte2_cr_4.ext:
+Extracting subbyte2_contact_37 into subbyte2_contact_37.ext:
+Extracting subbyte2_pinv_12 into subbyte2_pinv_12.ext:
+Extracting subbyte2_pdriver_4 into subbyte2_pdriver_4.ext:
+Extracting subbyte2_pand3_0 into subbyte2_pand3_0.ext:
+Extracting subbyte2_control_logic_r into subbyte2_control_logic_r.ext:
+Extracting subbyte2_cr_5 into subbyte2_cr_5.ext:
+Extracting subbyte2_pdriver into subbyte2_pdriver.ext:
+Extracting subbyte2_pand2 into subbyte2_pand2.ext:
+Extracting subbyte2_hierarchical_predecode2x4_0 into subbyte2_hierarchical_predecode2x4_0.ext:
+Extracting subbyte2_column_decoder into subbyte2_column_decoder.ext:
+Extracting subbyte2_pinv_dec_0 into subbyte2_pinv_dec_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand2_dec into sky130_fd_bd_sram__openram_dp_nand2_dec.ext:
+Extracting subbyte2_and2_dec_0 into subbyte2_and2_dec_0.ext:
+Extracting subbyte2_wordline_driver into subbyte2_wordline_driver.ext:
+Extracting subbyte2_wordline_driver_array into subbyte2_wordline_driver_array.ext:
+Extracting subbyte2_pinv_dec into subbyte2_pinv_dec.ext:
+Extracting subbyte2_and2_dec into subbyte2_and2_dec.ext:
+Extracting subbyte2_hierarchical_predecode2x4 into subbyte2_hierarchical_predecode2x4.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand3_dec into sky130_fd_bd_sram__openram_dp_nand3_dec.ext:
+Extracting subbyte2_and3_dec into subbyte2_and3_dec.ext:
+Extracting subbyte2_hierarchical_decoder into subbyte2_hierarchical_decoder.ext:
+Extracting subbyte2_port_address_0 into subbyte2_port_address_0.ext:
+Extracting subbyte2_port_address into subbyte2_port_address.ext:
+Extracting subbyte2_column_mux_0 into subbyte2_column_mux_0.ext:
+Extracting subbyte2_column_mux_array_0 into subbyte2_column_mux_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_sense_amp into sky130_fd_bd_sram__openram_sense_amp.ext:
+Extracting subbyte2_sense_amp_array into subbyte2_sense_amp_array.ext:
+Extracting subbyte2_precharge_1 into subbyte2_precharge_1.ext:
+Extracting subbyte2_precharge_array_0 into subbyte2_precharge_array_0.ext:
+Extracting subbyte2_port_data_0 into subbyte2_port_data_0.ext:
+Extracting subbyte2_column_mux into subbyte2_column_mux.ext:
+Extracting subbyte2_column_mux_array into subbyte2_column_mux_array.ext:
+Extracting sky130_fd_bd_sram__openram_write_driver into sky130_fd_bd_sram__openram_write_driver.ext:
+Extracting subbyte2_write_driver_array into subbyte2_write_driver_array.ext:
+Extracting subbyte2_precharge_0 into subbyte2_precharge_0.ext:
+Extracting subbyte2_precharge_array into subbyte2_precharge_array.ext:
+Extracting subbyte2_port_data into subbyte2_port_data.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_row into sky130_fd_bd_sram__openram_dp_cell_cap_row.ext:
+Extracting subbyte2_row_cap_array_0 into subbyte2_row_cap_array_0.ext:
+Extracting subbyte2_row_cap_array into subbyte2_row_cap_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_col into sky130_fd_bd_sram__openram_dp_cell_cap_col.ext:
+Extracting subbyte2_col_cap_array into subbyte2_col_cap_array.ext:
+Extracting subbyte2_col_cap_array_0 into subbyte2_col_cap_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_dummy into sky130_fd_bd_sram__openram_dp_cell_dummy.ext:
+Extracting subbyte2_dummy_array into subbyte2_dummy_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
+sky130_fd_bd_sram__openram_dp_cell_replica: 3 warnings
+Extracting subbyte2_replica_column_0 into subbyte2_replica_column_0.ext:
+Extracting subbyte2_replica_column into subbyte2_replica_column.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell into sky130_fd_bd_sram__openram_dp_cell.ext:
+sky130_fd_bd_sram__openram_dp_cell: 2 warnings
+Extracting subbyte2_bitcell_array into subbyte2_bitcell_array.ext:
+Extracting subbyte2_replica_bitcell_array into subbyte2_replica_bitcell_array.ext:
+Created database crash recovery file /tmp//MAG42669.pKtKYM
+Extracting subbyte2_capped_replica_bitcell_array into subbyte2_capped_replica_bitcell_array.ext:
+Extracting subbyte2_bank into subbyte2_bank.ext:
+Extracting subbyte2 into subbyte2.ext:
+device missing 1 terminal;
+ connecting remainder to node vdd
+device missing 1 terminal;
+ connecting remainder to node a_38_133#
+device missing 1 terminal;
+ connecting remainder to node a_16_183#
+Finished extract
+exttospice finished.
+device missing 1 terminal;
+ connecting remainder to node vdd
+device missing 1 terminal;
+ connecting remainder to node a_38_133#
+device missing 1 terminal;
+ connecting remainder to node a_16_183#
+Finished ext2spice
+Saturday 04 May 2024 03:33:53 AM IST: Finished (0) GDS to MAG using Magic /home/shanmugam/OpenRAM/miniconda/bin/magic

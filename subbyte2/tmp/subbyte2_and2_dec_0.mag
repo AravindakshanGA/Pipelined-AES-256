@@ -1,0 +1,43 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1543373570
+<< checkpaint >>
+rect -1190 -1316 4600 1750
+<< locali >>
+rect 70 282 136 316
+rect 549 314 970 348
+rect 70 174 136 208
+rect 936 170 970 314
+rect 1305 103 3322 137
+<< metal1 >>
+rect 246 -30 294 402
+rect 670 -32 720 402
+rect 1324 0 1352 395
+rect 2572 0 2600 395
+use sky130_fd_bd_sram__openram_dp_nand2_dec  sky130_fd_bd_sram__openram_dp_nand2_dec_0
+timestamp -19799
+transform 1 0 0 0 1 0
+box 70 -56 888 476
+use subbyte2_pinv_dec_0  subbyte2_pinv_dec_0_0
+timestamp 1543373570
+transform 1 0 876 0 1 0
+box 44 0 2464 490
+<< labels >>
+rlabel locali s 2313 120 2313 120 4 Z
+port 2 nsew
+rlabel locali s 103 299 103 299 4 A
+port 3 nsew
+rlabel locali s 103 191 103 191 4 B
+port 4 nsew
+rlabel metal1 s 2572 0 2600 395 4 vdd
+port 6 nsew
+rlabel metal1 s 670 -32 720 402 4 vdd
+port 6 nsew
+rlabel metal1 s 1324 0 1352 395 4 gnd
+port 8 nsew
+rlabel metal1 s 246 -30 294 402 4 gnd
+port 8 nsew
+<< properties >>
+string FIXED_BBOX 0 0 3322 395
+<< end >>

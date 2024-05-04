@@ -1,0 +1,21 @@
+OpenROAD 0889970d1790a2617e69f253221b8bd7626e51dc 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/s_box_maker/runs/full_guide/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/s_box_maker/runs/full_guide/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/s_box_maker/runs/full_guide/results/routing/s_box_maker.def
+[INFO ODB-0128] Design: s_box_maker
+[INFO ODB-0130]     Created 22 pins.
+[INFO ODB-0131]     Created 2186 components and 10232 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 8254 connections.
+[INFO ODB-0133]     Created 500 nets and 1978 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/s_box_maker/runs/full_guide/results/routing/s_box_maker.def
+Top-level design name: s_box_maker
+Found default power net 'VPWR'
+Found default ground net 'VGND'
+Found 1 power ports.
+Found 1 ground ports.
+Modified power connections of 2186/2186 cells.

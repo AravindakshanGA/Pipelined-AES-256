@@ -1,0 +1,379 @@
+/home/shanmugam/OpenRAM/macros/subbyte2/tmp/run_ext.sh: 2: source: not found
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 2629970): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 2633746): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 2637938): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 2644466): Unknown layer/datatype in boundary, layer=22 type=22
+CIF file read warning: CIF style sky130(vendor): units rescaled by factor of 5 / 1
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 2648850): Unknown layer/datatype in boundary, layer=235 type=0
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 2716642): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 2720418): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 2724610): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 2731138): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 2735522): Unknown layer/datatype in boundary, layer=235 type=0
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2744712): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2748488): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2752680): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2757544): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2761800): Unknown layer/datatype in boundary, layer=235 type=0
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2981434): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2982138): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2983162): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "subbyte2_precharge_0" (byte position 3101914): Warning:  Cell subbyte2_precharge_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_array" (byte position 3099568): Warning:  Cell subbyte2_precharge_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux" (byte position 3191866): Warning:  Cell subbyte2_column_mux boundary was redefined.
+Error while reading cell "subbyte2_column_mux" (byte position 3191866): Warning:  Cell subbyte2_column_mux boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array" (byte position 3189126): Warning:  Cell subbyte2_column_mux_array boundary was redefined.
+Error while reading cell "subbyte2_precharge_1" (byte position 3267052): Warning:  Cell subbyte2_precharge_1 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_precharge_array_0" (byte position 3264706): Warning:  Cell subbyte2_precharge_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_0" (byte position 3354132): Warning:  Cell subbyte2_column_mux_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_0" (byte position 3354132): Warning:  Cell subbyte2_column_mux_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_column_mux_array_0" (byte position 3351390): Warning:  Cell subbyte2_column_mux_array_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec" (byte position 3557740): Warning:  Cell subbyte2_pinv_dec boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec" (byte position 3557740): Warning:  Cell subbyte2_pinv_dec boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec" (byte position 3557740): Warning:  Cell subbyte2_pinv_dec boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec" (byte position 3557740): Warning:  Cell subbyte2_pinv_dec boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec_0" (byte position 3677558): Warning:  Cell subbyte2_pinv_dec_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec_0" (byte position 3677558): Warning:  Cell subbyte2_pinv_dec_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec_0" (byte position 3677558): Warning:  Cell subbyte2_pinv_dec_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_dec_0" (byte position 3677558): Warning:  Cell subbyte2_pinv_dec_0 boundary was redefined.
+Error while reading cell "subbyte2_port_address" (byte position 3399594): Warning:  Cell subbyte2_port_address boundary was redefined.
+Error while reading cell "subbyte2_port_address" (byte position 3399594): Warning:  Cell subbyte2_port_address boundary was redefined.
+Error while reading cell "subbyte2_port_address" (byte position 3399594): Warning:  Cell subbyte2_port_address boundary was redefined.
+Error while reading cell "subbyte2_port_address" (byte position 3399594): Warning:  Cell subbyte2_port_address boundary was redefined.
+Error while reading cell "subbyte2_port_address_0" (byte position 3726234): Warning:  Cell subbyte2_port_address_0 boundary was redefined.
+Error while reading cell "subbyte2_port_address_0" (byte position 3726234): Warning:  Cell subbyte2_port_address_0 boundary was redefined.
+Error while reading cell "subbyte2_port_address_0" (byte position 3726234): Warning:  Cell subbyte2_port_address_0 boundary was redefined.
+Error while reading cell "subbyte2_port_address_0" (byte position 3726234): Warning:  Cell subbyte2_port_address_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_0" (byte position 3738106): Warning:  Cell subbyte2_pinv_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_0" (byte position 3738106): Warning:  Cell subbyte2_pinv_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_0" (byte position 3738106): Warning:  Cell subbyte2_pinv_0 boundary was redefined.
+Error while reading cell "subbyte2_pnand2" (byte position 3742736): Warning:  Cell subbyte2_pnand2 boundary was redefined.
+Error while reading cell "subbyte2_pnand2" (byte position 3742736): Warning:  Cell subbyte2_pnand2 boundary was redefined.
+Error while reading cell "subbyte2_pnand2" (byte position 3742736): Warning:  Cell subbyte2_pnand2 boundary was redefined.
+Error while reading cell "subbyte2_pinv" (byte position 3747916): Warning:  Cell subbyte2_pinv boundary was redefined.
+Error while reading cell "subbyte2_pinv" (byte position 3747916): Warning:  Cell subbyte2_pinv boundary was redefined.
+Error while reading cell "subbyte2_pinv" (byte position 3747916): Warning:  Cell subbyte2_pinv boundary was redefined.
+Error while reading cell "subbyte2_hierarchical_predecode2x4_0" (byte position 3736312): Warning:  Cell subbyte2_hierarchical_predecode2x4_0 boundary was redefined.
+Error while reading cell "subbyte2_hierarchical_predecode2x4_0" (byte position 3736312): Warning:  Cell subbyte2_hierarchical_predecode2x4_0 boundary was redefined.
+Error while reading cell "subbyte2_pinv_1" (byte position 3791010): Warning:  Cell subbyte2_pinv_1 boundary was redefined.
+Error while reading cell "subbyte2_pinv_1" (byte position 3791010): Warning:  Cell subbyte2_pinv_1 boundary was redefined.
+Error while reading cell "subbyte2_pinv_1" (byte position 3791010): Warning:  Cell subbyte2_pinv_1 boundary was redefined.
+Error while reading cell "subbyte2_pinv_2" (byte position 3795072): Warning:  Cell subbyte2_pinv_2 boundary was redefined.
+Error while reading cell "subbyte2_pinv_2" (byte position 3795072): Warning:  Cell subbyte2_pinv_2 boundary was redefined.
+Error while reading cell "subbyte2_pinv_2" (byte position 3795072): Warning:  Cell subbyte2_pinv_2 boundary was redefined.
+Error while reading cell "subbyte2_dff_buf_array" (byte position 3766722): Warning:  Cell subbyte2_dff_buf_array boundary was redefined.
+Error while reading cell "subbyte2_dff_buf_array" (byte position 3766722): Warning:  Cell subbyte2_dff_buf_array boundary was redefined.
+Error while reading cell "subbyte2_pinv_6" (byte position 3801274): Warning:  Cell subbyte2_pinv_6 boundary was redefined.
+Error while reading cell "subbyte2_pinv_6" (byte position 3801274): Warning:  Cell subbyte2_pinv_6 boundary was redefined.
+Error while reading cell "subbyte2_pinv_6" (byte position 3801274): Warning:  Cell subbyte2_pinv_6 boundary was redefined.
+Error while reading cell "subbyte2_pinv_7" (byte position 3803452): Warning:  Cell subbyte2_pinv_7 boundary was redefined.
+Error while reading cell "subbyte2_pinv_7" (byte position 3803452): Warning:  Cell subbyte2_pinv_7 boundary was redefined.
+Error while reading cell "subbyte2_pinv_7" (byte position 3803452): Warning:  Cell subbyte2_pinv_7 boundary was redefined.
+Error while reading cell "subbyte2_pinv_8" (byte position 3810270): Warning:  Cell subbyte2_pinv_8 boundary was redefined.
+Error while reading cell "subbyte2_pinv_8" (byte position 3810270): Warning:  Cell subbyte2_pinv_8 boundary was redefined.
+Error while reading cell "subbyte2_pinv_8" (byte position 3810270): Warning:  Cell subbyte2_pinv_8 boundary was redefined.
+Error while reading cell "subbyte2_pinv_3" (byte position 3823242): Warning:  Cell subbyte2_pinv_3 boundary was redefined.
+Error while reading cell "subbyte2_pinv_3" (byte position 3823242): Warning:  Cell subbyte2_pinv_3 boundary was redefined.
+Error while reading cell "subbyte2_pinv_3" (byte position 3823242): Warning:  Cell subbyte2_pinv_3 boundary was redefined.
+Error while reading cell "subbyte2_pinv_9" (byte position 3830738): Warning:  Cell subbyte2_pinv_9 boundary was redefined.
+Error while reading cell "subbyte2_pinv_9" (byte position 3830738): Warning:  Cell subbyte2_pinv_9 boundary was redefined.
+Error while reading cell "subbyte2_pinv_9" (byte position 3830738): Warning:  Cell subbyte2_pinv_9 boundary was redefined.
+Error while reading cell "subbyte2_pinv_10" (byte position 3836372): Warning:  Cell subbyte2_pinv_10 boundary was redefined.
+Error while reading cell "subbyte2_pinv_10" (byte position 3836372): Warning:  Cell subbyte2_pinv_10 boundary was redefined.
+Error while reading cell "subbyte2_pinv_10" (byte position 3836372): Warning:  Cell subbyte2_pinv_10 boundary was redefined.
+Error while reading cell "subbyte2_pnand3" (byte position 3846858): Warning:  Cell subbyte2_pnand3 boundary was redefined.
+Error while reading cell "subbyte2_pnand3" (byte position 3846858): Warning:  Cell subbyte2_pnand3 boundary was redefined.
+Error while reading cell "subbyte2_pnand3" (byte position 3846858): Warning:  Cell subbyte2_pnand3 boundary was redefined.
+Error while reading cell "subbyte2_pinv_11" (byte position 3850868): Warning:  Cell subbyte2_pinv_11 boundary was redefined.
+Error while reading cell "subbyte2_pinv_11" (byte position 3850868): Warning:  Cell subbyte2_pinv_11 boundary was redefined.
+Error while reading cell "subbyte2_pinv_11" (byte position 3850868): Warning:  Cell subbyte2_pinv_11 boundary was redefined.
+Error while reading cell "subbyte2_pinv_13" (byte position 3885090): Warning:  Cell subbyte2_pinv_13 boundary was redefined.
+Error while reading cell "subbyte2_pinv_13" (byte position 3885090): Warning:  Cell subbyte2_pinv_13 boundary was redefined.
+Error while reading cell "subbyte2_pinv_13" (byte position 3885090): Warning:  Cell subbyte2_pinv_13 boundary was redefined.
+Error while reading cell "subbyte2_delay_chain" (byte position 3883296): Warning:  Cell subbyte2_delay_chain boundary was redefined.
+Error while reading cell "subbyte2_delay_chain" (byte position 3883296): Warning:  Cell subbyte2_delay_chain boundary was redefined.
+Error while reading cell "subbyte2_delay_chain" (byte position 3883296): Warning:  Cell subbyte2_delay_chain boundary was redefined.
+Error while reading cell "subbyte2_delay_chain" (byte position 3883296): Warning:  Cell subbyte2_delay_chain boundary was redefined.
+Error while reading cell "subbyte2_delay_chain" (byte position 3883296): Warning:  Cell subbyte2_delay_chain boundary was redefined.
+Error while reading cell "subbyte2_delay_chain" (byte position 3883296): Warning:  Cell subbyte2_delay_chain boundary was redefined.
+Error while reading cell "subbyte2_delay_chain" (byte position 3883296): Warning:  Cell subbyte2_delay_chain boundary was redefined.
+Error while reading cell "subbyte2_pnand2_0" (byte position 3887872): Warning:  Cell subbyte2_pnand2_0 boundary was redefined.
+Error while reading cell "subbyte2_pnand2_0" (byte position 3887872): Warning:  Cell subbyte2_pnand2_0 boundary was redefined.
+Error while reading cell "subbyte2_pnand2_0" (byte position 3887872): Warning:  Cell subbyte2_pnand2_0 boundary was redefined.
+Error while reading cell "subbyte2_control_logic_w" (byte position 3764750): Warning:  Cell subbyte2_control_logic_w boundary was redefined.
+Error while reading cell "subbyte2_control_logic_w" (byte position 3764750): Warning:  Cell subbyte2_control_logic_w boundary was redefined.
+Error while reading cell "subbyte2_pinv_12" (byte position 3909160): Warning:  Cell subbyte2_pinv_12 boundary was redefined.
+Error while reading cell "subbyte2_pinv_12" (byte position 3909160): Warning:  Cell subbyte2_pinv_12 boundary was redefined.
+Error while reading cell "subbyte2_pinv_12" (byte position 3909160): Warning:  Cell subbyte2_pinv_12 boundary was redefined.
+Error while reading cell "subbyte2_control_logic_r" (byte position 3904880): Warning:  Cell subbyte2_control_logic_r boundary was redefined.
+Error while reading cell "subbyte2_control_logic_r" (byte position 3904880): Warning:  Cell subbyte2_control_logic_r boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_row_addr_dff" (byte position 3920582): Warning:  Cell subbyte2_row_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_col_addr_dff" (byte position 3922898): Warning:  Cell subbyte2_col_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_col_addr_dff" (byte position 3922898): Warning:  Cell subbyte2_col_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_col_addr_dff" (byte position 3922898): Warning:  Cell subbyte2_col_addr_dff boundary was redefined.
+Error while reading cell "subbyte2_data_dff" (byte position 3929270): Warning:  Cell subbyte2_data_dff boundary was redefined.
+Error while reading cell "subbyte2_data_dff" (byte position 3929270): Warning:  Cell subbyte2_data_dff boundary was redefined.
+Error while reading cell "subbyte2_data_dff" (byte position 3929270): Warning:  Cell subbyte2_data_dff boundary was redefined.
+Error while reading cell "subbyte2_data_dff" (byte position 3929270): Warning:  Cell subbyte2_data_dff boundary was redefined.
+Error while reading cell "subbyte2_data_dff" (byte position 3929270): Warning:  Cell subbyte2_data_dff boundary was redefined.
+Warning:  Ports "clk" and "CLK" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "dout" and "DOUT" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Warning:  Ports "din" and "DIN" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+freeMagic called with NULL argument.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Total of 5 warnings.
+Warning:  Ports "clk" and "CLK" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "dout" and "DOUT" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Warning:  Ports "din" and "DIN" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.

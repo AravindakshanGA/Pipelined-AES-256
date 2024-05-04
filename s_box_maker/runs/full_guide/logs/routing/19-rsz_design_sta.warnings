@@ -1,0 +1,36 @@
+[WARNING STA-0337] port '__VIRTUAL_CLK__' not found.
+[WARNING STA-0559] transition time can not be specified for virtual clocks.
+[WARNING GRT-0026] Missing route to pin _655_/A1.
+[WARNING GRT-0026] Missing route to pin _563_/B.
+[WARNING GRT-0026] Missing route to pin _541_/Y.
+[WARNING GRT-0026] Missing route to pin _547_/X.
+[WARNING GRT-0026] Missing route to pin _552_/A.
+[WARNING GRT-0026] Missing route to pin _563_/X.
+[WARNING GRT-0026] Missing route to pin _569_/X.
+[WARNING GRT-0026] Missing route to pin _579_/X.
+[WARNING GRT-0026] Missing route to pin _591_/X.
+[WARNING GRT-0026] Missing route to pin _595_/Y.
+[WARNING GRT-0026] Missing route to pin _604_/X.
+[WARNING GRT-0026] Missing route to pin _496_/A2.
+[WARNING GRT-0026] Missing route to pin _477_/A1.
+[WARNING GRT-0026] Missing route to pin _458_/X.
+[WARNING GRT-0026] Missing route to pin _496_/C1.
+[WARNING GRT-0026] Missing route to pin _460_/D1.
+[WARNING GRT-0026] Missing route to pin _460_/X.
+[WARNING GRT-0026] Missing route to pin _563_/A.
+[WARNING GRT-0026] Missing route to pin _489_/A.
+[WARNING GRT-0026] Missing route to pin _489_/X.
+[WARNING GRT-0026] Missing route to pin _502_/Y.
+[WARNING GRT-0026] Missing route to pin _541_/B.
+[WARNING GRT-0026] Missing route to pin _601_/B1.
+[WARNING GRT-0026] Missing route to pin _525_/A.
+[WARNING GRT-0026] Missing route to pin output12/X.
+[WARNING GRT-0026] Missing route to pin _458_/A.
+[WARNING GRT-0026] Missing route to pin _923_/Q.
+[WARNING GRT-0026] Missing route to pin _484_/B.
+[WARNING GRT-0026] Missing route to pin _541_/A.
+[WARNING GRT-0026] Missing route to pin _458_/B.
+[WARNING GRT-0026] Missing route to pin output20/A.
+Warning: There are 18 unclocked register/latch pins.
+Warning: There are 36 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

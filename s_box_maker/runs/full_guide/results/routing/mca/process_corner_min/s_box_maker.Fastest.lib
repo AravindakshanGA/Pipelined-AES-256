@@ -1,0 +1,137 @@
+library (s_box_maker) {
+  comment                        : "";
+  delay_model                    : table_lookup;
+  simulation                     : false;
+  capacitive_load_unit (1,pF);
+  leakage_power_unit             : 1pW;
+  current_unit                   : "1A";
+  pulling_resistance_unit        : "1kohm";
+  time_unit                      : "1ns";
+  voltage_unit                   : "1v";
+  library_features(report_delay_calculation);
+
+  input_threshold_pct_rise : 50;
+  input_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  output_threshold_pct_fall : 50;
+  slew_lower_threshold_pct_rise : 20;
+  slew_lower_threshold_pct_fall : 20;
+  slew_upper_threshold_pct_rise : 80;
+  slew_upper_threshold_pct_fall : 80;
+  slew_derate_from_library : 1.0;
+
+
+  nom_process                    : 1.0;
+  nom_temperature                : 100.0;
+  nom_voltage                    : 1.60;
+
+  type ("wr_addr") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 6;
+    bit_from : 0;
+    bit_to : 7;
+  }
+  type ("wr_data") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 6;
+    bit_from : 0;
+    bit_to : 7;
+  }
+
+  cell ("s_box_maker") {
+    interface_timing : true;
+    pin("clk") {
+      direction : input;
+      capacitance : 0.0028;
+    }
+    pin("ram_ready") {
+      direction : output;
+      capacitance : 0.0009;
+    }
+    pin("reset") {
+      direction : input;
+      capacitance : 0.0030;
+    }
+    pin("wr_enable") {
+      direction : output;
+      capacitance : 0.0008;
+    }
+    bus("wr_addr") {
+      bus_type : wr_addr;
+      direction : output;
+      capacitance : 0.0000;
+    pin("wr_addr[0]") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    pin("wr_addr[1]") {
+      direction : output;
+      capacitance : 0.0006;
+    }
+    pin("wr_addr[2]") {
+      direction : output;
+      capacitance : 0.0006;
+    }
+    pin("wr_addr[3]") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    pin("wr_addr[4]") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    pin("wr_addr[5]") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    pin("wr_addr[6]") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    pin("wr_addr[7]") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    }
+    bus("wr_data") {
+      bus_type : wr_data;
+      direction : output;
+      capacitance : 0.0000;
+    pin("wr_data[0]") {
+      direction : output;
+      capacitance : 0.0006;
+    }
+    pin("wr_data[1]") {
+      direction : output;
+      capacitance : 0.0012;
+    }
+    pin("wr_data[2]") {
+      direction : output;
+      capacitance : 0.0009;
+    }
+    pin("wr_data[3]") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    pin("wr_data[4]") {
+      direction : output;
+      capacitance : 0.0006;
+    }
+    pin("wr_data[5]") {
+      direction : output;
+      capacitance : 0.0009;
+    }
+    pin("wr_data[6]") {
+      direction : output;
+      capacitance : 0.0006;
+    }
+    pin("wr_data[7]") {
+      direction : output;
+      capacitance : 0.0012;
+    }
+    }
+  }
+
+}

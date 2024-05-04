@@ -1,0 +1,181 @@
+timestamp 1543373571
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_pinv_8 subbyte2_pinv_8_0 1 0 2596 0 1 0
+use subbyte2_pinv_7 subbyte2_pinv_7_0 1 0 1688 0 1 0
+use subbyte2_pinv_6 subbyte2_pinv_6_0 1 0 1104 0 1 0
+use subbyte2_pinv subbyte2_pinv_0 1 0 736 0 1 0
+use subbyte2_pinv subbyte2_pinv_1 1 0 368 0 1 0
+use subbyte2_pinv subbyte2_pinv_2 1 0 0 0 1 0
+port "gnd" 4 2400 0 2400 0 li
+port "Z" 2 3660 707 3660 707 li
+port "A" 1 81 669 81 669 li
+port "vdd" 3 2400 1414 2400 1414 li
+node "gnd" 1807 1728.71 2400 0 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 163200 9668 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_564_652#" 95 50.7633 564 652 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8602 574 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_196_652#" 95 47.6708 196 652 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8602 574 0 0 0 0 0 0 0 0 0 0 0 0
+node "Z" 13 6.24309 3660 707 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_2104_690#" 216 94.4555 2104 690 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19482 1214 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1410_690#" 135 59.1962 1410 690 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12206 786 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_915_669#" 110 48.3496 915 669 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9894 650 0 0 0 0 0 0 0 0 0 0 0 0
+node "A" 25 23.4325 81 669 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 1807 1287.7 2400 1414 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 163200 9668 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n36_679#" 5844 11575.9 -36 679 nw 0 0 0 0 3858624 11328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_n36_679#" "gnd" 366.986
+cap "w_n36_679#" "vdd" 807.998
+cap "w_n36_679#" "Z" 15.8599
+cap "w_n36_679#" "li_2104_690#" 74.5507
+cap "li_564_652#" "gnd" 14.5962
+cap "vdd" "li_564_652#" 13.0951
+cap "li_196_652#" "gnd" 14.5962
+cap "vdd" "li_196_652#" 13.0951
+cap "li_915_669#" "gnd" 10.4974
+cap "vdd" "li_915_669#" 14.7325
+cap "w_n36_679#" "li_1410_690#" 45.5193
+cap "vdd" "gnd" 54.767
+cap "w_n36_679#" "A" 6.64963
+cap "Z" "gnd" 1.85521
+cap "vdd" "Z" 1.85521
+cap "li_2104_690#" "gnd" 31.2657
+cap "vdd" "li_2104_690#" 31.2657
+cap "li_915_669#" "li_1410_690#" 3.42688
+cap "Z" "li_2104_690#" 0.872233
+cap "A" "li_196_652#" 6.88095
+cap "li_1410_690#" "gnd" 19.5888
+cap "A" "li_915_669#" 0.48284
+cap "vdd" "li_1410_690#" 19.5888
+cap "w_n36_679#" "li_564_652#" 24.9173
+cap "w_n36_679#" "li_196_652#" 24.8827
+cap "li_1410_690#" "li_2104_690#" 2.38843
+cap "li_564_652#" "li_196_652#" 6.06294
+cap "A" "gnd" 2.01005
+cap "vdd" "A" 1.79876
+cap "w_n36_679#" "li_915_669#" 41.071
+cap "li_915_669#" "li_564_652#" 3.44048
+cap "subbyte2_pinv_8_0/A" "subbyte2_pinv_1/A" 0.162908
+cap "gnd" "subbyte2_pinv_1/A" -5.77259
+cap "subbyte2_pinv_0/A" "vdd" 49.4115
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_1/A" 8.84245
+cap "A" "subbyte2_pinv_1/A" 41.8778
+cap "subbyte2_pinv_7_0/A" "subbyte2_pinv_8_0/A" 0.81054
+cap "gnd" "subbyte2_pinv_7_0/A" 2.30651
+cap "subbyte2_pinv_8_0/A" "vdd" 1.66138
+cap "subbyte2_pinv_7_0/A" "A" 0.926959
+cap "gnd" "vdd" -150.74
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_8_0/A" 3.88794
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_7_0/A" 44.9597
+cap "gnd" "subbyte2_pinv_0/A" -1.69383
+cap "subbyte2_pinv_7_0/A" "subbyte2_pinv_8_0/Z" 0.0222022
+cap "vdd" "A" 3.00838
+cap "subbyte2_pinv_0/A" "A" 4.33835
+cap "subbyte2_pinv_6_0/A" "vdd" 33.1698
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_6_0/A" 100.214
+cap "subbyte2_pinv_7_0/A" "subbyte2_pinv_1/A" 3.9062
+cap "subbyte2_pinv_7_0/A" "subbyte2_pinv_8_0/Z" 0.0222022
+cap "gnd" "subbyte2_pinv_8_0/A" 1.35704
+cap "vdd" "subbyte2_pinv_1/A" 23.0204
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_1/A" 114.264
+cap "subbyte2_pinv_8_0/Z" "vdd" 0.0107509
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_8_0/A" 5.89549
+cap "gnd" "A" -4.35015
+cap "gnd" "subbyte2_pinv_6_0/A" 18.2063
+cap "subbyte2_pinv_7_0/A" "vdd" 4.7468
+cap "subbyte2_pinv_6_0/A" "A" 2.8693
+cap "gnd" "subbyte2_pinv_8_0/Z" 0.0107509
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_7_0/A" 10.0795
+cap "vdd" "subbyte2_pinv_0/A" 1.46594
+cap "subbyte2_pinv_8_0/A" "Z" 26.5426
+cap "vdd" "Z" 6.9066
+cap "subbyte2_pinv_1/A" "subbyte2_pinv_7_0/A" 2.02934
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_6_0/A" 0.0107535
+cap "gnd" "subbyte2_pinv_1/A" 0.497629
+cap "vdd" "A" 0.101311
+cap "subbyte2_pinv_6_0/A" "Z" 0.264318
+cap "subbyte2_pinv_7_0/A" "subbyte2_pinv_8_0/A" 63.4845
+cap "gnd" "subbyte2_pinv_8_0/A" 2.56113
+cap "vdd" "subbyte2_pinv_7_0/A" 55.5016
+cap "gnd" "vdd" -145.744
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_7_0/A" 24.4022
+cap "gnd" "subbyte2_pinv_6_0/A" 1.91007
+cap "subbyte2_pinv_1/A" "subbyte2_pinv_8_0/A" 0.19471
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_7_0/A" 3.36251
+cap "gnd" "subbyte2_pinv_0/A" 1.09951
+cap "vdd" "subbyte2_pinv_1/A" 0.582918
+cap "subbyte2_pinv_7_0/A" "Z" 3.93737
+cap "gnd" "Z" 7.77603
+cap "A" "subbyte2_pinv_7_0/A" 0.943305
+cap "subbyte2_pinv_1/A" "subbyte2_pinv_6_0/A" 0.00554631
+cap "vdd" "subbyte2_pinv_8_0/A" 51.2071
+cap "gnd" "A" 0.102731
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_8_0/A" 7.13184
+cap "gnd" "subbyte2_pinv_7_0/A" 3.50851
+cap "vdd" "subbyte2_pinv_6_0/A" 16.9179
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_8_0/A" 1.71298
+cap "vdd" "subbyte2_pinv_6_0/A" 0.0696389
+cap "gnd" "Z" -0.149899
+cap "subbyte2_pinv_7_0/A" "Z" 3.64046
+cap "subbyte2_pinv_7_0/A" "gnd" 3.40964
+cap "subbyte2_pinv_6_0/A" "Z" 0.0115229
+cap "gnd" "subbyte2_pinv_6_0/A" 0.0715863
+cap "subbyte2_pinv_8_0/A" "vdd" 6.95148
+cap "subbyte2_pinv_8_0/A" "Z" 7.51157
+cap "subbyte2_pinv_8_0/A" "gnd" 3.41837
+cap "subbyte2_pinv_7_0/A" "subbyte2_pinv_8_0/A" 0.00395089
+cap "vdd" "Z" -15.6566
+cap "gnd" "vdd" -119.407
+cap "subbyte2_pinv_7_0/A" "vdd" 3.3198
+cap "subbyte2_pinv_8_0/gnd" "subbyte2_pinv_8_0/vdd" -54.3849
+cap "vdd" "A" -3.62338
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_1/A" 0.284024
+cap "subbyte2_pinv_7_0/A" "vdd" 0.0730423
+cap "gnd" "vdd" -10.262
+cap "subbyte2_pinv_0/A" "vdd" -9.14969
+cap "subbyte2_pinv_0/A" "subbyte2_pinv_6_0/A" 0.284024
+cap "vdd" "subbyte2_pinv_1/A" -9.08535
+cap "subbyte2_pinv_8_0/A" "vdd" 0.000585986
+cap "subbyte2_pinv_6_0/A" "vdd" -7.05416
+cap "A" "subbyte2_pinv_1/A" 0.284024
+cap "subbyte2_pinv_6_0/A" "subbyte2_pinv_7_0/A" 0.284024
+cap "vdd" "subbyte2_pinv_7_0/A" -14.6104
+cap "vdd" "subbyte2_pinv_0/A" 0.023286
+cap "gnd" "vdd" -9.65188
+cap "vdd" "A" 0.00378085
+cap "vdd" "subbyte2_pinv_8_0/A" -18.9434
+cap "vdd" "subbyte2_pinv_6_0/A" -1.39365
+cap "vdd" "subbyte2_pinv_1/A" 0.0119142
+cap "subbyte2_pinv_7_0/A" "subbyte2_pinv_8_0/A" 0.284024
+cap "vdd" "gnd" -12.3697
+cap "vdd" "Z" -1.2368
+cap "vdd" "subbyte2_pinv_7_0/A" 0.0898394
+cap "vdd" "subbyte2_pinv_6_0/A" 0.00194745
+cap "vdd" "subbyte2_pinv_8_0/A" 0.511516
+cap "subbyte2_pinv_8_0/vdd" "subbyte2_pinv_8_0/gnd" -5.75923
+merge "subbyte2_pinv_2/Z" "subbyte2_pinv_1/A" -608.023 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_1/A" "li_196_652#"
+merge "subbyte2_pinv_2/vdd" "subbyte2_pinv_1/vdd" -14201 0 0 0 0 -4143744 -19968 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -163200 -10008 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_1/vdd" "subbyte2_pinv_0/vdd"
+merge "subbyte2_pinv_0/vdd" "subbyte2_pinv_6_0/vdd"
+merge "subbyte2_pinv_6_0/vdd" "subbyte2_pinv_7_0/vdd"
+merge "subbyte2_pinv_7_0/vdd" "subbyte2_pinv_8_0/vdd"
+merge "subbyte2_pinv_8_0/vdd" "vdd"
+merge "vdd" "w_n36_679#"
+merge "subbyte2_pinv_2/A" "A" -231.437 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_6_0/Z" "subbyte2_pinv_7_0/A" -460.141 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_7_0/A" "li_1410_690#"
+merge "subbyte2_pinv_1/Z" "subbyte2_pinv_0/A" -714.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_0/A" "li_564_652#"
+merge "subbyte2_pinv_7_0/Z" "subbyte2_pinv_8_0/A" -304.904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_8_0/A" "li_2104_690#"
+merge "subbyte2_pinv_2/gnd" "subbyte2_pinv_1/gnd" -2217.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -163200 -10008 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_1/gnd" "subbyte2_pinv_0/gnd"
+merge "subbyte2_pinv_0/gnd" "subbyte2_pinv_6_0/gnd"
+merge "subbyte2_pinv_6_0/gnd" "subbyte2_pinv_7_0/gnd"
+merge "subbyte2_pinv_7_0/gnd" "subbyte2_pinv_8_0/gnd"
+merge "subbyte2_pinv_8_0/gnd" "gnd"
+merge "subbyte2_pinv_0/Z" "subbyte2_pinv_6_0/A" -601.323 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1802 -280 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_6_0/A" "li_915_669#"
+merge "subbyte2_pinv_8_0/Z" "Z" -35.4796 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0

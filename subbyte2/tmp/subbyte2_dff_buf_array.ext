@@ -1,0 +1,112 @@
+timestamp 1543373571
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_dff_buf_0 subbyte2_dff_buf_0_0 1 0 0 0 1 0
+port "dout_0" 2 2364 489 2392 517 m2
+port "dout_bar_0" 3 1858 871 1886 899 m2
+port "clk" 4 369 0 397 1414 m2
+port "din_0" 1 137 538 203 590 m2
+port "gnd" 6 1228 -49 1326 49 m3
+port "vdd" 5 1228 1365 1326 1463 m3
+node "dout_0" 0 21.2039 2364 489 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0
+node "dout_bar_0" 0 21.1536 1858 871 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0
+node "clk" 6 541.535 369 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39592 2884 0 0 0 0 0 0 0 0
+node "din_0" 0 37.1495 137 538 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "gnd" 920 1274.4 1228 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92964 5240 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd" 920 1274.4 1228 1365 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92964 5240 3328 232 4144 260 9604 392 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "din_0" "gnd" 0.7736
+cap "clk" "vdd" 11.3895
+cap "dout_0" "gnd" 0.275699
+cap "clk" "dout_bar_0" 0.920447
+cap "clk" "gnd" 11.3895
+cap "dout_bar_0" "vdd" 0.271954
+cap "vdd" "gnd" 59.9682
+cap "din_0" "clk" 11.5044
+cap "din_0" "vdd" 0.617325
+cap "dout_0" "vdd" 0.198039
+cap "dout_bar_0" "gnd" 0.204084
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" "din_0" -1.48886
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_239_76#" "clk" 38.8229
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_47_611#" -0.283633
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "vdd" 1.90199
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_47_611#" "clk" 40.7858
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_547_712#" "clk" 4.46277
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" -0.434223
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_547_102#" "clk" 1.60734
+cap "gnd" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" 9.92415
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "clk" 31.9208
+cap "dout_bar_0" "din_0" -0.0415127
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_197_712#" "clk" 4.48241
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_239_76#" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" -0.412379
+cap "din_0" "vdd" -0.372558
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" -0.95679
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_197_102#" "clk" 1.61238
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_47_611#" -1.00598
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" "clk" 38.896
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" "din_0" -0.704727
+cap "gnd" "din_0" -0.7736
+cap "din_0" "clk" 6.33971
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_739_712#" "clk" 4.242
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_239_76#" "din_0" -0.868497
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_739_102#" "clk" 1.52782
+cap "gnd" "dout_bar_0" 0.457422
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_47_611#" "din_0" -0.484565
+cap "dout_bar_0" "clk" 5.45253
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_389_712#" "clk" 5.15569
+cap "gnd" "vdd" -13.6369
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" -0.660833
+cap "clk" "vdd" 136.495
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_389_102#" "clk" 1.87672
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "din_0" -2.49303
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" "clk" 43.7451
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_239_76#" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" -1.85966
+cap "gnd" "clk" 16.0345
+cap "gnd" "dout_bar_0" -0.147155
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "clk" 0.968709
+cap "vdd" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" -0.14206
+cap "gnd" "clk" 0.0858547
+cap "gnd" "vdd" -10.7913
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_47_611#" -0.0174321
+cap "dout_bar_0" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_389_712#" -0.00091498
+cap "dout_0" "vdd" -0.145785
+cap "dout_bar_0" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" -0.0121302
+cap "dout_bar_0" "clk" 1.14784
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_239_76#" -0.0447975
+cap "vdd" "dout_bar_0" -0.291967
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" -0.024715
+cap "dout_bar_0" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_47_611#" -0.00151305
+cap "vdd" "clk" 0.0892904
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "din_0" -0.00405817
+cap "gnd" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" 0.182374
+cap "dout_bar_0" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_547_712#" -0.00177439
+cap "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_739_712#" "dout_bar_0" -0.00275947
+cap "dout_0" "gnd" -0.275699
+cap "dout_bar_0" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_239_76#" -0.00970619
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "dout_bar_0" -0.015731
+cap "dout_bar_0" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" -0.00200692
+cap "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" -0.0372736
+cap "gnd" "vdd" -13.5668
+cap "clk" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" 0.13077
+cap "din_0" "vdd" -0.244767
+cap "dout_bar_0" "vdd" 0.457422
+cap "clk" "vdd" 13.1299
+cap "dout_bar_0" "clk" 0.0561249
+cap "vdd" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" 4.07722
+cap "vdd" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" 0.182374
+cap "gnd" "vdd" -10.7913
+cap "dout_0" "vdd" -0.0522542
+cap "clk" "vdd" 0.0280754
+cap "vdd" "dout_bar_0" -0.0146919
+cap "clk" "subbyte2_dff_buf_0_0/subbyte2_pinv_1_0/A" 0.0151567
+merge "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/CLK" "subbyte2_dff_buf_0_0/clk" -412.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1792 -184 0 0 0 0 0 0 0 0
+merge "subbyte2_dff_buf_0_0/clk" "clk"
+merge "subbyte2_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/D" "subbyte2_dff_buf_0_0/D" -40.135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3432 -236 0 0 0 0 0 0 0 0
+merge "subbyte2_dff_buf_0_0/D" "din_0"
+merge "subbyte2_dff_buf_0_0/Q" "dout_0" -21.2039 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0
+merge "subbyte2_dff_buf_0_0/Qb" "dout_bar_0" -21.1448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0
+merge "subbyte2_dff_buf_0_0/gnd" "gnd" -1145.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -91944 -5180 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_dff_buf_0_0/vdd" "vdd" -1196.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -91944 -5180 0 0 0 0 0 0 0 0 0 0 0 0

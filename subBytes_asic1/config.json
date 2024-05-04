@@ -1,0 +1,27 @@
+{
+    "DESIGN_NAME": "subBytes_asic",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "DESIGN_IS_CORE": true,
+    "FP_PDN_CORE_RING": true,
+    "RT_MAX_LAYER": "met5",
+    "FP_SIZING": "absolute",
+    "PL_TARGET_DENSITY": 0.5,
+    "DIE_AREA": "0 0 1200 1000",
+    "FP_ASPECT_RATIO": 4,
+    "EXTRA_LEFS":"dir::extra_lef/*.lef",
+    "EXTRA_GDS_FILES":"dir::extra_gds/*.gds",
+    "VERILOG_FILES_BLACKBOX":"dir::bb/*.v",
+    "FP_PDN_HORIZONTAL_HALO": true, 
+    "FP_PDN_VERTICAL_HALO": true,
+    "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
+    "FP_PDN_MACRO_HOOKS": [
+        "sbox0 vccd1 vssd1 vccd1 vssd1,",
+        "sbox1 vccd1 vssd1 vccd1 vssd1,",
+        "sbox2 vccd1 vssd1 vccd1 vssd1,",
+        "sbox3 vccd1 vssd1 vccd1 vssd1"
+    ],
+    "VDD_NETS": ["vccd1"],
+    "GND_NETS": ["vssd1"]
+}

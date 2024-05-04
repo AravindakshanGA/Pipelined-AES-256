@@ -1,0 +1,55 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1543373571
+<< checkpaint >>
+rect -1296 -1277 6096 2731
+<< nwell >>
+rect -36 679 4836 1471
+<< locali >>
+rect 0 1397 4800 1431
+rect 64 636 98 702
+rect 915 690 1185 724
+rect 1410 690 1769 724
+rect 2104 690 2677 724
+rect 3643 690 3677 724
+rect 196 652 449 686
+rect 564 652 817 686
+rect 915 669 949 690
+rect 0 -17 4800 17
+use subbyte2_pinv  subbyte2_pinv_0
+timestamp 1543373571
+transform 1 0 736 0 1 0
+box -36 -17 404 1471
+use subbyte2_pinv  subbyte2_pinv_1
+timestamp 1543373571
+transform 1 0 368 0 1 0
+box -36 -17 404 1471
+use subbyte2_pinv  subbyte2_pinv_2
+timestamp 1543373571
+transform 1 0 0 0 1 0
+box -36 -17 404 1471
+use subbyte2_pinv_6  subbyte2_pinv_6_0
+timestamp 1543373571
+transform 1 0 1104 0 1 0
+box -36 -17 620 1471
+use subbyte2_pinv_7  subbyte2_pinv_7_0
+timestamp 1543373571
+transform 1 0 1688 0 1 0
+box -36 -17 944 1471
+use subbyte2_pinv_8  subbyte2_pinv_8_0
+timestamp 1543373571
+transform 1 0 2596 0 1 0
+box -36 -17 2240 1471
+<< labels >>
+rlabel locali s 3660 707 3660 707 4 Z
+port 1 nsew
+rlabel locali s 81 669 81 669 4 A
+port 2 nsew
+rlabel locali s 2400 0 2400 0 4 gnd
+port 3 nsew
+rlabel locali s 2400 1414 2400 1414 4 vdd
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 4800 1414
+<< end >>

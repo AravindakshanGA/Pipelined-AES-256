@@ -1,0 +1,514 @@
+timestamp 1543373569
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use subbyte2_and2_dec subbyte2_and2_dec_0 1 0 1542 0 -1 1580
+use subbyte2_and2_dec subbyte2_and2_dec_1 1 0 1542 0 1 790
+use subbyte2_and2_dec subbyte2_and2_dec_2 1 0 1542 0 -1 790
+use subbyte2_and2_dec subbyte2_and2_dec_3 1 0 1542 0 1 0
+use subbyte2_pinv_dec subbyte2_pinv_dec_0 1 0 320 0 -1 790
+use subbyte2_pinv_dec subbyte2_pinv_dec_1 1 0 320 0 1 0
+port "vdd_uq0" 10 2963 1136 3061 1234 m3
+port "vdd_uq0" 9 2963 346 3061 444 m3
+port "gnd_uq0" 13 2567 346 2665 444 m3
+port "gnd_uq0" 12 2567 1136 2665 1234 m3
+port "vdd" 7 2188 353 2286 451 m3
+port "vdd" 7 2188 1143 2286 1241 m3
+port "gnd" 8 1763 1143 1861 1241 m3
+port "gnd" 8 1763 353 1861 451 m3
+port "vdd_uq1" 11 865 346 963 444 m3
+port "gnd_uq1" 14 469 346 567 444 m3
+port "out_0" 3 2871 120 2871 120 li
+port "out_1" 4 2871 670 2871 670 li
+port "out_2" 5 2871 910 2871 910 li
+port "in_0" 1 71 141 117 199 m1
+port "in_1" 2 151 591 197 649 m1
+port "out_3" 6 2871 1460 2871 1460 li
+node "vdd_uq0" 8 627.867 2963 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45744 3200 8288 520 19208 784 0 0 0 0 0 0
+node "gnd_uq0" 8 376.897 2567 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45744 3200 8288 520 19208 784 0 0 0 0 0 0
+node "vdd" 5 393.641 2188 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78056 3220 8288 520 19208 784 0 0 0 0 0 0
+node "gnd" 5 431.989 1763 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75104 3220 8288 520 19208 784 0 0 0 0 0 0
+node "vdd_uq1" 3 198.653 865 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21752 1548 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq1" 3 225.101 469 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21752 1548 4144 260 9604 392 0 0 0 0 0 0
+node "out_0" 217 206.346 2871 120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_1" 217 112.515 2871 670 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1045_637#" 433 419.252 1045 637 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33456 2172 48952 3408 10624 676 0 0 0 0 0 0 0 0
+node "out_2" 217 112.546 2871 910 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1045_87#" 494 561.677 1045 87 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38896 2492 48070 3372 12844 850 0 0 0 0 0 0 0 0
+node "in_0" 945 809.393 71 141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 79322 4870 89064 6304 0 0 0 0 0 0 0 0 0 0
+node "in_1" 855 908.247 151 591 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 71162 4390 89064 6304 0 0 0 0 0 0 0 0 0 0
+node "out_3" 217 206.377 2871 1460 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "out_3" "li_1045_87#" 0.0360823
+cap "vdd_uq0" "gnd" 4.29476
+cap "out_1" "gnd" 1.27479
+cap "in_0" "vdd" 4.02943
+cap "gnd" "in_1" 158.775
+cap "gnd" "gnd_uq1" 2.43625
+cap "out_1" "vdd_uq0" 10.2572
+cap "out_3" "li_1045_637#" 0.0574956
+cap "gnd_uq0" "gnd" 7.71359
+cap "vdd_uq0" "in_1" 0.350824
+cap "out_1" "in_1" 0.381326
+cap "gnd_uq0" "vdd_uq0" 224.952
+cap "gnd_uq1" "in_1" 87.6515
+cap "out_2" "li_1045_87#" 0.0360823
+cap "gnd_uq0" "out_1" 9.13115
+cap "gnd_uq0" "in_1" 2.32465
+cap "li_1045_87#" "vdd_uq1" 123.017
+cap "li_1045_637#" "out_2" 0.0574956
+cap "li_1045_637#" "vdd_uq1" 19.7764
+cap "gnd" "li_1045_87#" 10.778
+cap "vdd_uq0" "li_1045_87#" 0.317659
+cap "out_0" "gnd" 1.27479
+cap "vdd" "out_3" 1.80362
+cap "out_1" "li_1045_87#" 0.0351962
+cap "gnd" "li_1045_637#" 8.50645
+cap "li_1045_87#" "in_1" 142.305
+cap "gnd_uq1" "li_1045_87#" 5.48267
+cap "out_0" "vdd_uq0" 10.9791
+cap "vdd_uq0" "li_1045_637#" 0.317659
+cap "gnd_uq0" "li_1045_87#" 2.00861
+cap "out_0" "out_1" 27.0469
+cap "in_0" "out_3" 0.0817372
+cap "out_0" "in_1" 0.381326
+cap "out_1" "li_1045_637#" 0.787481
+cap "li_1045_637#" "in_1" 42.616
+cap "gnd_uq1" "li_1045_637#" 4.64187
+cap "gnd_uq0" "out_0" 9.82725
+cap "gnd_uq0" "li_1045_637#" 1.99808
+cap "vdd" "out_2" 1.80362
+cap "vdd" "vdd_uq1" 2.25609
+cap "in_0" "out_2" 0.0817372
+cap "in_0" "vdd_uq1" 5.21354
+cap "gnd" "vdd" 221.573
+cap "out_0" "li_1045_87#" 0.688409
+cap "vdd_uq0" "vdd" 7.56971
+cap "li_1045_637#" "li_1045_87#" 854.218
+cap "out_1" "vdd" 1.80242
+cap "in_0" "gnd" 7.62909
+cap "vdd" "in_1" 4.84992
+cap "in_0" "vdd_uq0" 0.317659
+cap "out_0" "li_1045_637#" 0.0573195
+cap "gnd_uq0" "vdd" 215.031
+cap "in_0" "out_1" 0.081507
+cap "in_0" "in_1" 1720.06
+cap "in_0" "gnd_uq1" 5.70765
+cap "gnd_uq0" "in_0" 1.80256
+cap "out_3" "out_2" 27.0469
+cap "vdd" "li_1045_87#" 6.38622
+cap "out_0" "vdd" 1.80242
+cap "gnd" "out_3" 1.27569
+cap "in_0" "li_1045_87#" 157.131
+cap "vdd" "li_1045_637#" 5.11508
+cap "vdd_uq0" "out_3" 11.3243
+cap "in_0" "out_0" 0.081507
+cap "in_0" "li_1045_637#" 744.202
+cap "out_3" "in_1" 0.381609
+cap "gnd_uq0" "out_3" 10.1724
+cap "gnd" "out_2" 1.27569
+cap "vdd_uq0" "out_2" 10.3584
+cap "gnd" "vdd_uq1" 16.7827
+cap "out_1" "out_2" 62.8782
+cap "out_2" "in_1" 0.381609
+cap "gnd_uq0" "out_2" 9.23243
+cap "vdd_uq1" "in_1" 4.1585
+cap "gnd_uq1" "vdd_uq1" 108.265
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0541732
+cap "gnd" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.240396
+cap "out_1" "in_1" 0.150315
+cap "out_2" "in_0" 0.014306
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 0.38561
+cap "vdd" "in_1" 32.0658
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/B" 0.640239
+cap "in_1" "in_0" 26.5111
+cap "out_0" "in_1" 0.150315
+cap "vdd_uq1" "subbyte2_and2_dec_2/B" 42.264
+cap "gnd" "in_1" 9.70071
+cap "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_0" 0.0596889
+cap "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_2/B" 0.0571071
+cap "subbyte2_and2_dec_1/A" "out_1" 0.0063997
+cap "vdd_uq1" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.713994
+cap "subbyte2_and2_dec_1/A" "vdd" 15.4351
+cap "gnd" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.240396
+cap "subbyte2_and2_dec_1/A" "in_0" 10.1741
+cap "in_1" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 3.6426
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "in_1" 5.66745
+cap "subbyte2_and2_dec_1/A" "out_0" 0.0933138
+cap "gnd" "subbyte2_and2_dec_1/A" 10.6931
+cap "out_1" "in_0" 0.014306
+cap "vdd_uq0" "subbyte2_and2_dec_2/B" 0.00251246
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 2.07813
+cap "vdd_uq1" "in_1" 13.679
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/B" 0.655001
+cap "vdd" "in_0" 5.73487
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 0.395433
+cap "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_1" 0.448697
+cap "vdd_uq1" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.713994
+cap "gnd" "vdd" 1.26949
+cap "out_0" "in_0" 0.014306
+cap "gnd" "in_0" 3.7819
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 7.99289
+cap "vdd_uq1" "subbyte2_and2_dec_1/A" 52.4078
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0407908
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "in_1" 5.94387
+cap "vdd_uq0" "in_1" 1.26553
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "in_0" 0.42151
+cap "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_2/B" 0.0571071
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0541732
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "in_1" 5.6721
+cap "vdd_uq1" "vdd" 15.8568
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "in_0" 1.00334
+cap "vdd_uq1" "in_0" 11.502
+cap "gnd" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.533831
+cap "out_2" "subbyte2_and2_dec_2/B" 0.0105245
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.567758
+cap "gnd" "vdd_uq1" -78.4015
+cap "subbyte2_and2_dec_2/B" "in_1" 13.3271
+cap "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_0" 0.0596889
+cap "in_1" "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.320498
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/A" 0.551528
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0571071
+cap "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_1" 0.443174
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "in_0" 0.690681
+cap "vdd_uq0" "in_0" 0.0444819
+cap "gnd" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.533755
+cap "vdd_uq1" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 2.29317
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_2/B" 27.4588
+cap "out_2" "in_1" 0.150315
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "in_0" 0.707479
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0386951
+cap "subbyte2_and2_dec_1/A" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.931241
+cap "subbyte2_and2_dec_2/B" "out_1" 0.131777
+cap "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_1" 0.443174
+cap "vdd" "subbyte2_and2_dec_2/B" 10.2727
+cap "subbyte2_and2_dec_2/B" "in_0" 32.3211
+cap "out_0" "subbyte2_and2_dec_2/B" 0.0105245
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_0" 0.0426349
+cap "subbyte2_and2_dec_1/A" "out_2" 0.00696115
+cap "gnd" "subbyte2_and2_dec_2/B" 7.71349
+cap "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_0" 0.0596889
+cap "vdd_uq1" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 2.22874
+cap "subbyte2_and2_dec_1/A" "in_1" 10.0603
+cap "vdd_uq1" "out_0" 0.0286675
+cap "gnd" "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 3.19732
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.25241
+cap "in_0" "out_1" -0.00290584
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0880331
+cap "in_0" "vdd" 2.06994
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_1/A" -10.707
+cap "out_1" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.664471
+cap "out_3" "out_0" 0.04249
+cap "in_0" "out_2" -0.00292614
+cap "vdd" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 42.5664
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "out_2" 0.117909
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_0" 0.273069
+cap "in_0" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 3.08373
+cap "vdd_uq1" "out_1" 0.0286675
+cap "gnd" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 11.3797
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 6.04347
+cap "vdd_uq1" "vdd" 7.91426
+cap "gnd" "vdd_uq0" -70.9052
+cap "out_3" "out_1" 0.13173
+cap "vdd_uq0" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.0854647
+cap "gnd" "in_1" 9.42704
+cap "vdd_uq1" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 6.57735
+cap "gnd" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 2.91462
+cap "out_3" "out_2" -1.41184
+cap "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.110611
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.110611
+cap "out_1" "out_0" -2.82368
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_1" 0.323428
+cap "in_1" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 6.67175
+cap "in_1" "vdd_uq0" -0.0393994
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "vdd" 5.64138
+cap "vdd" "out_0" -1.81517
+cap "out_3" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.110243
+cap "out_0" "out_2" 0.244001
+cap "in_0" "subbyte2_and2_dec_1/A" 74.9967
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_2" 0.76991
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/A" 3.06208
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 1.64834
+cap "gnd" "subbyte2_and2_dec_2/B" 5.81029
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "out_0" 0.73041
+cap "vdd_uq1" "subbyte2_and2_dec_1/A" 6.98582
+cap "gnd" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 2.32439
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 3.22493
+cap "vdd" "out_1" -1.81517
+cap "vdd_uq0" "subbyte2_and2_dec_2/B" -0.0787987
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.323833
+cap "out_1" "out_2" 0.352398
+cap "vdd" "out_2" -1.80362
+cap "in_1" "subbyte2_and2_dec_2/B" 20.5713
+cap "out_1" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 1.08227
+cap "vdd" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 10.2973
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/A" 1.60665
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.110611
+cap "out_0" "subbyte2_and2_dec_1/A" -0.0225881
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "out_2" 0.58955
+cap "gnd" "in_0" 6.0107
+cap "gnd" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 10.5376
+cap "in_0" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 3.42803
+cap "out_1" "subbyte2_and2_dec_1/A" -0.00152947
+cap "in_0" "vdd_uq0" -0.0787987
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 58.7854
+cap "gnd" "vdd_uq1" 27.515
+cap "vdd" "subbyte2_and2_dec_1/A" 2.32946
+cap "vdd_uq0" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.0854647
+cap "subbyte2_and2_dec_1/A" "out_2" -0.00154016
+cap "in_1" "in_0" -4.68557
+cap "vdd_uq1" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 6.57735
+cap "gnd" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 2.62185
+cap "in_1" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 2.96791
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/A" 1.35847
+cap "gnd" "out_3" 2.24569
+cap "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.25241
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.112213
+cap "out_3" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.181214
+cap "gnd" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 10.6612
+cap "gnd" "out_0" -5.77864
+cap "in_0" "subbyte2_and2_dec_2/B" -10.1316
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 5.42648
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "out_0" 1.08227
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 5.81956
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "vdd_uq0" 0.0125667
+cap "vdd_uq0" "out_0" 1.288
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.213881
+cap "in_1" "out_0" -0.00356924
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.0638103
+cap "in_1" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 0.96698
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0638103
+cap "vdd_uq1" "subbyte2_and2_dec_2/B" 13.5652
+cap "gnd" "out_1" -4.84518
+cap "gnd" "vdd" -290.753
+cap "gnd" "out_2" -4.94386
+cap "out_1" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.116694
+cap "vdd" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 51.4599
+cap "gnd" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 10.3101
+cap "vdd_uq0" "out_1" 0.932281
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "out_2" 0.664471
+cap "vdd" "vdd_uq0" 6.0676
+cap "vdd_uq0" "out_2" 0.932281
+cap "subbyte2_and2_dec_2/B" "out_0" -0.00222451
+cap "in_1" "out_1" -0.00356924
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/B" 1.57565
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 176.649
+cap "in_1" "vdd" 9.11386
+cap "in_1" "out_2" -0.00359419
+cap "vdd_uq0" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.417678
+cap "in_0" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 4.54632
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.110611
+cap "in_1" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 2.51318
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" -0.101668
+cap "vdd_uq1" "in_0" 6.98582
+cap "gnd" "subbyte2_and2_dec_1/A" 5.06458
+cap "subbyte2_and2_dec_2/B" "out_1" -0.0232831
+cap "vdd" "subbyte2_and2_dec_2/B" 11.2182
+cap "subbyte2_and2_dec_2/B" "out_2" -0.00224006
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/A" 4.65619
+cap "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.323833
+cap "vdd_uq0" "subbyte2_and2_dec_1/A" -0.0787987
+cap "out_3" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.312359
+cap "subbyte2_and2_dec_2/B" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 2.0247
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "in_0" 0.0243755
+cap "in_0" "out_0" -0.00290584
+cap "in_1" "subbyte2_and2_dec_1/A" -10.981
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 168.459
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" 0.0880331
+cap "out_0" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.779166
+cap "subbyte2_and2_dec_1/A" "vdd_uq0" -0.0408042
+cap "out_3" "out_0" 0.334471
+cap "vdd" "vdd_uq0" 1.87244
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/B" 0.00515654
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "out_1" 0.949015
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_0" 0.302138
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "out_0" 0.949015
+cap "out_3" "out_1" 0.427645
+cap "vdd_uq0" "out_0" 16.1379
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "out_3" 0.0342862
+cap "out_1" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 0.336225
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "out_1" 0.627395
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "out_0" 0.717965
+cap "subbyte2_and2_dec_3/B" "vdd_uq0" -0.0394102
+cap "out_1" "vdd_uq0" 13.135
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 2.47619
+cap "subbyte2_and2_dec_0/A" "vdd_uq0" -0.0816085
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "vdd_uq0" 4.38453
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "out_3" 0.0563583
+cap "out_1" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.506229
+cap "out_3" "vdd_uq0" 2.66697
+cap "subbyte2_and2_dec_3/A" "vdd_uq0" -0.0408042
+cap "gnd" "vdd_uq0" -75.4678
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "vdd_uq0" 2.62876
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "vdd_uq0" 2.68283
+cap "out_3" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.0971452
+cap "out_2" "out_0" 1.31142
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 3.35484
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 1.2381
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "vdd_uq0" 2.68311
+cap "out_2" "out_1" 1.14402
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "out_2" 0.418991
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/B" 0.00515654
+cap "subbyte2_and2_dec_2/B" "vdd_uq0" -0.0394102
+cap "out_3" "out_2" -0.483929
+cap "out_2" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 0.85187
+cap "subbyte2_and2_dec_0/B" "vdd_uq0" -0.0347475
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "out_2" 0.506229
+cap "out_2" "vdd_uq0" 13.0337
+cap "subbyte2_and2_dec_0/B" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.00515654
+cap "out_1" "out_0" -0.967857
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "out_0" 0.818264
+cap "out_2" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.627395
+cap "vdd" "subbyte2_and2_dec_1/A" 0.602486
+cap "gnd" "in_1" 1.93499
+cap "subbyte2_and2_dec_1/A" "in_1" 0.302975
+cap "vdd_uq0" "in_1" 0.249139
+cap "in_0" "out_3" 0.014306
+cap "subbyte2_and2_dec_2/B" "out_3" 0.0105245
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_1" 0.128199
+cap "gnd" "subbyte2_and2_dec_1/A" 0.204872
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_1/A" 0.0154781
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "in_0" 0.22375
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/B" 0.218573
+cap "vdd" "subbyte2_and2_dec_2/B" 0.675459
+cap "vdd_uq1" "in_1" 2.12807
+cap "out_3" "in_1" 0.150315
+cap "in_0" "vdd" 0.703779
+cap "subbyte2_and2_dec_2/B" "in_1" 0.438521
+cap "in_0" "in_1" 0.342174
+cap "gnd" "subbyte2_and2_dec_2/B" 0.221485
+cap "subbyte2_and2_dec_1/A" "out_3" 0.00696115
+cap "in_0" "gnd" 0.214756
+cap "subbyte2_and2_dec_2/B" "vdd_uq0" 1.87906e-05
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "in_1" 2.0267
+cap "in_0" "vdd_uq0" 0.00780938
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "subbyte2_and2_dec_2/B" 0.0163163
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "in_0" 0.017054
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/A" 0.185815
+cap "vdd" "in_1" 5.71927
+cap "vdd" "out_3" -1.80362
+cap "out_3" "in_0" -0.00292614
+cap "out_3" "out_2" -1.41184
+cap "vdd" "subbyte2_and2_dec_1/A" 0.203952
+cap "out_3" "out_1" 0.112271
+cap "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "gnd" 0.865638
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_3" 0.731624
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/A" 1.03711
+cap "in_1" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.0536965
+cap "in_1" "gnd" -0.891314
+cap "vdd" "in_0" 0.102603
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "vdd" 5.84942
+cap "in_1" "vdd_uq0" -0.0393994
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_2" 0.312359
+cap "in_1" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.107402
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "in_0" 0.672757
+cap "in_1" "subbyte2_and2_dec_2/B" 0.33525
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_1" 0.266123
+cap "in_1" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.0756426
+cap "out_3" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.273069
+cap "out_3" "gnd" -8.36687
+cap "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "gnd" 0.562564
+cap "subbyte2_and2_dec_1/A" "gnd" 1.22288
+cap "out_3" "subbyte2_and2_dec_2/B" -0.00224006
+cap "vdd_uq0" "out_3" 1.288
+cap "out_3" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.597952
+cap "out_3" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.76991
+cap "vdd" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.127331
+cap "vdd" "gnd" -54.0998
+cap "in_0" "gnd" 0.767641
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.823316
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "gnd" 0.237773
+cap "out_3" "out_0" 0.04249
+cap "vdd" "subbyte2_and2_dec_2/B" 0.146546
+cap "vdd" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 0.25473
+cap "vdd" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 0.405831
+cap "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "gnd" 0.308152
+cap "in_1" "out_3" -0.00359419
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/B" 0.88543
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "vdd_uq0" 0.405112
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" 1.31387
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" 8.19014
+cap "in_1" "subbyte2_and2_dec_1/A" 0.346984
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_0" 0.110243
+cap "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" "gnd" 0.543432
+cap "in_1" "vdd" 1.9094
+cap "in_1" "in_0" -5.92858
+cap "out_3" "subbyte2_and2_dec_1/A" -0.00154016
+cap "in_1" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 1.5768
+cap "vdd_uq0" "gnd" -12.4211
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "gnd" 1.28286
+cap "subbyte2_and2_dec_2/B" "gnd" 0.936537
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "gnd" 0.711082
+cap "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/a_196_224#" "gnd" 0.0371815
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_0" 0.0342862
+cap "out_2" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 0.0971452
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "vdd_uq0" 1.75548
+cap "out_2" "out_3" -0.483929
+cap "out_0" "out_3" 0.334471
+cap "vdd_uq0" "out_3" 13.1258
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_3" 0.818264
+cap "subbyte2_and2_dec_0/B" "vdd_uq0" -0.0377111
+cap "gnd" "vdd_uq0" -12.4211
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 1.2381
+cap "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/A" "out_3" 0.661606
+cap "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/A" "out_3" 0.85187
+cap "subbyte2_and2_dec_0/B" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" 0.00515654
+cap "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/A" "out_1" 0.0827654
+cap "out_1" "out_3" 0.883773
+cap "out_3" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/A" 0.302138
+merge "subbyte2_pinv_dec_0/Z" "subbyte2_and2_dec_3/B" -256.579 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3978 -438 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_3/B" "subbyte2_and2_dec_2/B"
+merge "subbyte2_and2_dec_2/B" "li_1045_637#"
+merge "subbyte2_pinv_dec_1/gnd" "subbyte2_pinv_dec_0/gnd" -1527.74 0 0 0 0 0 0 0 0 0 0 -15324 -1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9468 -824 -151688 -9012 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_dec_0/gnd" "gnd_uq1"
+merge "gnd_uq1" "subbyte2_and2_dec_3/gnd_uq0"
+merge "subbyte2_and2_dec_3/gnd_uq0" "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/gnd"
+merge "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/gnd" "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND"
+merge "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND" "subbyte2_and2_dec_3/gnd"
+merge "subbyte2_and2_dec_3/gnd" "subbyte2_and2_dec_2/gnd_uq0"
+merge "subbyte2_and2_dec_2/gnd_uq0" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/gnd"
+merge "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/gnd" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND"
+merge "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND" "subbyte2_and2_dec_2/gnd"
+merge "subbyte2_and2_dec_2/gnd" "subbyte2_and2_dec_1/gnd_uq0"
+merge "subbyte2_and2_dec_1/gnd_uq0" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/gnd"
+merge "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/gnd" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND"
+merge "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND" "subbyte2_and2_dec_1/gnd"
+merge "subbyte2_and2_dec_1/gnd" "subbyte2_and2_dec_0/gnd_uq0"
+merge "subbyte2_and2_dec_0/gnd_uq0" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/gnd"
+merge "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/gnd" "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND"
+merge "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/GND" "subbyte2_and2_dec_0/gnd"
+merge "subbyte2_and2_dec_0/gnd" "gnd_uq0"
+merge "gnd_uq0" "gnd"
+merge "subbyte2_and2_dec_3/subbyte2_pinv_dec_0/vdd" "subbyte2_and2_dec_3/vdd_uq0" -1096.88 0 0 0 0 -126160 -2752 0 0 -8200 -528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4488 -400 -50096 -3648 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_3/vdd_uq0" "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/vdd"
+merge "subbyte2_and2_dec_2/subbyte2_pinv_dec_0/vdd" "subbyte2_and2_dec_2/vdd_uq0"
+merge "subbyte2_and2_dec_2/vdd_uq0" "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/vdd"
+merge "subbyte2_and2_dec_1/subbyte2_pinv_dec_0/vdd" "subbyte2_and2_dec_1/vdd_uq0"
+merge "subbyte2_and2_dec_1/vdd_uq0" "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/vdd"
+merge "subbyte2_and2_dec_0/subbyte2_pinv_dec_0/vdd" "subbyte2_and2_dec_0/vdd_uq0"
+merge "subbyte2_and2_dec_0/vdd_uq0" "vdd_uq0"
+merge "subbyte2_pinv_dec_1/vdd" "subbyte2_pinv_dec_0/vdd" -544.041 0 0 0 0 -63080 -1044 0 0 -4100 -264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 -23928 -1744 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_dec_0/vdd" "vdd_uq1"
+merge "subbyte2_pinv_dec_1/A" "subbyte2_and2_dec_2/A" -364.865 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4556 -472 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_2/A" "subbyte2_and2_dec_0/A"
+merge "subbyte2_and2_dec_0/A" "in_0"
+merge "subbyte2_pinv_dec_0/A" "subbyte2_and2_dec_1/B" -331.939 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4556 -472 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_1/B" "subbyte2_and2_dec_0/B"
+merge "subbyte2_and2_dec_0/B" "in_1"
+merge "subbyte2_and2_dec_3/Z" "out_0" -193.606 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_3/sky130_fd_bd_sram__openram_dp_nand2_dec_0/VDD" "subbyte2_and2_dec_3/vdd" -1153.87 0 0 0 0 -207536 -3728 0 0 -3192 -244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2660 -216 -81200 -3648 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_3/vdd" "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/VDD"
+merge "subbyte2_and2_dec_2/sky130_fd_bd_sram__openram_dp_nand2_dec_0/VDD" "subbyte2_and2_dec_2/vdd"
+merge "subbyte2_and2_dec_2/vdd" "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/VDD"
+merge "subbyte2_and2_dec_1/sky130_fd_bd_sram__openram_dp_nand2_dec_0/VDD" "subbyte2_and2_dec_1/vdd"
+merge "subbyte2_and2_dec_1/vdd" "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/VDD"
+merge "subbyte2_and2_dec_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/VDD" "subbyte2_and2_dec_0/vdd"
+merge "subbyte2_and2_dec_0/vdd" "vdd"
+merge "subbyte2_and2_dec_1/Z" "out_2" -189.265 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_2/Z" "out_1" -189.281 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_0/Z" "out_3" -193.589 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_pinv_dec_1/Z" "subbyte2_and2_dec_3/A" -330.804 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3978 -438 0 0 0 0 0 0 0 0 0 0 0 0
+merge "subbyte2_and2_dec_3/A" "subbyte2_and2_dec_1/A"
+merge "subbyte2_and2_dec_1/A" "li_1045_87#"

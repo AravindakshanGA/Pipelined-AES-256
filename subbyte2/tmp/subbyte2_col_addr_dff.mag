@@ -1,0 +1,104 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1543373571
+<< checkpaint >>
+rect -1309 -1309 3632 2727
+<< locali >>
+rect -17 1431 17 1447
+rect -17 1381 17 1397
+rect 1151 17 1185 33
+rect 1151 -33 1185 -17
+<< viali >>
+rect -17 1397 17 1431
+rect 1151 -17 1185 17
+<< metal1 >>
+rect -32 1388 -26 1440
+rect 26 1388 32 1440
+rect 1136 -26 1142 26
+rect 1194 -26 1200 26
+<< via1 >>
+rect -26 1431 26 1440
+rect -26 1397 -17 1431
+rect -17 1397 17 1431
+rect 17 1397 26 1431
+rect -26 1388 26 1397
+rect 1142 17 1194 26
+rect 1142 -17 1151 17
+rect 1151 -17 1185 17
+rect 1185 -17 1194 17
+rect 1142 -26 1194 -17
+<< metal2 >>
+rect -28 1442 28 1451
+rect -28 1377 28 1386
+rect 137 538 203 590
+rect 369 345 397 1414
+rect 1082 609 1148 661
+rect 1305 538 1371 590
+rect 1537 345 1565 1414
+rect 2250 609 2316 661
+rect 368 336 424 345
+rect 368 271 424 280
+rect 1536 336 1592 345
+rect 1536 271 1592 280
+rect 369 0 397 271
+rect 1140 28 1196 37
+rect 1537 0 1565 271
+rect 1140 -37 1196 -28
+<< via2 >>
+rect -28 1440 28 1442
+rect -28 1388 -26 1440
+rect -26 1388 26 1440
+rect 26 1388 28 1440
+rect -28 1386 28 1388
+rect 368 280 424 336
+rect 1536 280 1592 336
+rect 1140 26 1196 28
+rect 1140 -26 1142 26
+rect 1142 -26 1194 26
+rect 1194 -26 1196 26
+rect 1140 -28 1196 -26
+<< metal3 >>
+rect -49 1442 49 1463
+rect -49 1386 -28 1442
+rect 28 1386 49 1442
+rect -49 1365 49 1386
+rect 363 338 429 341
+rect 1531 338 1597 341
+rect 0 336 2336 338
+rect 0 280 368 336
+rect 424 280 1536 336
+rect 1592 280 2336 336
+rect 0 278 2336 280
+rect 363 275 429 278
+rect 1531 275 1597 278
+rect 1119 28 1217 49
+rect 1119 -28 1140 28
+rect 1196 -28 1217 28
+rect 1119 -49 1217 -28
+use sky130_fd_bd_sram__openram_dff  sky130_fd_bd_sram__openram_dff_0
+timestamp 1438349329
+transform 1 0 1168 0 1 0
+box -36 -43 1204 1467
+use sky130_fd_bd_sram__openram_dff  sky130_fd_bd_sram__openram_dff_1
+timestamp 1438349329
+transform 1 0 0 0 1 0
+box -36 -43 1204 1467
+<< labels >>
+rlabel metal3 s -49 1365 49 1463 4 vdd
+port 3 nsew
+rlabel metal3 s 1119 -49 1217 49 4 gnd
+port 5 nsew
+rlabel metal2 s 137 538 203 590 4 din_0
+port 7 nsew
+rlabel metal2 s 1082 609 1148 661 4 dout_0
+port 9 nsew
+rlabel metal2 s 1305 538 1371 590 4 din_1
+port 11 nsew
+rlabel metal2 s 2250 609 2316 661 4 dout_1
+port 13 nsew
+rlabel metal3 s 0 278 2336 338 4 clk
+port 15 nsew
+<< properties >>
+string FIXED_BBOX 1135 -37 1201 0
+<< end >>
